@@ -1,2 +1,2 @@
-# Civic Tome (Stub)
-Records decisions, precedents, and learnings from pilots. Versioned per release.
+# Civic Tome (WIP)
+Versioned corpus of protocols, precedents, and rulings.

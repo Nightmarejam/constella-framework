@@ -1,3 +1,2 @@
-# Penumbra Accord (Stub)
-Ethical/legal extensions for edge cases; compassionate rulemaking patterns.
-
+# Penumbra Accord (WIP)
+Restorative flow: declare harm → mediation → repair contract → reintegration.
