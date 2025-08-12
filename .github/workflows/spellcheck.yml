@@ -10,4 +10,6 @@ jobs:
       - uses: codespell-project/actions-codespell@v2
         with:
           check_hidden: true
-          skip: .git,./.github,./docs/Constella_Decision_Summary_Slide_v1.5.4.pdf
+          skip: .git,./.github,**/*.pdf,**/*.png,**/*.jpg,**/*.jpeg,**/*.gif,**/*.zip
+          check_filenames: true
+          ignore_words_file: .codespellignorewords.txt
