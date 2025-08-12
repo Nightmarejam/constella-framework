@@ -1,6 +1,12 @@
 # Constella Framework (v1.5.4)
 Proof-before-scale tools for safer siting (**Gaia/Sky**), healthier homes (**Eden**), body-level protocols (**Harmony**), and fair governance (**Astris/Auctor**).
 
+[![Version](https://img.shields.io/github/v/tag/Nightmarejam/constella-framework?label=version)](../../releases)
+[![License](https://img.shields.io/badge/license-Apache--2.0-lightgrey)](./LICENSE)
+[![Link Check](https://github.com/Nightmarejam/constella-framework/actions/workflows/link-check.yml/badge.svg)](../../actions/workflows/link-check.yml)
+[![Spell Check](https://github.com/Nightmarejam/constella-framework/actions/workflows/spellcheck.yml/badge.svg)](../../actions/workflows/spellcheck.yml)
+[![Discussions](https://img.shields.io/badge/chat-Discussions-blue)](../../discussions)
+[![Issues](https://img.shields.io/github/issues/Nightmarejam/constella-framework)](../../issues)
 [![Version](https://img.shields.io/badge/version-v1.5.4-blue)](#)
 [![License](https://img.shields.io/badge/license-Apache--2.0-lightgrey)](#)
 [![Labels](https://img.shields.io/badge/claims-stable%20%7C%20contested%20%7C%20speculative-orange)](#)
