@@ -65,3 +65,8 @@ pilots/             # Pilot guides and results folders
 
 ## Changelog
 See `CHANGELOG.md`. Latest: **v1.5.4** — public review assets + templates.
+
+## Community
+- 🗞️ **Welcome & updates** → https://github.com/Nightmarejam/constella-framework/discussions/5
+- 🧪 **Pilot sign-ups & coordination** → https://github.com/Nightmarejam/constella-framework/discussions/6
+- ❓ **Q&A (ask anything)** → https://github.com/Nightmarejam/constella-framework/discussions/7
