@@ -1,0 +1,9 @@
+# Lychee configuration for CI
+exclude = [
+  "file://*",
+  "mailto:*",
+  "https://img.shields.io/*"
+]
+# Optional: speed up CI a bit
+max-concurrency = 8
+timeout = 20
