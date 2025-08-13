@@ -1,0 +1,17 @@
+name-template: 'v$NEXT_PATCH_VERSION'
+tag-template: 'v$NEXT_PATCH_VERSION'
+categories:
+  - title: 🚀 Features
+    labels: [feature, feat]
+  - title: 📝 Docs
+    labels: [docs]
+  - title: 🧪 Pilots
+    labels: [pilot]
+  - title: 🛡 Governance
+    labels: [governance]
+  - title: 🧹 Chores
+    labels: [chore, dependencies]
+change-template: '- $TITLE (#$NUMBER) @$AUTHOR'
+template: |
+  ## Changes
+  $CHANGES
