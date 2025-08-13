@@ -1,15 +1,8 @@
----
-name: Feature request
-about: Suggest an idea or module improvement
-labels: enhancement
----
-**Problem**
-What problem are you trying to solve?
-
-**Proposal**
-Describe the improvement.
-
-**Evidence/Labels**
-What evidence level? What label (stable/contested/speculative)?
-
-**Additional context**
+name: "Feature request"
+about: "Propose a new module/pilot/doc"
+labels: ["feature"]
+body:
+  - type: textarea
+    id: proposal
+    attributes: {label: Proposal, description: What and why}
+    validations: {required: true}

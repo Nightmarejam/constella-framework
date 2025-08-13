@@ -1,18 +1,8 @@
----
-name: Bug report
-about: Report a problem with docs, data, or code
-labels: bug
----
-**Describe the bug**
-A clear description of the issue.
-
-**To Reproduce**
-Steps or links.
-
-**Expected behavior**
-
-**Screenshots or data**
-
-**Environment**
-
-**Additional context**
+name: "Bug report"
+about: "Something broken in docs or CI"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes: {label: What happened?, description: Steps + expected vs actual}
+    validations: {required: true}
