@@ -2,13 +2,12 @@ name: Link Check
 on:
   pull_request:
   push:
-    branches:
-      - '**'
+    branches: ['**']
 jobs:
   lychee:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: lycheeverse/lychee-action@v1
+      - uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-progress --exclude-all-private --verbose .
+          args: --no-progress --config lychee.toml .
