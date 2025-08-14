@@ -1,58 +1,51 @@
-# Constella Framework (v1.5.4)
-Proof-before-scale tools for safer siting (**Gaia/Sky**), healthier homes (**Eden**), body-level protocols (**Harmony**), and fair governance (**Astris/Auctor**).
+# Constella Framework
 
-[![Version](https://img.shields.io/github/v/tag/Nightmarejam/constella-framework?label=version)](https://github.com/Nightmarejam/constella-framework/releases)
-[![License](https://img.shields.io/badge/license-Apache--2.0-lightgrey)](./LICENSE)
-[![Link Check](https://github.com/Nightmarejam/constella-framework/actions/workflows/link-check.yml/badge.svg)](https://github.com/Nightmarejam/constella-framework/actions/workflows/link-check.yml)
-[![Spell Check](https://github.com/Nightmarejam/constella-framework/actions/workflows/spellcheck.yml/badge.svg)](https://github.com/Nightmarejam/constella-framework/actions/workflows/spellcheck.yml)
-[![Discussions](https://img.shields.io/badge/chat-Discussions-blue)](https://github.com/Nightmarejam/constella-framework/discussions)
-[![Issues](https://img.shields.io/github/issues/Nightmarejam/constella-framework)](https://github.com/Nightmarejam/constella-framework/issues)
-[![Version](https://img.shields.io/badge/version-v1.5.4-blue)](#)
-[![License](https://img.shields.io/badge/license-Apache--2.0-lightgrey)](#)
-[![Labels](https://img.shields.io/badge/claims-stable%20%7C%20contested%20%7C%20speculative-orange)](#)
+A **civic coordination system** for merit-weighted, thread-based governance and resilient community networks — aligned with the ethical doctrine **The Celestial Equilibrium**.
 
-**Who this is for**
-- 🏛️ Reviewers (human/AI) • 🏗️ Pilot hosts (homes/blocks) • 🧰 Contributors (docs/data)
-[![Celestial Equilibrium](https://img.shields.io/badge/Celestial-Equilibrium-blue)](https://github.com/Nightmarejam/celestial-equilibrium)
-
-> Foundational ethics: [**The Celestial Equilibrium — A Starborne Compass for Human Resonance**](docs/celestial-equilibrium/DOCTRINE.md)  
-> Maintained in a dedicated repository for provenance and citation.
-> [![Celestial Equilibrium](https://img.shields.io/badge/Celestial-Equilibrium-blue)](https://github.com/Nightmarejam/celestial-equilibrium)
+[![Celestial Equilibrium](https://img.shields.io/badge/Celestial-Equilibrium-blue)](docs/celestial-equilibrium/DOCTRINE.md)
 
 ---
 
-## Start here (choose your path)
+## 📖 Start Here
+- **Overview:** [/docs/OVERVIEW.md](docs/OVERVIEW.md)
+- **Documentation index:** [/docs/README.md](docs/README.md)
 
-**I have 60 seconds** → Skim the Decision Slide → open the Human Packet  
-- Slide (1 page): `docs/Constella_Decision_Summary_Slide_v1.5.4.pdf`  
-- Human Committee Packet: `review/Human_Committee_Packet_v1.5.4.md`
+## 🧭 Doctrine (Ethical Foundation)
+- **Celestial Equilibrium (MD):** [/docs/celestial-equilibrium/DOCTRINE.md](docs/celestial-equilibrium/DOCTRINE.md)  
+- **Signed PDF (provenance):** [/docs/celestial-equilibrium/The_Celestial_Equilibrium.pdf](docs/celestial-equilibrium/The_Celestial_Equilibrium.pdf)
 
-**I have 5 minutes** → Do a structured review  
-- AI Review Block: `review/AI_Review_Block_v1.5.4.md`  
-- Human Packet: `review/Human_Committee_Packet_v1.5.4.md`  
-- Tracker (CSV): `review/Constella_AI+Human_Review_Tracker_Template.csv`
+## 🌱 Pilots
+- **Gaia / Sky — Community Resonance Mapping:** [/docs/pilots/gaia-sky.md](docs/pilots/gaia-sky.md)
+- **Data stub (CSV):** [/docs/data/gaia-sky.csv](docs/data/gaia-sky.csv)
 
-**I have 30 minutes** → Prep a pilot thread  
-- Copy `templates/Thread_Charter_Template.md` and `templates/Pilot_PreReg_Template.md`  
-- Pick a module: **Eden** (retrofit), **Harmony** (somatic), **Gaia/Sky** (maps/nowcast)
+## 💬 Community & Q&A
+- **Welcome:** [/docs/discussions/welcome.md](docs/discussions/welcome.md)  
+- **Q&A:** [/docs/discussions/qna.md](docs/discussions/qna.md)  
+- **Pilots (discussion notes):** [/docs/discussions/pilots.md](docs/discussions/pilots.md)
 
-> All outputs carry labels: **stable / contested / speculative**. Policy uses **E3+** evidence only (see `docs/OVERVIEW.md`).
+## 🔐 Security & Contributing
+- **Security Policy:** [SECURITY.md](SECURITY.md)
+- **Contributing Guide:** (coming soon)
 
 ---
 
-## What’s launching now
-- v1.5.4 artifacts (review blocks, tracker, decision slide)
-- Focus pilots: **Eden** (housing), **Harmony** (health), **RME** (research matchmaking)
-
-## Repo map
+### Repo Structure (trimmed)
 ```
-docs/               # Overview, decision slide, robustness references
-review/             # AI/Human review blocks and tracker
-templates/          # Thread Charter & Pilot Pre‑Reg
-governance/         # Civic Tome + Penumbra stubs (WIP)
-pilots/             # Pilot guides and results folders
+docs/
+OVERVIEW.md
+README.md
+data/
+gaia-sky.csv
+discussions/
+welcome.md
+qna.md
+pilots.md
+pilots/
+gaia-sky.md
+celestial-equilibrium/   # submodule (v1.0.0)
+DOCTRINE.md
+The_Celestial_Equilibrium.pdf
 ```
-(Adjust as folders evolve.)
 
 ## Evidence & Labels
 - E0 concept, E1 mechanism, **E2 pilot**, **E3 replicated**, E4 independent, E5 standard.  
