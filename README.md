@@ -1,57 +1,75 @@
-# 🌌 Constella Framework
+# Constella Framework
 
-**Version:** v1.5.4  
-**Status:** Active Development  
-**License:**  
-- **Code:** MIT ([LICENSE](LICENSE))  
-- **Docs/Diagrams:** CC BY 4.0 ([LICENSE-docs.txt](LICENSE-docs.txt))  
-- **Data/CSVs/Templates:** CC0 1.0 ([LICENSE-data.txt](LICENSE-data.txt))  
+**Constella** is a civic operating system — an open, merit-based framework for organizing, governing, and regenerating communities.  
+It blends **practical governance**, **ethical doctrine**, and **pilot projects** into one adaptive ecosystem.
 
 ---
 
-## 📖 Overview
-The **Constella Framework** is a civic, ethical, and operational architecture for coordinated human cooperation — designed to evolve with merit-weighted governance, regenerative economics, and a shared planetary stewardship mandate.
+## 🌌 Overview
+
+Constella is built around three pillars:
+
+1. **Civic Orchestration** – Lightweight, rotating governance threads with clear decision cadences.  
+2. **Civic Tome** – The public ledger of decisions, precedents, and pilot outcomes.  
+3. **Penumbra Accord** – The compassionate edge-case ethics and risk playbook.  
+
+The framework integrates a living doctrine to guide long-term vision, ensure ethical resilience, and seed regenerative civic economies.
 
 ---
 
-## 🧭 Doctrine (Ethical Foundation)
-The doctrine is maintained in a linked submodule repository for provenance and version control.
+## 📂 Directory Map
 
-- **Celestial Equilibrium Doctrine (Markdown):** [View on GitHub](https://github.com/Nightmarejam/celestial-equilibrium/blob/v1.0.0/DOCTRINE.md)  
-- **Signed PDF (Provenance Copy):** [View on GitHub](https://github.com/Nightmarejam/celestial-equilibrium/blob/v1.0.0/The_Celestial_Equilibrium.pdf)
+| Path | Purpose |
+|------|---------|
+| [`/docs/`](docs/) | Main documentation hub |
+| [`/docs/doctrine/`](docs/doctrine/) | Doctrine & philosophy ([WIP]) |
+| [`/docs/pilots/`](docs/pilots/) | Example pilot projects (Gaia, Sky, etc.) |
+| [`/docs/governance/`](docs/governance/) | Governance, Civic Orchestration, and Civic Tome |
+| [`/docs/assets/`](docs/assets/) | Images, diagrams, infographics |
 
 ---
 
-## 📂 Documentation
+## 🚀 Quick Start
 
-| Section | Description | Link |
-|---------|-------------|------|
-| **Overview** | High-level framework purpose and structure | [/docs/OVERVIEW.md](docs/OVERVIEW.md) |
-| **Docs Home** | All available documentation | [/docs/README.md](docs/README.md) |
-| **Pilots** | Example pilots for implementation testing | [/docs/pilots/gaia-sky.md](docs/pilots/gaia-sky.md) |
-| **Data** | Data files supporting pilots and case studies | [/docs/data/gaia-sky.csv](docs/data/gaia-sky.csv) |
+| Area | Link |
+|------|------|
+| **Civic Orchestration** | [View governance docs](docs/governance/) |
+| **Civic Tome** | [View Tome](docs/governance/civic_tome.md) |
+| **Penumbra Accord** | [View Accord](docs/governance/penumbra_accord.md) |
+| **Doctrine** | [View doctrine overview](docs/doctrine/) [WIP] |
+| **Pilot Projects** | [Gaia Pilot](docs/pilots/gaia.md) [Sky Pilot – WIP](docs/pilots/sky.md) |
 
 ---
 
 ## 🛠 Contributing
 
-We welcome thoughtful contributions that align with the framework’s principles.
+We welcome contributions from civic innovators, governance researchers, designers, and builders.
 
-1. Fork the repo and create a feature branch  
-2. Follow the [Contribution Guidelines](CONTRIBUTING.md)  
-3. Sign-off commits with the Developer Certificate of Origin (DCO)  
+**Steps:**
+1. Fork this repo.
+2. Create a branch for your changes.
+3. Submit a Pull Request with a clear description.
 
-For substantive changes to doctrine or core governance, please open a discussion first.
-
----
-
-## 📌 Governance & Attribution
-- **Primary Maintainer:** Nightmarejam  
-- **Doctrine Source:** Maintained separately under the *Celestial Equilibrium* repository  
-- **Trademark:** “Constella” usage covered in [TRADEMARKS.md](TRADEMARKS.md)  
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for details.
 
 ---
 
-## 📬 Contact
-- **Discussions:** [GitHub Discussions](../../discussions)  
-- **Security Issues:** See [SECURITY.md](SECURITY.md)  
+## 📅 Roadmap
+
+- [ ] Finalize Doctrine section
+- [ ] Add full Gaia/Sky pilot data stubs
+- [ ] Create integrated visual diagrams for framework overview
+- [ ] Implement measurable outcomes & economic modeling
+- [ ] Launch first community pilot
+
+---
+
+## 📜 License
+
+- **Code:** MIT (see [`LICENSE`](LICENSE))  
+- **Docs/Diagrams:** CC BY 4.0 (see [`LICENSE-docs.txt`](LICENSE-docs.txt))  
+- **Data/CSVs/Templates:** CC0 1.0 (see [`LICENSE-data.txt`](LICENSE-data.txt))  
+
+“Constella” usage is covered under [`TRADEMARKS.md`](TRADEMARKS.md).
+
+---
