@@ -19,8 +19,6 @@ Proof-before-scale tools for safer siting (**Gaia/Sky**), healthier homes (**Ede
 > Maintained in a dedicated repository for provenance and citation.
 > [![Celestial Equilibrium](https://img.shields.io/badge/Celestial-Equilibrium-blue)](https://github.com/Nightmarejam/celestial-equilibrium)
 
-> Foundational ethics: **The Celestial Equilibrium — A Starborne Compass for Human Resonance**  
-> Synced here as a submodule at `docs/celestial-equilibrium/` (pinned to tagged releases).
 ---
 
 ## Start here (choose your path)
