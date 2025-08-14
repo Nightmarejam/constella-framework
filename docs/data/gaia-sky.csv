@@ -1,0 +1,4 @@
+timestamp,location,marker_type,reading,notes
+2025-08-14,Test Site A,symbolic_resonance,0.82,"Baseline reading"
+2025-08-15,Test Site A,symbolic_resonance,0.85,"Post-intervention: reflective markers added"
+2025-08-22,Test Site A,symbolic_resonance,0.87,"Increased environmental alignment"
