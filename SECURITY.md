@@ -1,7 +1,7 @@
 # Security Policy
 
 - Please **do not** file public issues for sensitive vulnerabilities.
-- Report privately to: **SECURITY_CONTACT_EMAIL** (replace with your address), or create a **private advisory** via GitHub Security.
+- Report privately to: jonathan.mo1@hotmail.com (replace with your address), or create a **private advisory** via GitHub Security.
 - We aim to acknowledge within **3 business days** and provide a fix or mitigation timeline.
 
 ## Scope
