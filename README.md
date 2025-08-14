@@ -1,72 +1,57 @@
-# Constella Framework
+# 🌌 Constella Framework
 
-A **civic coordination system** for merit-weighted, thread-based governance and resilient community networks — aligned with the ethical doctrine **The Celestial Equilibrium**.
-
-[![Celestial Equilibrium](https://img.shields.io/badge/Celestial-Equilibrium-blue)](docs/celestial-equilibrium/DOCTRINE.md)
+**Version:** v1.5.4  
+**Status:** Active Development  
+**License:**  
+- **Code:** MIT ([LICENSE](LICENSE))  
+- **Docs/Diagrams:** CC BY 4.0 ([LICENSE-docs.txt](LICENSE-docs.txt))  
+- **Data/CSVs/Templates:** CC0 1.0 ([LICENSE-data.txt](LICENSE-data.txt))  
 
 ---
 
-## 📖 Start Here
-- **Overview:** [/docs/OVERVIEW.md](docs/OVERVIEW.md)
-- **Documentation index:** [/docs/README.md](docs/README.md)
+## 📖 Overview
+The **Constella Framework** is a civic, ethical, and operational architecture for coordinated human cooperation — designed to evolve with merit-weighted governance, regenerative economics, and a shared planetary stewardship mandate.
+
+---
 
 ## 🧭 Doctrine (Ethical Foundation)
-- **Celestial Equilibrium (MD):** [/docs/celestial-equilibrium/DOCTRINE.md](docs/celestial-equilibrium/DOCTRINE.md)  
-- **Signed PDF (provenance):** [/docs/celestial-equilibrium/The_Celestial_Equilibrium.pdf](docs/celestial-equilibrium/The_Celestial_Equilibrium.pdf)
+The doctrine is maintained in a linked submodule repository for provenance and version control.
 
-## 🌱 Pilots
-- **Gaia / Sky — Community Resonance Mapping:** [/docs/pilots/gaia-sky.md](docs/pilots/gaia-sky.md)
-- **Data stub (CSV):** [/docs/data/gaia-sky.csv](docs/data/gaia-sky.csv)
-
-## 💬 Community & Q&A
-- **Welcome:** [/docs/discussions/welcome.md](docs/discussions/welcome.md)  
-- **Q&A:** [/docs/discussions/qna.md](docs/discussions/qna.md)  
-- **Pilots (discussion notes):** [/docs/discussions/pilots.md](docs/discussions/pilots.md)
-
-## 🔐 Security & Contributing
-- **Security Policy:** [SECURITY.md](SECURITY.md)
-- **Contributing Guide:** (coming soon)
+- **Celestial Equilibrium Doctrine (Markdown):** [View on GitHub](https://github.com/Nightmarejam/celestial-equilibrium/blob/v1.0.0/DOCTRINE.md)  
+- **Signed PDF (Provenance Copy):** [View on GitHub](https://github.com/Nightmarejam/celestial-equilibrium/blob/v1.0.0/The_Celestial_Equilibrium.pdf)
 
 ---
 
-### Repo Structure (trimmed)
-```
-docs/
-OVERVIEW.md
-README.md
-data/
-gaia-sky.csv
-discussions/
-welcome.md
-qna.md
-pilots.md
-pilots/
-gaia-sky.md
-celestial-equilibrium/   # submodule (v1.0.0)
-DOCTRINE.md
-The_Celestial_Equilibrium.pdf
-```
+## 📂 Documentation
 
-## Evidence & Labels
-- E0 concept, E1 mechanism, **E2 pilot**, **E3 replicated**, E4 independent, E5 standard.  
-- Policy uses **E3+** only; Gaia/Sky maps advisory until E4.
+| Section | Description | Link |
+|---------|-------------|------|
+| **Overview** | High-level framework purpose and structure | [/docs/OVERVIEW.md](docs/OVERVIEW.md) |
+| **Docs Home** | All available documentation | [/docs/README.md](docs/README.md) |
+| **Pilots** | Example pilots for implementation testing | [/docs/pilots/gaia-sky.md](docs/pilots/gaia-sky.md) |
+| **Data** | Data files supporting pilots and case studies | [/docs/data/gaia-sky.csv](docs/data/gaia-sky.csv) |
 
-## Privacy, Safety, Ethics (plain English)
-- Local-first by default, pseudonymous IDs, 24‑month retention unless you opt in.  
-- No medical claims; no personal geotracking without explicit, revocable consent.  
-- Penumbra path for conflict: mediation → repair → reintegration.
+---
 
-## Contribute
-- Good first issues: `help wanted`, `docs`, `data`.  
-- Keep PRs version‑scoped to `v1.5x`.  
-- See `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`.
+## 🛠 Contributing
 
-## Changelog
-See `CHANGELOG.md`. Latest: **v1.5.4** — public review assets + templates.
+We welcome thoughtful contributions that align with the framework’s principles.
 
-## Community
-- 🗞️ **Welcome & updates** → https://github.com/Nightmarejam/constella-framework/discussions/5
-- 🧪 **Pilot sign-ups & coordination** → https://github.com/Nightmarejam/constella-framework/discussions/6
-- ❓ **Q&A (ask anything)** → https://github.com/Nightmarejam/constella-framework/discussions/7
+1. Fork the repo and create a feature branch  
+2. Follow the [Contribution Guidelines](CONTRIBUTING.md)  
+3. Sign-off commits with the Developer Certificate of Origin (DCO)  
 
-Foundational ethics: [The Celestial Equilibrium](docs/celestial-equilibrium/DOCTRINE.md)
+For substantive changes to doctrine or core governance, please open a discussion first.
+
+---
+
+## 📌 Governance & Attribution
+- **Primary Maintainer:** Nightmarejam  
+- **Doctrine Source:** Maintained separately under the *Celestial Equilibrium* repository  
+- **Trademark:** “Constella” usage covered in [TRADEMARKS.md](TRADEMARKS.md)  
+
+---
+
+## 📬 Contact
+- **Discussions:** [GitHub Discussions](../../discussions)  
+- **Security Issues:** See [SECURITY.md](SECURITY.md)  
