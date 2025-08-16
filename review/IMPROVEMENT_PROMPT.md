@@ -32,4 +32,17 @@ At the very end, append:
 ## Quality bar
 - Public-repo ready.
 - Actionable in **30–90 days** (MoUs, permits, staffing, KPIs).
-- Partners list: **primary + 1–2 alternates**, aligned with Snapshot overlaps.
+- Partners list: **primary + 1–2 alternates**, aligned with Snapshot overlaps.<!-- ===== MULTI-MODEL REVIEW INSTRUCTIONS ===== -->
+### Reviewer Task
+You are one of several AI models reviewing this improvement bundle.
+
+- Return ONLY the **revised scroll** in Markdown.
+- Start with the same `# Title` line as the original.
+- Preserve section order and tone.
+- Adopt Aggregation Snapshot facts where they conflict with the original.
+- Add a mini **Changelog** at the bottom:
+  `> Updated from vX.Y.Z → vX.Y.Z by consensus (YYYY-MM-DD)`
+- Length ≤800 words.
+- No preface or analysis.
+
+This output will be compared to other models (GPT-5, Claude-4, etc.) and consolidated.
