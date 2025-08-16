@@ -1,0 +1,22 @@
+# Only check Markdown
+include = ["docs/**/*.md", "review/**/*.md"]
+
+# Skip inbox drafts and binaries (broader patterns)
+exclude_path = [
+  "**/_inbox/**",
+  "docs/**/*.pdf",
+  "docs/celestial-equilibrium/**"
+]
+
+# Skip localhost, bot-blockers, GitHub compare, and file:// URIs (REGEX)
+exclude = [
+  "^file://.*$",
+  "^http://127\\.0\\.0\\.1(:\\d+)?/.*$",
+  "^https://chat\\.openai\\.com/.*$",
+  "^https://huggingface\\.co/.*$",
+  "^https?://github\\.com/.*/compare/.*$"
+]
+
+accept = [200, 202, 204, 301, 302, 307, 308]
+max_redirects = 5
+timeout = 10
