@@ -1,5 +1,8 @@
 # Constella Framework
 
+[![Doctrine](https://img.shields.io/badge/Celestial%20Equilibrium-v1.0.0-blueviolet)](docs/doctrine/README.md)
+
+
 **Constella** is a civic operating system — an open, merit-based framework for organizing, governing, and regenerating communities.  
 It blends **practical governance**, **ethical doctrine**, and **pilot projects** into one adaptive ecosystem.
 
