@@ -1,8 +1,8 @@
 # AI Reviewer Instructions (Constella v1.5.5)
 
 Read ONLY these documents (in order):
-1) Working draft: https://raw.githubusercontent.com/Nightmarejam/constella-framework/main/docs/constella/constella.md
-2) Review index: https://raw.githubusercontent.com/Nightmarejam/constella-framework/main/review/README.md
+1) Working draft: docs/constella/constella.md
+2) Review index: review/README.md
 3) Open each linked v1.5.5 scroll you need via their raw URLs (replace GitHub page URL with raw.githubusercontent.com).
 
 Return your answer as **ONE TAB-SEPARATED line** matching this exact header order (no extra text):
