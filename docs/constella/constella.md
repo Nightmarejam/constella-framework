@@ -132,3 +132,5 @@ See the [Review Scroll](../v1.5.5/review_scroll.md) for dated entries and ration
 - **Open Questions:** thresholds for public vs. private attributions; partner MoU templates; ledger export format.  
 - **Structures + Diagrams:** to be added as SVG/PNG under `docs/`.
 
+
+- **Decisions Log:** [docs/civic-tome/decisions.md](../civic-tome/decisions.md)
