@@ -1,26 +1,34 @@
-# Review Scroll — Project Eden (v1.5.5)
+---
+version: v1.5.5
+id: eden
+title: Project Eden (Housing Retrofits)
+tier: 🧭
+status: ready-for-review
+---
 
-**Evidence tier:** 🧭 (operational)  
-**Goal:** Low-risk housing retrofits that cut utility costs, improve comfort, and build trust.
+# Project Eden — Review Scroll
 
-## Snapshot
-- **Scope:** 1–2 buildings, PSL-1 measures first (weather-seal, LEDs, flow devices, thermostat optimization).
-- **Outputs:** Before/after audit, weekly log, tenant feedback, public write-up in Civic Tome.
-- **Dependencies:** Municipal coordination, liability waivers, baseline energy data.
+## One-paragraph brief
+12-week pilot: baseline audit → PSL-1 measures (weather-seal, LEDs, flow fixtures, thermostat tuning) → weekly reporting → public results.
 
-## Partners (semicolon-separated)
-Municipal energy office; Community land trust; Public housing authority; Local retrofit contractor
+## Why now
+High feasibility, visible community value, trust-building.
 
-## Implementation considerations (bullets)
-- Permits & site access; insurance / waivers
-- Baseline energy audit & simple measurement plan
-- Tenant communication & scheduling
-- Data hygiene & anonymization for published results
+## Success criteria (12 weeks)
+- Baseline energy audit + MoU with host site
+- PSL-1 measures installed
+- Weekly logs + public outcome summary (Civic Tome)
 
-## Next steps (30–90d)
-- **Week 1–2:** Identify host site; draft MoU; request utility data; schedule baseline audit
-- **Week 3–6:** Procure materials; confirm permits; tenant notices; start PSL-1 measures
-- **Week 7–12:** Complete installs; weekly progress logs; capture comfort/savings; publish outcomes
+## Implementation notes
+- Municipal permits/coordination
+- Insurance/waivers; contractor vetting
+- Utility data access
 
-## Reviewer prompt (copy/paste)
-Return a ranked Top 3 across current threads with short rationale, implementation risks, partner picks, and 30–90d steps. ≤500 words. Be decisive.
+## Suggested partners
+- Municipal energy office; Community land trust; Public housing authority
+
+## Review return format (≤500 words)
+- Top 3 across threads (1→2→3) with rationale
+- Implementation considerations
+- Partners (primary + alt)
+- Next steps (30–90 days)
