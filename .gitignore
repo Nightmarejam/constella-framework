@@ -1,1 +1,9 @@
 .github/branch_protection_*.json
+conversations.json
+shared_conversations.json
+filtered/
+filtered_conversations/
+filtered_shared/
+filtered_merged/
+constella-import/
+docs/exports/**/personal.md

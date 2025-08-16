@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.5.5 – Repo polish
+- Added chat export filter tool (script + config); outputs remain private.
+- Added CODEOWNERS, SECURITY, CONTRIBUTING.
+- README documents internal processing (no data published yet).
+# Changelog
+
 All notable changes to this project will be documented in this file. We follow **SemVer**.
 
 ## v1.5.4 — 2025-08-12

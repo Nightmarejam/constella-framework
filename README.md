@@ -73,3 +73,14 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for details.
 “Constella” usage is covered under [`TRADEMARKS.md`](TRADEMARKS.md).
 
 ---
+
+## Chat Export Processing (internal)
+We keep chat exports private, but provide a local filter for organization (Constella, Harmony, Resonant, AI Infra, Ops/Docs, Personal).
+- Script: `tools/chat-filter/filter_chats.py`
+- Config: `tools/chat-filter/filters.config.json`
+_Outputs are local until review; personal content is always excluded._
+
+### Reproduce locally
+```bash
+python3 tools/chat-filter/filter_chats.py conversations.json tools/chat-filter/filters.config.json
+```

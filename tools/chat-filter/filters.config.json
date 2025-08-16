@@ -1,0 +1,42 @@
+{
+  "min_len": 12,
+  "buckets": [
+    {
+      "key": "constella",
+      "title": "Constella / Governance",
+      "regex": "\\b(constella|astris|auctor|civic orchestration|civic tome|penumbra accord|genesis pool|universal civic floor|project eden|thread[s]?|vault[s]?|voting)\\b"
+    },
+    {
+      "key": "harmony",
+      "title": "Harmony / Movement",
+      "regex": "\\b(harmony|facial[- ]?tongue[- ]?jaw|polarity loop|field manual|starter kit|martial art|movement[s]?)\\b"
+    },
+    {
+      "key": "resonant",
+      "title": "Resonant Biology & Cosmology",
+      "regex": "\\b(resonant biology|qubit earth|cymatic|resonance|lunar set|moon doctrine|cosmogenesis|black hole|planetary breath)\\b"
+    },
+    {
+      "key": "ai_infra",
+      "title": "AI Infra / FAITHH / GUI",
+      "regex": "\\b(faithh|treble|navigui|electron|vite|microservice|fastapi|rag\\b|embedding[s]?|qwen|mistral|rtx ?3090|1080 ?ti|job queue|orchestrator)\\b"
+    },
+    {
+      "key": "ops_repo",
+      "title": "Ops & Repo / Docs",
+      "regex": "\\b(readme|repo|github|checklist|version|v1\\.\\d+|release|markdown|license|dco|contributing)\\b"
+    },
+    {
+      "key": "personal",
+      "title": "Personal Logistics (private)",
+      "regex": "\\b(bankruptcy|rental|lease|dogs?|canine|diet|airbnb|travel|camping|detroit lake|corolla)\\b",
+      "private": true
+    }
+  ],
+  "scrubs": [
+    { "pattern": "(?i)\\b[\\w\\.-]+@[\\w\\.-]+\\.\\w+\\b", "replace": "[email]" },
+    { "pattern": "\\b(\\+?1[-.\\s]?)?\\(?\\d{3}\\)?[-.\\s]?\\d{3}[-.\\s]?\\d{4}\\b", "replace": "[phone]" },
+    { "pattern": "(?i)\\b(sk-[A-Za-z0-9]{20,})\\b", "replace": "[api_key]" },
+    { "pattern": "(?i)\\b(chase|sofi|amazon)\\b", "replace": "[redacted-bank]" }
+  ]
+}
