@@ -7,3 +7,5 @@ filtered_shared/
 filtered_merged/
 constella-import/
 docs/exports/**/personal.md
+.DS_Store
+*/.DS_Store
