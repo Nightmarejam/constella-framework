@@ -1,0 +1,3 @@
+# ignore transient or branch-raw links
+raw.githubusercontent.com
+# allow local relative links in PR branches
