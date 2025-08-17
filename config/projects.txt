@@ -1,0 +1,3 @@
+eden	(^|\b)(Project Eden|Eden)\b
+harmony	(^|\b)(Harmony Movement|Harmony)\b
+rme	(^|\b)(Research Matchmaking Engine|RME)\b
