@@ -1,0 +1,11 @@
+---
+version: v1.5.6
+project: rme   # or harmony
+model: GPT-5   # or Claude Sonnet 4 / Grok
+status: raw-drop
+---
+
+# Raw AI Review Drop — {RME|Harmony}
+(paste the model’s response below)
+
+2025-08-16 15:40:00	AI – GPT-5	Repo	v1.5.6	Research Matchmaking Engine (RME)	Credibility and sequencing layer; reduces duplication and creates a trusted evidence trail across pilots.	Policy lab (primary); Civic tech nonprofit (alt); University research office (alt)	Data hygiene/privacy (minimum fields, retention, access); reviewer cadence/capacity; versioned templates; simple CSV/TSV intake.	Weeks 1–2: lock packet & templates; recruit 3–5 reviewers; publish cadence/intake. Weeks 3–6: run Eden-centered cycle; generate leaderboard/partner overlap/bottlenecks; log to Civic Tome. Weeks 7–12: tune prompts; recruit next cohort; publish v1.5.6 summary.	Project Eden (Housing Retrofits)	High-feasibility, visible community value with measurable savings/comfort; trust-building flagship.	Municipal energy office (primary); Community land trust (alt); Policy lab (alt)	Municipal permits/coordination; liability waivers/insurance; contractor vetting; utility data access and scheduling.	Weeks 1–2: select host; MoU; request utility data; schedule audit. Weeks 3–6: complete audit; procure materials; confirm permits/insurance. Weeks 7–12: install PSL-1; weekly logs; comfort/savings readout; publish to Civic Tome.	Harmony Movement	Low-risk health on-ramp that broadens participation; feasible via university/community venues.	University kinesiology dept. (primary); Community clinic (alt); YMCA (alt)	Safety screening and coach certification; liability waivers; venue access; simple outcomes capture (sheet + optional HRV).	Weeks 1–2: finalize routine & screening; recruit coaches; define metrics. Weeks 3–6: train coaches; recruit cohort; run sessions with weekly logs. Weeks 7–12: complete protocol; publish outcomes; scope cohort #2.	RME runs first and governs cadence/data policy; Eden executes under RME and supplies flagship results; Harmony can prep in parallel and publish after first RME cycle; all outputs flow to Civic Tome with shared privacy standards.

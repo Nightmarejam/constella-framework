@@ -11,3 +11,8 @@ constella-import/
 docs/exports/**/personal.md
 .DS_Store
 */.DS_Store
+# Editor backups / temp
+*.bak.*
+*.rtf
+# macOS
+.DS_Store
