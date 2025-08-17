@@ -1,7 +1,7 @@
 # Constella v1.5.6 — AI Review Guide
 
 **Read this bundle (single file):**
-- Raw: https://raw.githubusercontent.com/Nightmarejam/constella-framework/chore/eden-v1.5.6-consolidation/review/v1.5.6/AI_REVIEW_BUNDLE.md
+- Raw: ./AI_REVIEW_BUNDLE.md
 
 **Return exactly ONE TSV row** with these headers (copy line below into your tool as the header):
 
