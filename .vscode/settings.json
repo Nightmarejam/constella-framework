@@ -1,0 +1,14 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "markdownlint.config": {
+    "MD013": false,
+    "MD033": false,
+    "MD041": false,
+    "MD024": { "siblings_only": true },
+    "MD007": { "indent": 2 },
+    "MD029": { "style": "ordered" }
+  }
+}
