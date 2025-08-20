@@ -1,4 +1,5 @@
-![Docs CI](https://github.com/Nightmarejam/constella-framework/actions/workflows/docs-ci.yml/badge.svg)# Constella Framework
+![Docs CI](https://github.com/Nightmarejam/constella-framework/actions/workflows/docs-ci.yml/badge.svg?branch=compliance-overlay-and-preface)
+# Constella Framework
 
 [![Doctrine](https://img.shields.io/badge/Celestial%20Equilibrium-v1.0.0-blueviolet)](docs/doctrine/README.md)
 
