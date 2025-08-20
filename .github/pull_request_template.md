@@ -1,11 +1,19 @@
 ## Summary
-Short description of the change.
+<one-liner>
 
-## Checklist
-- [ ] Adds/updates docs
-- [ ] Includes CHANGELOG entry
-- [ ] Uses labels (stable/contested/speculative) where relevant
-- [ ] Keeps scope to current milestone
+## Intent & Pillars
+- **Intent:** <why this change exists>
+- **Pillars:** <Orchestration | Tome | Penumbra | Astris/Auctor | UCF | Pilot>
 
-## Related issues
-Closes #...
+## Changes
+- [ ] Docs updated
+- [ ] Links verified
+- [ ] Templates added/updated
+
+## Measures
+<how we’ll know this is working>
+
+## Review Cadence
+<when to revisit>
+
+## Screenshots (optional)

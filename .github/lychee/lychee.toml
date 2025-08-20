@@ -1,0 +1,12 @@
+# Don’t treat code/backticks & non-http tokens as links
+exclude = [
+  "CT:*",               # Civic Tome pseudo refs
+  "mailto:*"
+]
+# Retry a couple times for GitHub flakiness
+max_retries = 2
+timeout = 20
+# Accept 200..399
+accept = [200, 204, 206, 301, 302, 307, 308]
+# Consider GitHub relative links OK (they exist in repo)
+require_https = false
