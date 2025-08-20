@@ -40,6 +40,7 @@ The framework integrates a living doctrine to guide long-term vision, ensure eth
 | **Map of Intent (Civic Tome)** | [View Map of Intent](docs/governance/map_of_intent.md) |
 | **Tokens: Astris & Auctor** | [View token docs](docs/governance/tokens_astris_auctor.md) |
 | **Universal Civic Floor (UCF)** | [View UCF](docs/governance/ucf.md) |
+| **U.S. Compliance Overlay** | [View overlay](docs/governance/compliance_overlay_us.md) |
 | **Civic Orchestration** | [View governance docs](docs/governance/) |
 | **Civic Tome** | [View Tome](docs/governance/civic_tome.md) |
 | **Penumbra Accord** | [View Accord](docs/governance/penumbra_accord.md) |
