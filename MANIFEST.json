@@ -1,0 +1,10 @@
+{
+  "required_files": [
+    "docs/doctrine/manifesto.md",
+    "docs/frameworks/constella_1.6.md",
+    "docs/frameworks/constella_project_tree.md",
+    "docs/research/celestial_ecology.md",
+    "docs/research/cymatic_faith_links.md",
+    "docs/archive/README.md"
+  ]
+}
