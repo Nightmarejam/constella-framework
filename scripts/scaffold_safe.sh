@@ -12,8 +12,8 @@ create_if_missing () {
   else
     echo "➕ creating: $path"
     # shellcheck disable=SC2129
-    cat > "$path" <<'EOF'
-'"$@"'
+    cat > "$path" <<EOF
+$@
 EOF
   fi
 }
