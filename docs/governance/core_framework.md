@@ -78,4 +78,3 @@ Constella is not a static constitution but a **living score**:
 - Each cycle builds into harmony.  
 
 Its aim: a civic system where justice, memory, and imagination resonate together, renewing themselves through time.
-'"$@"'
