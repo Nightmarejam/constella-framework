@@ -4,11 +4,14 @@
 > **Privacy:** All data collected follows minimal-field intake, retention limits, and de-identification per RME policy.
 
 ---
+
 version: v1.5.6
 id: rme
 title: Research Matchmaking Engine (RME)
 tier: 🧭
 status: ready-for-review
 ---
+
 # Research Matchmaking Engine (RME) — Review Scroll
+
 …(consensus text you approved)…

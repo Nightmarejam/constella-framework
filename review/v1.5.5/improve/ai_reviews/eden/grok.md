@@ -9,12 +9,15 @@ status: ready-for-review
 # Project Eden — Review Scroll
 
 ## One-paragraph brief
+
 12-week pilot: secure MoU with host site, conduct baseline energy audit, implement PSL-1 measures (weather-seal, LEDs, flow fixtures, thermostat tuning), maintain weekly reporting, and publish results in Civic Tome.
 
 ## Why now
+
 High feasibility, strong community impact, builds trust through visible outcomes.
 
 ## Success criteria (12 weeks)
+
 - MoU signed with host site
 - Baseline energy audit completed
 - PSL-1 measures installed across pilot sites
@@ -22,16 +25,19 @@ High feasibility, strong community impact, builds trust through visible outcomes
 - Public outcome summary published in Civic Tome
 
 ## Implementation notes
+
 - Secure municipal permits and streamline coordination with local authorities
 - Finalize insurance and liability waivers; complete contractor vetting
 - Ensure utility data access for audit and reporting
 - Address data hygiene to ensure accurate reporting
 
 ## Suggested partners
+
 - Primary: Municipal energy office
 - Alternates: Community land trust, University research office
 
 ## Review return format (≤500 words)
+
 - Top 3 across threads (1→2→3) with rationale
 - Implementation considerations
 - Partners (primary + alt)

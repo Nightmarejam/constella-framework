@@ -20,6 +20,7 @@ This folder contains detailed guides, templates, and reference material for the 
 ---
 
 ## 🧭 How to Use
+
 1. **Browse Pilots** – Open a file from `/pilots` to see how a pilot is structured and executed.
 2. **Review Data Stubs** – Open `/data` files for sample datasets used in pilots.
 3. **Reference Doctrine** – See `/celestial-equilibrium` for core symbolic and ethical concepts.
@@ -27,6 +28,7 @@ This folder contains detailed guides, templates, and reference material for the 
 ---
 
 ## 🔗 Quick Links
+
 - [Main Project README](../README.md) – Overview, installation, and contribution guide.
 - [Gaia/Sky Pilot](pilots/gaia-sky.md) – Short, concrete example.
 - [Gaia/Sky Data Stub](data/gaia-sky.csv) – Matching dataset.

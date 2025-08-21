@@ -1,9 +1,10 @@
 # Thread Charter Template
-- **Name & Purpose:** 
-- **Scope & Boundaries:** 
+
+- **Name & Purpose:**
+- **Scope & Boundaries:**
 - **People:** steward(s), validators (pool), data custodian, safety officer
-- **Timeline & Milestones:** 
-- **Budget & Sources:** 
+- **Timeline & Milestones:**
+- **Budget & Sources:**
 - **Metrics:** success/fail thresholds; evidence target
 - **Risks & Mitigations:** top 5; halting criteria
 - **Data & Privacy:** collection, storage, retention

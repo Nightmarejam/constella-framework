@@ -6,6 +6,7 @@ Use this index as the single entry point for AI reviewers, human reviewers, and 
 ---
 
 ## 1. Core Review Materials
+
 - [AI Review Bundle](v1.5.6/AI_REVIEW_BUNDLE.md)  
   > Canonical “packet” with all context needed for AI reviewers.  
 - [AI Review Guide](v1.5.6/AI_REVIEW_GUIDE.md)  
@@ -14,6 +15,7 @@ Use this index as the single entry point for AI reviewers, human reviewers, and 
 ---
 
 ## 2. Raw AI Drops
+
 Unfiltered model returns for transparency. Each project has its own folder under `improve/raw/`.
 
 - [RME Raw Drops](v1.5.6/improve/raw/rme/)  
@@ -23,6 +25,7 @@ Unfiltered model returns for transparency. Each project has its own folder under
 ---
 
 ## 3. Consensus Scrolls
+
 Curated, synthesized, and ready for Civic Tome publishing.
 
 - [RME Consensus Scroll](v1.5.6/improve/consensus/rme.md)  
@@ -32,6 +35,7 @@ Curated, synthesized, and ready for Civic Tome publishing.
 ---
 
 ## 4. Release Notes
+
 - **Priority order:** #1 RME, #2 Eden, #3 Harmony  
 - **Tag:** [v1.5.6](../../tags/v1.5.6)  
 - **Consensus date:** 2025-08-16  
@@ -39,6 +43,7 @@ Curated, synthesized, and ready for Civic Tome publishing.
 ---
 
 ## 5. Next Steps
+
 - Queue **v1.5.7** review cycle with updated bundle/guide.  
 - Collect new AI + human drops.  
 - Refresh consensus scrolls and publish to Civic Tome.

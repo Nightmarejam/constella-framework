@@ -6,6 +6,7 @@ status: raw-drop
 ---
 
 # Raw AI Review Drop — {RME|Harmony}
+
 (paste the model’s response below)
 
 Here’s the **Constella v1.5.6 — AI Review Bundle (Improved Consensus)** review summary in the requested **Guide return format**:
@@ -15,11 +16,13 @@ Here’s the **Constella v1.5.6 — AI Review Bundle (Improved Consensus)** revi
 # 📜 Constella v1.5.6 — Review Bundle (Consensus Improved)
 
 ## ✅ Overall Assessment
+
 Version **v1.5.6** reflects a clean alignment across **RME, Eden, and Harmony**, with updated success criteria, phased next steps, and clear implementation bottlenecks. Each scroll is concise, operationally scoped (12 weeks), and outputs to the **Civic Tome**, ensuring decision-forcing accountability. The improvements over v1.5.5 focus on **clarity of next steps, partner alignment, and evidence trails**, which will accelerate trust-building across civic and research partners.
 
 ***
 
 ## 🔍 RME — Research Matchmaking Engine
+
 - **Strengths:** Clear role as the credibility backbone. Transparent versioned reviews, clustering, and partner overlap provide systemic value. Practical implementation notes (privacy, cadence, intake).  
 - **Risks:** Reviewer recruitment cadence and capacity could be a bottleneck; requires strong templates to maintain reliability.  
 - **Consensus Fit:** Strong anchor project with visible benefit for Eden and Harmony.  
@@ -29,6 +32,7 @@ Version **v1.5.6** reflects a clean alignment across **RME, Eden, and Harmony**,
 ***
 
 ## 🏡 Eden — Housing Retrofits
+
 - **Strengths:** High feasibility, visible community benefit, clear measurable outcomes (savings/comfort). Permitting/liability risks well identified in notes.  
 - **Risks:** City permit timelines could block early progress. Needs strong municipal partner buy-in.  
 - **Consensus Fit:** Ideal pilot for RME’s first review cycle. Evident trust-building value.  
@@ -38,6 +42,7 @@ Version **v1.5.6** reflects a clean alignment across **RME, Eden, and Harmony**,
 ***
 
 ## 🕊️ Harmony — Movement Protocol
+
 - **Strengths:** Low-cost, low-risk entry into health outcomes; strong engagement tool. Implementation scoped (coach training, simple outcomes).  
 - **Risks:** Insurance and liability waivers could slow down site activation. Metrics must remain lightweight.  
 - **Consensus Fit:** Complementary downstream pilot. Can diversify beyond retrofit thread into community health.  
@@ -47,6 +52,7 @@ Version **v1.5.6** reflects a clean alignment across **RME, Eden, and Harmony**,
 ***
 
 ## 📊 Consensus Ordering (v1.5.6)
+
 1. **RME** — Backbone for credibility and coordination  
 2. **Eden** — Flagship applied pilot for community trust  
 3. **Harmony** — Complementary, health-focused expansion  
@@ -54,6 +60,7 @@ Version **v1.5.6** reflects a clean alignment across **RME, Eden, and Harmony**,
 ***
 
 ## 🧭 Final Guidance
+
 - **Anchor RME first** with Eden data to validate the flow (intake → reviewers → Civic Tome).  
 - **Eden** is the immediate “proof of work” for civic trust; prioritize resolving permits early.  
 - **Harmony** is best run in parallel only once insurance/screening templates are finalized, to avoid legal blockers.  
@@ -62,7 +69,7 @@ Version **v1.5.6** reflects a clean alignment across **RME, Eden, and Harmony**,
 ***
 
 ✅ **v1.5.6 Consensus: Ready-for-Review**  
-RME anchors credibility, Eden delivers near-term proof, Harmony deepens community trust.   
+RME anchors credibility, Eden delivers near-term proof, Harmony deepens community trust.
 
 ***
 

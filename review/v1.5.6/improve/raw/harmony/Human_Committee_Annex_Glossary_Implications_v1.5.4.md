@@ -35,11 +35,7 @@ Resonant Biology (🧭✨) — Somatic practices with measurable signals (breath
 
 Harmonic Overview / Atom-Body-Solar (🧭✨) — Educational framework linking scales; experiments are optional and separately reviewed.
 
-
 > Reviewer cue: If in doubt, prioritize 🧭 items first; treat 🧭✨ as optional value-add.
-
-
-
 
 ---
 
@@ -57,7 +53,6 @@ Risks: Reviewer/staff fatigue; data hygiene; process drift.
 Mitigations: Fixed cadence; rotating prompts; minimal fields; publish data policy.
 Typical partners: Policy lab; civic-tech nonprofit; university research office.
 
-
 ---
 
 2) Project Eden (Housing Retrofits) — 🧭
@@ -71,7 +66,6 @@ KPIs: kWh/therms saved; $/unit; comfort score; completion % on schedule.
 Risks: Permits; insurance/waivers; contractor capacity.
 Mitigations: Early MoU with city/CLT; pre-approved measure list; vetted vendors.
 Typical partners: Municipal energy office; community land trust; public housing authority.
-
 
 ---
 
@@ -87,7 +81,6 @@ Risks: Screening gaps; instructor variance; liability.
 Mitigations: Standardized screen; coach certification; waivers/coverage.
 Typical partners: University kinesiology; community clinic; YMCA.
 
-
 ---
 
 4) Progressive Settlement — 🧭
@@ -102,7 +95,6 @@ Risks: Compliance; predatory actors; confidentiality.
 Mitigations: Legal aid partners; strict data policy; audited workflows.
 Typical partners: Legal aid; credit union/CRA bank; municipal mediation.
 
-
 ---
 
 5) Resonant Biology (low-risk subset) — 🧭✨
@@ -116,7 +108,6 @@ KPIs: Adherence; HRV change; subjective calm; AE reporting.
 Risks: Over-claiming; measurement noise.
 Mitigations: Evidence tiering (🧭/🧭✨), pre-registered metrics, conservative claims.
 Typical partners: Contemplative science lab; cardiology/HRV clinic; biomechanics lab.
-
 
 ---
 
