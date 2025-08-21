@@ -8,7 +8,8 @@ INDEX = ARCHIVE_DIR / "index.md"
 def main():
     ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
     files = sorted([p for p in ARCHIVE_DIR.glob("**/*") if p.is_file() and p.suffix.lower() in (".md",".txt") and p.name != "index.md"])
-    lines = ["# Archive Index\\n"]
+    # Start the index with a proper header line; no extra backslash needed
+    lines = ["# Archive Index"]
     for p in files:
         rel = p.relative_to(ARCHIVE_DIR)
         # extract top-level header if present
@@ -22,7 +23,8 @@ def main():
             pass
         display = title or rel.as_posix()
         lines.append(f"- [{display}]({rel.as_posix()})")
-    INDEX.write_text("\\n".join(lines), encoding="utf-8")
+    # Join lines with actual newlines and write out the index file
+    INDEX.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"[OK] Indexed {len(files)} items to {INDEX}")
 
 if __name__ == "__main__":
