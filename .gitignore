@@ -1,18 +1,7 @@
 .DS_Store
-tmp/
-.github/branch_protection_*.json
-conversations.json
-shared_conversations.json
-filtered/
-filtered_conversations/
-filtered_shared/
-filtered_merged/
-constella-import/
-docs/exports/**/personal.md
-.DS_Store
-*/.DS_Store
-# Editor backups / temp
-*.bak.*
-*.rtf
-# macOS
-.DS_Store
+node_modules/
+dist/
+.env
+__pycache__/
+*.log
+*.tmp
