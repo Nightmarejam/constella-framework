@@ -1,0 +1,15 @@
+﻿{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Docs: spell+lint+links",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-NoProfile","-ExecutionPolicy","Bypass","-Command",
+        "codespell --ignore-words .codespellignore .; markdownlint \"**/*.md\" -c .markdownlint.json --ignore-path .markdownlintignore; if (Get-Command lychee -ErrorAction SilentlyContinue) { lychee --config .github/lychee/lychee.toml . } else { Write-Host 'Lychee not installed' }"
+      ],
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    }
+  ]
+}

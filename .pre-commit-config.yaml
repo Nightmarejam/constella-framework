@@ -1,0 +1,7 @@
+﻿repos:
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.4.1
+    hooks:
+      - id: codespell
+        args: [--ignore-words, .codespellignore]
+        exclude: \.min\.js$|\.svg$|\.png$|\.jpe?g$|\.gif$|^dist/|^node_modules/
