@@ -1,0 +1,394 @@
+{
+  "meta": {
+    "title": "Constella Framework \u2014 AI Review Master",
+    "version": "1.3",
+    "date": "2025-08-12",
+    "changelog": [
+      "Added Echo Code (biosonar) module",
+      "Added Black-Hole Analogs Set (universality table) as research module",
+      "Added Compression\u2192Emission Ladder document (theory-to-practice)",
+      "Added Phase-Flip Cosmogenesis (clearly speculative)",
+      "Added Acoustic Nodes Demo (counter-gravity via standing waves) pilot",
+      "Created Sky Lattice v0.1 and Echo Code v0.1 one-page PDFs",
+      "Added Robustness Pack v1.3 (text hardening, templates, governance specs)"
+    ]
+  },
+  "threads_and_modules": {
+    "echo_code": {
+      "summary": "Biosonar-inspired active sensing for assistive mobility and robotics. Emit designed clicks/chirps; matched-filter echoes; build local maps.",
+      "components": [
+        "Signal design (FM/CF clicks)",
+        "Matched filtering / dechirp",
+        "Doppler estimation",
+        "Small mic array beamforming",
+        "SLAM loop"
+      ],
+      "use_cases": [
+        "Visually impaired mobility drills",
+        "Indoor micro-mapping",
+        "Low-power robot navigation"
+      ],
+      "deliverables": [
+        "Open-source mobile app prototype",
+        "Training protocol",
+        "Accuracy benchmarks vs canes/LiDAR"
+      ],
+      "status": "pilot"
+    },
+    "black_hole_analogs_set": {
+      "summary": "Universality table of 'black-hole-like' sinks across scales: CPA optics, acoustic/BEC horizons, ring cavities, metamaterial absorbers, lysosome/proteasome, fungal hubs.",
+      "deliverables": [
+        "Analogy table (CSV)",
+        "Two plots: critical coupling spectrum; on-resonance reflectivity curve",
+        "Methods note for tabletop demos"
+      ],
+      "status": "planned"
+    },
+    "compression_emission_ladder": {
+      "summary": "Guide mapping compression inputs (gas, plasma, solid) to dominant emission relief channels (photons, phonons, particles, flows) and design implications for Eden/Harmony.",
+      "deliverables": [
+        "One-page reference",
+        "Examples and thresholds"
+      ],
+      "status": "planned"
+    },
+    "phase_flip_cosmogenesis": {
+      "summary": "Speculative origin story: parallel weakly coupled 'sheets' with a phase flip forming domain walls that radiate, nucleate rings/bubbles, and stabilize as solitonic structures.",
+      "status": "speculative",
+      "notes": [
+        "Kept narrative-only; not used for siting or policy"
+      ]
+    }
+  },
+  "pilots": {
+    "acoustic_nodes_demo_v0_1": {
+      "protocol": "40 kHz phased-array or transducer + curved reflector to create standing nodes; levitate 1\u20133 mm polystyrene beads; shift phase to show node collapse.",
+      "metrics": [
+        "Stable levitation time",
+        "Node position reproducibility (mm)",
+        "Drop on phase shift (\u03bb/4)"
+      ],
+      "safety": [
+        "Hearing/pet safety (ultrasound leakage)",
+        "No loose beads near intakes"
+      ],
+      "success": "Demonstrate counter-gravity trapping and controlled release; produce short video + methods"
+    }
+  },
+  "glossary": {
+    "Sky Lattice": "Atmospheric micro\u2011nowcasting layer using infrasound/pressure cues + open radar fusion.",
+    "Echo Code": "Biosonar-inspired active sensing module (assistive and robotics).",
+    "Black\u2011Hole Analogs Set": "Table and demos of perfect-absorber/horizon analogs across physics and biology.",
+    "Compression\u2192Emission Ladder": "Design guide mapping compression to preferred emission channels.",
+    "Phase\u2011Flip Cosmogenesis": "Speculative phase\u2011defect origin narrative (sandboxed)."
+  },
+  "assets": {
+    "sky_lattice_onepager_pdf": "/mnt/data/Sky_Lattice_v0_1_OnePager.pdf",
+    "echo_code_onepager_pdf": "/mnt/data/Echo_Code_v0_1_OnePager.pdf"
+  },
+  "ai_review_prompts": [
+    "Assess Echo Code v0.1: are matched-filter and small-array methods sufficient for safe assistive use? Propose benchmarks and a bias/safety review.",
+    "Black-Hole Analogs: verify the analogy table for accuracy; suggest two reproducible tabletop demos.",
+    "Compression\u2192Emission Ladder: check examples and thresholds; recommend where Eden/Harmony can apply it.",
+    "Phase-Flip Cosmogenesis: identify precise points where metaphor diverges from established physics; propose safe wording."
+  ],
+  "robustness_pack": {
+    "scope_first_principles": {
+      "mission": "Coordinate contribution, stewardship, and planetary safety through proof, repair, and resonance\u2011aligned design.",
+      "guardrails": [
+        "Evidence precedes scale",
+        "Privacy by default",
+        "Restorative over punitive",
+        "Right to repair/exit",
+        "Transparency by default"
+      ],
+      "separation_of_powers": "Astris (merit) \u2260 Auctor (voice); validation independent from funding and governance."
+    },
+    "canonical_definitions": {
+      "Thread": "Bounded project with charter, budget, metrics, and end/renewal date.",
+      "Validator": "Peer elected to verify proofs; rotated and audited.",
+      "Steward": "Operational lead for a thread; accountable for safety/ethics.",
+      "Civic Tome": "Versioned corpus of protocols, precedents, and rulings.",
+      "Claim Labels": [
+        "stable",
+        "contested",
+        "speculative"
+      ]
+    },
+    "evidence_levels": {
+      "E0": "Concept only (speculative)",
+      "E1": "Plausible mechanism + expert review",
+      "E2": "Pilot data (small\u2011N) with pre\u2011registered metrics",
+      "E3": "Replicated pilots in 2+ sites; open data + methods",
+      "E4": "Independent replication; cost/benefit shown",
+      "E5": "Operational standard; audited annually",
+      "policy_rule": "Policy uses E3+ only; Eden/Harmony aim for E3; Gaia/Sky advisory until E4."
+    },
+    "thread_charter_template": {
+      "fields": [
+        "Name & Purpose",
+        "Scope & Boundaries",
+        "People (steward, validators, data custodian, safety officer)",
+        "Timeline & Milestones",
+        "Budget & Sources",
+        "Metrics (success/fail thresholds; evidence target)",
+        "Risks & Mitigations (top 5; halting criteria)",
+        "Data & Privacy (collection, storage, retention)",
+        "Ethics (consent, vulnerable groups, red lines)",
+        "Exit/Shutdown (handoff; archive path)"
+      ]
+    },
+    "pilot_prereg_template": {
+      "fields": [
+        "Hypothesis (falsifiable)",
+        "Observables & Instruments (units, sampling, calibration)",
+        "Design (control/comparison, N, analysis plan)",
+        "Pass/Fail thresholds (primary/secondary)",
+        "Disclosure (funding, COIs)",
+        "Publication plan (CSV, plots, protocol)"
+      ]
+    },
+    "validation_pipeline": {
+      "gates": [
+        "G0 Intake (ethics/safety check)",
+        "G1 Methods OK (pre\u2011reg, calibration, consent)",
+        "G2 Results (duplicate analysis)",
+        "G3 Archive (Tome entry, Astris release)"
+      ],
+      "audits": "\u226510% randomized audits; Astris paused on failures until corrected."
+    },
+    "token_mechanics": {
+      "Astris": {
+        "minting": "Upon G3 or partial at G2 with escrow; amounts per thread impact table",
+        "decay": "Default half\u2011life (e.g., 18 months); Legacy Astris (capped, no decay) for public goods",
+        "use": "Curation rights, queue priority, service access; not voting power"
+      },
+      "Auctor": {
+        "distribution": "Equal per verified person per epoch",
+        "use": "Policy, budgets, steward selection, amendments",
+        "reset": "Balances zero each epoch; no trading/carryover"
+      },
+      "anti_gaming": [
+        "Rotating validator pools",
+        "Blinded reviews where possible",
+        "Anomaly detection",
+        "Public audit log",
+        "Conflict\u2011of\u2011interest declarations"
+      ]
+    },
+    "data_governance": {
+      "principles": [
+        "Local\u2011first encrypted storage",
+        "Pseudonymous IDs",
+        "Default 24\u2011month retention",
+        "Open methods + anonymized CSVs for E2+",
+        "Dataset provenance hashes"
+      ],
+      "api": {
+        "endpoints": [
+          "/threads",
+          "/charters",
+          "/datasets",
+          "/audits",
+          "/tome/changes"
+        ],
+        "format": "JSON, signed"
+      }
+    },
+    "safety_ethics": {
+      "irb_lite": "Human subjects checklist; exclude medical claims.",
+      "halting": "Pre\u2011defined stop conditions (adverse events, sensor faults, threshold breaches).",
+      "vulnerable": "Extra consent steps or exclusion.",
+      "penumbra": "Mediation \u2192 repair contract \u2192 reintegration."
+    },
+    "module_upgrades": {
+      "Harmony": {
+        "measures": [
+          "HRV (RMSSD)",
+          "Sleep efficiency/latency",
+          "RPE",
+          "Gait variability"
+        ],
+        "pass": "HRV +10\u201320%, RPE \u22121pt, sleep +3\u20135% over 4\u20138 weeks",
+        "ethics": "Wellness framing only."
+      },
+      "Eden": {
+        "measures": [
+          "kWh",
+          "Indoor temp RMS swing",
+          "CO\u2082 ppm",
+          "Noise dB",
+          "Comfort survey"
+        ],
+        "pass": "\u226515% kWh cut and comfort\u2191 over 30\u201390 days",
+        "safety": "Permits/pros for electrical/structural."
+      },
+      "Gaia Lattice": {
+        "inputs": [
+          "Faults",
+          "Quake catalog",
+          "Site class",
+          "Slope",
+          "Flood/Fire",
+          "Wind",
+          "InSAR",
+          "Climate baseline"
+        ],
+        "method": "Transparent weights; backtests with CIs",
+        "labels": [
+          "stable",
+          "contested",
+          "high\u2011risk"
+        ],
+        "update": "Quarterly minor, annual major"
+      },
+      "Sky Lattice": {
+        "sensors": [
+          "Micro\u2011barometers \u226510 Hz",
+          "Anemometer",
+          "Temp/RH"
+        ],
+        "outputs": [
+          "0\u20133 hr gust/fog/venting alerts"
+        ],
+        "privacy": "Weather only; no personal tracking"
+      },
+      "Echo Code": {
+        "methods": [
+          "Matched filtering",
+          "Small\u2011array beamforming",
+          "SPL limits"
+        ],
+        "benchmarks": [
+          "Detection time",
+          "False positives",
+          "Comfort/safety"
+        ]
+      }
+    },
+    "risk_register_template": [
+      "Technical (drift/gaps)",
+      "Ethical (consent failure)",
+      "Security (credential leak)",
+      "Governance (validator capture)",
+      "Reputation (overclaiming)"
+    ],
+    "governance_cycles_amendments": {
+      "epoch": "e.g., 30 days",
+      "amendment_path": "Proposal \u2192 Auctor vote \u2192 validator concurrence \u2192 Tome diff",
+      "red_team_window": "7\u201314 days on high\u2011impact changes"
+    },
+    "readiness_levels": [
+      "R0 concept",
+      "R1 benchtop",
+      "R2 single\u2011site",
+      "R3 multi\u2011site",
+      "R4 city\u2011scale",
+      "R5 policy standard"
+    ],
+    "program_metrics": {
+      "core": [
+        "Thread completion rate",
+        "Audit pass rate",
+        "Time\u2011to\u2011G3",
+        "Cost per validated impact"
+      ],
+      "eden": [
+        "Mean kWh reduction",
+        "IAQ improvement",
+        "Comfort delta"
+      ],
+      "harmony": [
+        "HRV/sleep/RPE effect sizes",
+        "Adherence"
+      ],
+      "gaia_sky": [
+        "Backtest AUC",
+        "Lead\u2011time gains",
+        "False alarms"
+      ],
+      "penumbra": [
+        "Time in conflict",
+        "Repair completion",
+        "Recurrences"
+      ]
+    },
+    "publishing_comms": {
+      "artifacts": [
+        "Charter",
+        "Pre\u2011reg",
+        "CSV",
+        "Methods MD",
+        "Results PDF",
+        "Lessons MD"
+      ],
+      "licenses": {
+        "code": "MIT/Apache\u20112",
+        "content": "CC\u2011BY 4.0",
+        "data": "ODbL"
+      },
+      "citations": "Figures cite dataset hashes."
+    },
+    "roles_training": {
+      "validator": [
+        "Calibration",
+        "Bias awareness",
+        "Reproducible analysis",
+        "Audit etiquette"
+      ],
+      "steward": [
+        "Risk management",
+        "Consent",
+        "Security hygiene",
+        "Incident response"
+      ],
+      "mediator": [
+        "Restorative practice",
+        "Trauma\u2011aware communication"
+      ]
+    },
+    "funding_conflicts": {
+      "disclosure": "All funding/relationships in charter",
+      "firewall": "Validators not paid by audited thread",
+      "treasury": "Line\u2011item ledger; monthly public export"
+    },
+    "change_management": {
+      "semver": "MAJOR.MINOR.PATCH per module",
+      "deprecations": "1\u2011epoch notice; migration notes; archived with reason"
+    },
+    "interoperability_spec": {
+      "data_schema": [
+        "thread_id",
+        "site_id",
+        "timestamp (UTC ISO\u20118601)",
+        "sensor_id",
+        "unit",
+        "value",
+        "qc_flag",
+        "methods_hash",
+        "consent_code",
+        "provenance_hash"
+      ],
+      "geospatial": [
+        "GeoJSON",
+        "TopoJSON",
+        "COGs",
+        "OGC WMS/WFS/WCS"
+      ],
+      "timeseries": [
+        "CSV",
+        "Parquet",
+        "Zarr/NetCDF"
+      ],
+      "sensor_api": [
+        "OGC SensorThings API v1.1 (where possible)"
+      ]
+    },
+    "red_lines": [
+      "No medical claims/advice",
+      "No surveillance or personal geotracking without explicit, revocable consent",
+      "No policy on E0\u2013E2",
+      "Immediate halt on safety breach"
+    ]
+  }
+}
