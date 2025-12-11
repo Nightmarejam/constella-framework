@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="2000" viewBox="0 0 3000 2000">
+  <style>
+    .anatomy { stroke:#777777; stroke-width:4; fill:none; }
+    .label { font-family:Helvetica, Arial, sans-serif; font-size:42px; fill:#000000; }
+    .small-label { font-family:Helvetica, Arial, sans-serif; font-size:34px; fill:#000000; }
+    .yang { stroke:#1b7ea8; stroke-width:8; fill:none; }
+    .yin { stroke:#d1615a; stroke-width:8; fill:none; }
+    .phaseflip { stroke:#d1615a; stroke-width:6; fill:none; }
+    .margin-label { font-family:Helvetica, Arial, sans-serif; font-size:48px; fill:#000000; writing-mode:vertical-rl; }
+    .arrow { marker-end:url(#arrowhead); }
+    .thenar { fill:#dddddd; stroke:#777777; stroke-width:3; }
+    .hypothenar { fill:#dddddd; stroke:#777777; stroke-width:3; }
+    .tendon { stroke:#777777; stroke-width:3; fill:none; }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="20" markerHeight="20" refX="10" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <!-- Left margin labels -->
+  <text x="150" y="300" class="margin-label">Anatomical Reality</text>
+  <text x="150" y="900" class="margin-label">Functional Interpretation</text>
+  <text x="150" y="1500" class="margin-label">Symbolic / Metaphorical</text>
+
+  <!-- Forearm -->
+  <path class="anatomy" d="M1700 300 C1750 280, 1850 280, 1900 300 C1950 320, 2000 380, 2020 450
+    C2040 520, 2045 580, 2050 640 C2055 700, 2055 760, 2050 820"/>
+  <path class="anatomy" d="M1600 300 C1650 280, 1750 280, 1800 300 C1850 320, 1900 380, 1920 450
+    C1940 520, 1945 580, 1950 640 C1955 700, 1955 760, 1950 820"/>
+  <text x="1920" y="380" class="small-label">Radius</text>
+  <text x="1620" y="380" class="small-label">Ulna</text>
+
+  <!-- Wrist arc -->
+  <path class="anatomy" d="M1600 820 C1700 840, 1850 840, 1950 820"/>
+
+  <!-- Palm -->
+  <path class="anatomy" d="M1600 820 C1580 900, 1570 980, 1580 1060 C1590 1140, 1620 1220, 1670 1280
+    C1720 1340, 1800 1380, 1900 1390 C2000 1400, 2100 1380, 2180 1330 C2260 1280, 2310 1210, 2330 1140
+    C2350 1070, 2350 980, 2335 900 C2320 820, 2290 780, 2250 760"/>
+
+  <!-- Fingers -->
+  <path class="anatomy" d="M1900 880 C1910 820, 1920 740, 1930 680 C1940 620, 1950 580, 1955 560 C1960 540, 1970 520, 1985 510"/>
+  <path class="anatomy" d="M1985 885 C2000 820, 2010 740, 2020 680 C2035 600, 2050 560, 2065 540 C2080 520, 2095 510, 2110 505"/>
+  <path class="anatomy" d="M2060 890 C2070 830, 2080 760, 2085 710 C2090 660, 2100 620, 2110 600 C2125 580, 2140 570, 2155 565"/>
+  <path class="anatomy" d="M2130 900 C2140 840, 2145 780, 2150 740 C2155 700, 2165 670, 2175 655 C2185 640, 2200 630, 2215 625"/>
+
+  <!-- Thumb -->
+  <path class="anatomy" d="M1760 900 C1720 870, 1700 830, 1695 790 C1690 750, 1700 710, 1720 680 C1740 650, 1770 630, 1810 620"/>
+  <path class="anatomy" d="M1810 620 C1850 600, 1890 600, 1920 610"/>
+
+  <!-- Carpal groups -->
+  <path class="anatomy" d="M1705 820 C1760 800, 1840 800, 1900 805 C1960 810, 2030 815, 2090 825"/>
+  <text x="1720" y="780" class="small-label">Proximal carpals</text>
+  <path class="anatomy" d="M1720 860 C1780 845, 1860 845, 1920 850 C1980 855, 2050 865, 2110 880"/>
+  <text x="1740" y="910" class="small-label">Distal carpals</text>
+
+  <!-- Key carpals -->
+  <ellipse cx="1820" cy="815" rx="35" ry="22" class="anatomy"/>
+  <text x="1760" y="770" class="small-label">Scaphoid</text>
+  <ellipse cx="1900" cy="815" rx="35" ry="22" class="anatomy"/>
+  <text x="1860" y="770" class="small-label">Lunate</text>
+  <ellipse cx="1960" cy="865" rx="35" ry="22" class="anatomy"/>
+  <text x="1930" y="915" class="small-label">Capitate</text>
+
+  <!-- Trapezium -->
+  <path class="anatomy" d="M1760 860 C1780 850, 1810 845, 1835 850 C1850 860, 1860 875, 1860 890
+    C1840 900, 1815 900, 1795 890 C1780 880, 1770 870, 1760 860"/>
+  <text x="1730" y="930" class="small-label">Trapezium</text>
+  <path class="anatomy" d="M1785 880 C1800 870, 1815 865, 1830 870"/>
+
+  <!-- Metacarpals -->
+  <path class="anatomy" d="M1765 910 C1810 930, 1880 950, 1950 960 C2020 970, 2090 970, 2160 960"/>
+  <text x="1880" y="1000" class="small-label">Metacarpals I–V</text>
+  <text x="2050" y="640" class="small-label">Phalanges</text>
+
+  <!-- Palmar aponeurosis -->
+  <path class="anatomy" d="M1820 930 L2000 930 L1920 1060 Z"/>
+  <text x="1840" y="1090" class="small-label">Palmar aponeurosis</text>
+
+  <!-- Flexor tendons -->
+  <path class="tendon" d="M1885 950 C1890 900, 1895 860, 1900 820 C1905 780, 1910 740, 1915 700"/>
+  <path class="tendon" d="M1960 960 C1965 910, 1975 860, 1980 820 C1990 770, 2000 730, 2010 690"/>
+  <path class="tendon" d="M2030 955 C2035 910, 2040 870, 2045 830 C2055 780, 2065 740, 2075 705"/>
+
+  <!-- Thenar eminence -->
+  <path class="thenar" d="M1760 940 C1730 990, 1715 1040, 1715 1090 C1725 1130, 1760 1170, 1820 1200
+    C1860 1215, 1890 1220, 1920 1215 C1900 1160, 1885 1110, 1865 1070 C1845 1030, 1810 985, 1760 940"/>
+  <text x="1720" y="1180" class="small-label">Thenar eminence</text>
+
+  <!-- Hypothenar eminence -->
+  <path class="hypothenar" d="M2070 950 C2120 980, 2150 1020, 2170 1060 C2190 1100, 2200 1150, 2190 1190
+    C2160 1210, 2110 1225, 2050 1230 C2035 1190, 2025 1150, 2015 1120 C2005 1090, 1995 1055, 1985 1025"/>
+  <text x="2090" y="1200" class="small-label">Hypothenar eminence</text>
+
+  <!-- Fascial continuation -->
+  <text x="1700" y="260" class="small-label">→ continues through forearm → bicipital aponeurosis → pectoral/cervical fascia</text>
+
+  <!-- Radial column (Yang) -->
+  <path class="yang" d="M1810 620 C1770 640, 1740 670, 1720 700 C1700 730, 1690 770, 1690 810 C1690 850, 1700 890, 1720 930"/>
+  <path class="yang" d="M1720 930 C1760 960, 1820 980, 1880 990"/>
+  <path class="yang" d="M1880 990 C1885 950, 1890 900, 1895 860"/>
+  <text x="1500" y="880" class="label">Radial column (precision/intent — Yang)</text>
+
+  <!-- Ulnar column (Yin) -->
+  <path class="yin" d="M2130 900 C2150 840, 2160 780, 2165 730 C2170 680, 2165 640, 2150 610"/>
+  <path class="yin" d="M2150 610 C2110 580, 2060 560, 2000 550"/>
+  <path class="yin" d="M2000 550 C1950 540, 1910 540, 1880 550"/>
+  <text x="2060" y="520" class="label">Ulnar column (stabilization/return — Yin)</text>
+
+  <!-- Phase flip zone -->
+  <circle cx="1900" cy="840" r="90" class="phaseflip"/>
+  <text x="1995" y="820" class="small-label">Phase Flip Zone — distal intent → proximal stabilization (multiplanar)</text>
+
+  <!-- Tri-planar arrows -->
+  <line x1="1900" y1="740" x2="1900" y2="700" stroke="#d1615a" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x1="1850" y1="860" x2="1810" y2="880" stroke="#d1615a" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x1="1950" y1="860" x2="1990" y2="880" stroke="#d1615a" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- Yang flow paths -->
+  <path class="yang arrow" d="M1985 510 C1940 520, 1900 540, 1860 570"/>
+  <path class="yang arrow" d="M1860 570 C1820 600, 1790 640, 1775 680"/>
+  <path class="yang arrow" d="M1775 680 C1760 720, 1760 760, 1770 800"/>
+  <path class="yang arrow" d="M1770 800 C1795 815, 1820 825, 1845 830"/>
+  <text x="1430" y="720" class="label">precision/intake flow (Yang)</text>
+
+  <!-- Yin flow paths -->
+  <path class="yin arrow" d="M2215 625 C2190 650, 2165 680, 2150 710"/>
+  <path class="yin arrow" d="M2150 710 C2135 750, 2125 790, 2115 830"/>
+  <path class="yin arrow" d="M2115 830 C2080 870, 2040 900, 2000 920"/>
+  <path class="yin arrow" d="M2000 920 C1960 940, 1920 950, 1880 955"/>
+  <text x="2040" y="900" class="label">stabilizing return flow (Yin)</text>
+
+  <!-- Micro-tuning -->
+  <path class="anatomy arrow" d="M2050 700 C2020 730, 1990 760, 1970 790"/>
+  <path class="anatomy arrow" d="M1970 790 C1960 840, 1955 890, 1955 940"/>
+  <path class="anatomy arrow" d="M1955 940 C1950 990, 1945 1040, 1945 1100"/>
+  <text x="1780" y="1180" class="small-label">micro-stabilization / micro-tuning</text>
+</svg>
