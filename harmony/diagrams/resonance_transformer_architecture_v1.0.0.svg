@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="2000" viewBox="0 0 3000 2000">
+
+  <!-- ===========================
+       GLOBAL STYLE DEFINITIONS
+       =========================== -->
+  <style>
+    .anatomy { stroke:#777777; stroke-width:4; fill:none; }
+    .block { stroke:#777777; stroke-width:4; fill:none; }
+    .label { font-family:Helvetica, Arial, sans-serif; font-size:42px; fill:#000000; }
+    .small-label { font-family:Helvetica, Arial, sans-serif; font-size:34px; fill:#000000; }
+    .tiny-label { font-family:Helvetica, Arial, sans-serif; font-size:28px; fill:#000000; }
+    .margin-label { font-family:Helvetica, Arial, sans-serif; font-size:48px; fill:#000000; writing-mode:vertical-rl; glyph-orientation-vertical:0; }
+    .yang { stroke:#1b7ea8; stroke-width:8; fill:none; }
+    .yin { stroke:#d1615a; stroke-width:8; fill:none; }
+    .arrow { marker-end:url(#arrowhead); }
+    .dotted { stroke-dasharray:10 10; }
+    .italic { font-style:italic; }
+  </style>
+
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="20" markerHeight="20" refX="10" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <!-- ===========================
+       LEFT MARGIN LAYER LABELS
+       =========================== -->
+  <text x="150" y="300" class="margin-label">Computational Reality</text>
+  <text x="150" y="900" class="margin-label">Functional Interpretation</text>
+  <text x="150" y="1500" class="margin-label">Harmony Parallel</text>
+
+  <!-- ===========================
+       CONTEXT WINDOW BAND
+       =========================== -->
+  <rect x="820" y="720" width="1320" height="520" rx="40" class="block"/>
+  <text x="840" y="710" class="small-label">Context Window</text>
+
+  <!-- ===========================
+       CORE TRANSFORMER FLOW (GREY)
+       =========================== -->
+
+  <!-- Input Embeddings Block -->
+  <rect x="520" y="860" width="260" height="190" class="block"/>
+  <text x="550" y="930" class="small-label">Input Tokens</text>
+  <text x="550" y="970" class="small-label">/ Embeddings</text>
+
+  <!-- Transformer Layer 1 -->
+  <!-- Attention -->
+  <rect x="980" y="780" width="320" height="110" class="block"/>
+  <text x="1000" y="845" class="small-label">Multi-Head Attention</text>
+  <!-- MLP / FFN -->
+  <rect x="980" y="920" width="320" height="110" class="block"/>
+  <text x="1040" y="990" class="small-label">MLP / Feed-Forward</text>
+
+  <!-- Transformer Layer 2 -->
+  <!-- Attention -->
+  <rect x="1360" y="780" width="320" height="110" class="block"/>
+  <text x="1380" y="845" class="small-label">Multi-Head Attention</text>
+  <!-- MLP / FFN -->
+  <rect x="1360" y="920" width="320" height="110" class="block"/>
+  <text x="1420" y="990" class="small-label">MLP / Feed-Forward</text>
+
+  <!-- Transformer Layers Bracket Label -->
+  <text x="1220" y="1120" class="small-label">Transformer Layers</text>
+
+  <!-- Phase-Flip Controller Block -->
+  <rect x="1880" y="840" width="220" height="210" class="block"/>
+  <text x="1900" y="900" class="small-label">Phase-Flip Controller</text>
+  <text x="1900" y="945" class="tiny-label">Exploration ↔ Consolidation</text>
+
+  <!-- Output Logits Block -->
+  <rect x="2200" y="860" width="260" height="190" class="block"/>
+  <text x="2220" y="930" class="small-label">Output Logits</text>
+  <text x="2220" y="970" class="small-label">/ Tokens</text>
+
+  <!-- ===========================
+       FORWARD NEUTRAL FLOW (GREY)
+       =========================== -->
+  <!-- Input → Layer 1 -->
+  <line x1="780" y1="955" x2="980" y2="955" stroke="#777777" stroke-width="4" class="arrow"/>
+  <!-- Layer 1 Attention → MLP -->
+  <line x1="1140" y1="890" x2="1140" y2="920" stroke="#777777" stroke-width="4" class="arrow"/>
+  <!-- Layer 1 → Layer 2 Attention -->
+  <line x1="1300" y1="955" x2="1360" y2="955" stroke="#777777" stroke-width="4" class="arrow"/>
+  <!-- Layer 2 Attention → MLP -->
+  <line x1="1520" y1="890" x2="1520" y2="920" stroke="#777777" stroke-width="4" class="arrow"/>
+  <!-- Layer 2 → Phase-Flip Controller -->
+  <line x1="1680" y1="955" x2="1880" y2="955" stroke="#777777" stroke-width="4" class="arrow"/>
+  <!-- Phase-Flip Controller → Output -->
+  <line x1="2100" y1="955" x2="2200" y2="955" stroke="#777777" stroke-width="4" class="arrow"/>
+
+  <!-- ===========================
+       YANG PATH (TEAL) — GENERATIVE INTAKE
+       =========================== -->
+
+  <!-- Teal Forward Flow overlay -->
+  <path class="yang arrow" d="
+    M540 880
+    C700 800, 880 800, 1040 820
+  "/>
+  <path class="yang arrow" d="
+    M1040 820
+    C1200 830, 1360 830, 1520 830
+  "/>
+  <path class="yang arrow" d="
+    M1520 830
+    C1700 840, 1850 860, 1980 880
+  "/>
+  <path class="yang arrow" d="
+    M1980 880
+    C2080 900, 2160 930, 2250 950
+  "/>
+
+  <text x="900" y="740" class="label">Yang — generative intake</text>
+
+  <!-- ===========================
+       YIN PATH (CORAL) — STABILIZING RETURN
+       =========================== -->
+
+  <!-- Output-Coherence Sensor Block -->
+  <rect x="2500" y="780" width="360" height="170" class="block"/>
+  <text x="2520" y="840" class="small-label">Output-Coherence Sensor</text>
+  <text x="2520" y="885" class="tiny-label">Monitors coherence, contradictions, drift</text>
+
+  <!-- Yin: Output → Output-Coherence Sensor -->
+  <path class="yin arrow" d="
+    M2460 955
+    C2550 955, 2580 930, 2600 900
+  "/>
+
+  <!-- Yin: Output-Coherence Sensor → Attention Rebalancer (primary feedback) -->
+  <!-- Will be drawn after Attention Rebalancer block is defined -->
+
+  <!-- Yin label -->
+  <text x="2260" y="1120" class="label">Yin — stabilizing return</text>
+
+  <!-- ===========================
+       ATTENTION REBALANCER
+       =========================== -->
+
+  <!-- Attention Rebalancer Block -->
+  <rect x="1120" y="620" width="520" height="120" class="block"/>
+  <text x="1140" y="675" class="small-label">Attention Rebalancer</text>
+  <text x="1140" y="715" class="tiny-label">Reweights attention based on coherence signal</text>
+
+  <!-- Yin: Output-Coherence Sensor → Attention Rebalancer -->
+  <path class="yin arrow" d="
+    M2680 780
+    C2500 680, 2100 650, 1640 670
+  "/>
+
+  <!-- Injection from Attention Rebalancer into Attention blocks -->
+  <!-- To Layer 1 Attention -->
+  <line x1="1380" y1="740" x2="1140" y2="780" stroke="#d1615a" stroke-width="4" class="arrow"/>
+  <!-- To Layer 2 Attention -->
+  <line x1="1540" y1="740" x2="1480" y2="780" stroke="#d1615a" stroke-width="4" class="arrow"/>
+
+  <!-- ===========================
+       PHASE-FLIP MARKER
+       =========================== -->
+
+  <!-- Coral circle on Phase-Flip Controller -->
+  <circle cx="1990" cy="955" r="55" class="yin" fill="none"/>
+  <text x="1920" y="1040" class="small-label">Phase Flip — exploration ↔ consolidation</text>
+
+  <!-- Small curved arrows indicating toggle -->
+  <path class="yin arrow" d="
+    M1990 895
+    C2030 895, 2050 915, 2050 955
+  " />
+  <path class="yin arrow" d="
+    M1990 1015
+    C1950 1015, 1930 995, 1930 955
+  " />
+
+  <!-- Optional Yin: Output-Coherence Sensor → Phase-Flip Controller trigger -->
+  <path class="yin dotted arrow" d="
+    M2620 950
+    C2400 1040, 2200 1040, 2050 1000
+  "/>
+
+  <!-- ===========================
+       MICRO-BUOYANCY MANAGER
+       =========================== -->
+
+  <!-- Micro-Buoyancy Manager Block (attached to Context Window) -->
+  <rect x="1240" y="650" width="480" height="90" class="block"/>
+  <text x="1260" y="705" class="small-label">Micro-Buoyancy Manager</text>
+  <text x="1260" y="745" class="tiny-label">Context refresh / oscillatory stabilization</text>
+
+  <!-- Yin dotted feedback from Output-Coherence Sensor → Micro-Buoyancy Manager -->
+  <path class="yin dotted arrow" d="
+    M2700 840
+    C2500 760, 2100 720, 1720 700
+  "/>
+
+  <!-- Connections between Micro-Buoyancy Manager and Context Window -->
+  <line x1="1480" y1="740" x2="1480" y2="780" stroke="#777777" stroke-width="4" class="arrow"/>
+  <line x1="1620" y1="740" x2="1620" y2="780" stroke="#777777" stroke-width="4" class="arrow"/>
+
+  <!-- ===========================
+       HARMONY PARALLELS (ITALIC LABELS)
+       =========================== -->
+
+  <!-- Output-Coherence Sensor parallel -->
+  <text x="2520" y="960" class="tiny-label italic">
+    Plantar/palmar mechanoreception
+  </text>
+
+  <!-- Attention Rebalancer parallel -->
+  <text x="1140" y="780" class="tiny-label italic">
+    Jaw–hyoid–C1 tension exchange
+  </text>
+
+  <!-- Phase-Flip Controller parallel -->
+  <text x="1900" y="1100" class="tiny-label italic">
+    Subtalar pronation/supination
+  </text>
+
+  <!-- Micro-Buoyancy Manager parallel -->
+  <text x="1260" y="620" class="tiny-label italic">
+    C0–C1 micro-oscillations
+  </text>
+
+</svg>
