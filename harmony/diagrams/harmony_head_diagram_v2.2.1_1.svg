@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="2000" viewBox="0 0 3000 2000">
+
+  <!-- ===========================
+       GLOBAL STYLE DEFINITIONS
+       =========================== -->
+  <style>
+    .anatomy { stroke:#777; stroke-width:4; fill:none; }
+    .label { font-family:Helvetica, Arial, sans-serif; font-size:42px; fill:#000; }
+    .small-label { font-family:Helvetica, Arial, sans-serif; font-size:34px; fill:#000; }
+    .yang { stroke:#1b7ea8; stroke-width:8; fill:none; }
+    .yin { stroke:#d1615a; stroke-width:8; fill:none; }
+    .phaseflip { stroke:#d1615a; stroke-width:6; fill:none; }
+    .margin-label { font-family:Helvetica, Arial, sans-serif; font-size:48px; fill:#000; writing-mode:vertical-rl; glyph-orientation-vertical:0; }
+    .arrow { marker-end:url(#arrowhead); }
+  </style>
+
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="20" markerHeight="20" refX="10" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <!-- ===========================
+       LEFT MARGIN LAYER LABELS
+       =========================== -->
+  <text x="150" y="300" class="margin-label">Anatomical Reality</text>
+  <text x="150" y="900" class="margin-label">Functional Interpretation</text>
+  <text x="150" y="1500" class="margin-label">Symbolic / Metaphorical</text>
+
+  <!-- ===========================
+       MAIN HEAD OUTLINE (Unified)
+       =========================== -->
+  <!-- Head profile (simplified anatomical outline) -->
+  <path class="anatomy" d="
+    M1200 400
+    C1300 250, 1550 250, 1650 400
+    C1750 550, 1750 850, 1650 1000
+    C1600 1070, 1500 1120, 1400 1120
+    C1300 1120, 1250 1050, 1200 1000
+    C1100 900, 1100 500, 1200 400
+  "/>
+
+  <!-- Upper cervical spine representation -->
+  <path class="anatomy" d="M1400 1120 L1400 1320" />
+
+  <!-- Tongue shape -->
+  <path class="anatomy" d="
+    M1300 780
+    C1350 760, 1450 760, 1500 780
+    C1450 820, 1350 820, 1300 780
+  "/>
+  <text x="1520" y="780" class="small-label">Tongue</text>
+
+  <!-- Hyoid bone -->
+  <ellipse cx="1400" cy="880" rx="45" ry="20" class="anatomy"/>
+  <text x="1460" y="890" class="small-label">Hyoid</text>
+
+  <!-- C0–C1 micro-buoyancy zone -->
+  <ellipse cx="1400" cy="1180" rx="80" ry="50" stroke="#999" stroke-dasharray="12 12" fill="none"/>
+  <text x="1500" y="1180" class="small-label">Micro-buoyancy zone (C0–C1)</text>
+
+  <!-- ===========================
+       GRAVITY ENTRY ARROW
+       =========================== -->
+  <line x1="1400" y1="200" x2="1400" y2="330" stroke="#000" stroke-width="10" marker-end="url(#arrowhead)" />
+  <text x="1440" y="260" class="label">Crown (vertex) — primary load entry</text>
+
+  <!-- ===========================
+       YANG INTAKE PATH (teal)
+       Eyes → Inner ear → Cranial vault
+       =========================== -->
+  <!-- Eyes -->
+  <circle cx="1280" cy="520" r="25" fill="#1b7ea8"/>
+  <circle cx="1520" cy="520" r="25" fill="#1b7ea8"/>
+  <text x="1250" y="490" class="small-label">Eye</text>
+  <text x="1490" y="490" class="small-label">Eye</text>
+
+  <!-- Inner ear (vestibular region, stylized) -->
+  <circle cx="1600" cy="620" r="30" fill="#1b7ea8"/>
+  <text x="1640" y="620" class="small-label">Vestibular system</text>
+
+  <!-- Yang path arrows -->
+  <path class="yang arrow" d="M1280 520 C1350 500, 1500 500, 1600 620" />
+  <path class="yang arrow" d="M1600 620 C1550 700, 1500 780, 1450 850" />
+  <text x="1620" y="700" class="label">sensory intake (Yang)</text>
+
+  <!-- ===========================
+       YIN RETURN PATH (coral)
+       Jaw → Tongue → Hyoid → C0–C1
+       =========================== -->
+
+  <!-- Jaw (simplified anatomical curve) -->
+  <path class="anatomy" d="M1250 900 C1300 950, 1500 950, 1550 900"/>
+
+  <text x="1200" y="930" class="small-label">Jaw</text>
+
+  <!-- Yin flow arrows -->
+  <path class="yin arrow" d="M1400 900 C1400 930, 1400 950, 1400 1000" />
+  <path class="yin arrow" d="M1400 1000 L1400 1180" />
+  <text x="1420" y="1040" class="label">stabilizing return (Yin)</text>
+
+  <!-- ===========================
+       PHASE FLIP MARKER
+       =========================== -->
+  <circle cx="1400" cy="950" r="55" class="phaseflip"/>
+  <text x="1470" y="950" class="small-label">
+    Phase Flip — anterior → posterior tension exchange
+  </text>
+
+  <!-- ===========================
+       CONTINUATION TO SPINE
+       =========================== -->
+  <text x="1420" y="1350" class="small-label">→ continues to spine</text>
+
+</svg>
