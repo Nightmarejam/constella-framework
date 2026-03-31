@@ -170,7 +170,124 @@ This draft outlines how such an architecture might work and provides testable pr
 
 ---
 
-# **9. References (Placeholder)**
+# **9. Resonance-Based Information Gating (New Section — February 2026)**
+
+## 9.1 The Core Idea
+
+A model receiving a query does not just need to know *what* to say.
+It needs to know *whether it is in the right state to say it.*
+
+This is the insight that motivates resonance-based information gating —
+a pre-generation protocol that evaluates the quality and convergence of
+available information before determining what class of output is
+appropriate.
+
+The gate does not block output. It redirects generative energy from
+premature consolidation toward honest incompleteness or targeted
+data collection.
+
+## 9.2 The Bias Mechanism
+
+When the gate evaluates available information it applies dynamic
+context weighting — the same information receives different weight
+depending on current mode:
+
+**Exploration mode (Yang-dominant):**
+- Uncertainty signals receive high weight
+- Gaps and missing data surface as primary output
+- Unverified projections flagged rather than used
+- Model biased toward collecting rather than concluding
+
+**Consolidation mode (Yin-dominant):**
+- Verified, corroborated data receives high weight
+- Gaps become risk flags rather than blockers
+- Synthesis and recommendation output permitted
+- Model biased toward coherent structured output
+
+The same unverified revenue projection becomes a *data gap to fill*
+in exploration mode and a *risk flag to disclose* in consolidation mode.
+Same information, different weight, different output class.
+
+## 9.3 Resonance as the Weighting Criterion
+
+Rather than static document tags (e.g., [VERIFIED], [PROJECTED]),
+resonance-based gating determines information quality dynamically
+from convergence across sources.
+
+**High resonance:** Information confirmed independently across
+multiple sources, time periods, or measurement methods.
+Equivalent to vision + vestibular + proprioception agreeing —
+the body commits to a postural response.
+
+**Low resonance:** Information existing in one source, derived
+from projection, or not yet tested against reality.
+Equivalent to conflicting sensory signals — the body slows
+down and seeks more input before committing.
+
+The gate checks resonance levels of information required to
+produce a given output type. If resonance is insufficient for
+the requested output class, the system stays in exploration mode
+and reports what would be needed to reach consolidation threshold.
+
+This eliminates the need for static tags because classification
+emerges from information structure rather than authorship markup.
+The model performs resonance evaluation at inference time.
+
+## 9.4 Biological Parallel
+
+The body does not tag sensory inputs as verified or unverified.
+It weights them dynamically based on convergence across modalities.
+When vision, vestibular, and proprioception agree, the signal gets
+high weight and the system acts. When they conflict, the system
+enters a holding pattern — micro-buoyancy increases, postural
+commitment decreases, more sensory sampling occurs.
+
+Resonance-based information gating is this same mechanism applied
+to knowledge rather than sensation. It is metacognition implemented
+as a biomechanical protocol.
+
+## 9.5 Relationship to Existing Mechanisms
+
+| Existing Mechanism | Role in Gating |
+|-------------------|----------------|
+| Output-Coherence Sensor | Detects when generated output is outrunning available evidence |
+| Phase-Flip Controller | Switches between exploration and consolidation modes |
+| Attention Rebalancer | Shifts weight toward high-resonance information when coherence drops |
+| Micro-Buoyancy Manager | Maintains stable incompleteness rather than forcing premature closure |
+
+The gate is not a new mechanism — it is the protocol that coordinates
+the four existing mechanisms into a unified pre-generation evaluation.
+
+## 9.6 System-Wide Implementation (Without Static Tags)
+
+Implementation lives in the context injection layer rather than
+in document markup. Every session receives a lightweight protocol
+document specifying:
+
+1. **Current mode** — exploration or consolidation
+2. **Resonance thresholds** — what convergence level permits each output type
+3. **Output class rules** — what the model is permitted to produce at current resonance
+4. **Redirect behavior** — what to produce instead when threshold is not met
+
+The model reads the protocol, evaluates claims it encounters against
+resonance criteria during inference, and self-classifies its output
+appropriately. No static tags required in source documents.
+
+## 9.7 Testable Prediction (New — Prediction 6)
+
+**Prediction 6 — Resonance-Gated Models Produce More Calibrated Outputs**
+
+Models operating with resonance-based information gating should show:
+- Higher rates of honest incompleteness when data is insufficient
+- Lower rates of confident hallucination on underspecified queries
+- Measurably better calibration between stated confidence and accuracy
+- Appropriate output class selection without explicit instruction
+
+Compared to identical models without the gating protocol.
+
+---
+
+# **10. References (Placeholder)**
 
 1. Harmony Framework Complete Document v4.0.0 
 2. Biomechanics of the cranio-cervical junction

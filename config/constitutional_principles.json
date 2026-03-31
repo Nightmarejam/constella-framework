@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ucf-targeted-floor",
+    "name": "Universal Civic Floor requires targeted participation gate",
+    "mechanism": "Universal Civic Floor (UCF)",
+    "evidence_type": "simulation",
+    "experiment_ids": ["5", "6", "7", "9"],
+    "confidence": "high",
+    "summary": "UCF must be a targeted floor with participation requirements, not unconditional support, to prevent population inflation and predator adaptation."
+  },
+  {
+    "id": "ucf-automatic-activation",
+    "name": "UCF activates automatically on diversity threshold",
+    "mechanism": "Universal Civic Floor (UCF)",
+    "evidence_type": "simulation",
+    "experiment_ids": ["9"],
+    "confidence": "high",
+    "summary": "Floor should activate when participation diversity drops below threshold and deactivate when recovered, functioning as pulses not constant subsidies."
+  },
+  {
+    "id": "penumbra-systemic-function",
+    "name": "Penumbra Accord maintains systemic diversity",
+    "mechanism": "Penumbra Accord",
+    "evidence_type": "simulation",
+    "experiment_ids": ["7", "8b", "9"],
+    "confidence": "high",
+    "summary": "Penumbra serves dual function: individual mediation zone AND systemic maintenance of minimum participation diversity during founding phases."
+  },
+  {
+    "id": "gamer-lifecycle-scaffolding",
+    "name": "Minimum-compliance gamers are transitional scaffolding",
+    "mechanism": "Penumbra Accord",
+    "evidence_type": "simulation",
+    "experiment_ids": ["9"],
+    "confidence": "medium",
+    "summary": "GAMER participants peak during system fragility and fade when stability established, indicating healthy structural behavior not failure mode."
+  },
+  {
+    "id": "civic-tome-anticipation",
+    "name": "Civic Tome enables emergent collective anticipation",
+    "mechanism": "Civic Tome",
+    "evidence_type": "simulation",
+    "experiment_ids": ["3"],
+    "confidence": "medium",
+    "summary": "Collective governance anticipation emerges from pattern memory, clear thresholds, and time for rhythms to stabilize without requiring dedicated predictive infrastructure."
+  },
+  {
+    "id": "civic-tome-pattern-retrieval",
+    "name": "Civic Tome optimized for pattern retrieval",
+    "mechanism": "Civic Tome",
+    "evidence_type": "simulation",
+    "experiment_ids": ["3"],
+    "confidence": "medium",
+    "summary": "Civic Tome's amendment history functions as anticipation mechanism, should be optimized for pattern retrieval not just archival."
+  },
+  {
+    "id": "token-complexity-adaptation-ratio",
+    "name": "Token decay must scale with participant adaptation",
+    "mechanism": "Astris/Auctor Token System",
+    "evidence_type": "simulation",
+    "experiment_ids": ["5", "6", "7", "8b", "9"],
+    "confidence": "high",
+    "summary": "Astris decay rate must scale at most as fast as participant adaptation capacity; complexity scaling faster than adaptation causes collapse."
+  },
+  {
+    "id": "token-complexity-monitor",
+    "name": "Token system includes complexity-load monitor",
+    "mechanism": "Astris/Auctor Token System",
+    "evidence_type": "simulation",
+    "experiment_ids": ["5", "6", "7", "8b", "9"],
+    "confidence": "medium",
+    "summary": "Token system should monitor governance complexity vs participant adaptation ratio and pause new demands when threshold exceeded."
+  },
+  {
+    "id": "founding-diversity-before-crisis",
+    "name": "Structural diversity required at system founding",
+    "mechanism": "Core Framework",
+    "evidence_type": "simulation",
+    "experiment_ids": ["8b"],
+    "confidence": "high",
+    "summary": "Diversity mechanisms must be present at founding, not introduced in response to crisis; late diversity is fragile after adaptation forms."
+  },
+  {
+    "id": "pilot-onboarding-diversity",
+    "name": "Pilot onboarding requires multiple participation modes",
+    "mechanism": "Core Framework",
+    "evidence_type": "simulation",
+    "experiment_ids": ["8b"],
+    "confidence": "high",
+    "summary": "Constella pilots must include multiple participation modes from day one; founding window is pre-stress period."
+  },
+  {
+    "id": "strategy-escape-dissolution",
+    "name": "Strategic retreat enables system survival",
+    "mechanism": "Penumbra Accord",
+    "evidence_type": "simulation",
+    "experiment_ids": ["7"],
+    "confidence": "medium",
+    "summary": "Under sustained pressure, temporarily dissolving contested mechanisms allows adversarial specialization to decay and effectiveness to restore."
+  },
+  {
+    "id": "penumbra-dissolution-pathway",
+    "name": "Penumbra includes formal dissolution pathway",
+    "mechanism": "Penumbra Accord",
+    "evidence_type": "simulation",
+    "experiment_ids": ["7"],
+    "confidence": "medium",
+    "summary": "Penumbra Accord crisis protocols should include formal dissolution pathway for contested mechanisms."
+  },
+  {
+    "id": "three-mechanism-interlocking",
+    "name": "Three interlocking mechanisms required for stability",
+    "mechanism": "Core Framework",
+    "evidence_type": "simulation",
+    "experiment_ids": ["9"],
+    "confidence": "high",
+    "summary": "No single mechanism produces stability; founding diversity, targeted floor, and tolerance of minimum-compliance must work together."
+  },
+  {
+    "id": "two-mechanements-insufficient",
+    "name": "Any two mechanisms without third produces lesser outcome",
+    "mechanism": "Core Framework",
+    "evidence_type": "simulation",
+    "experiment_ids": ["5", "6", "7", "8b", "9"],
+    "confidence": "high",
+    "summary": "Any two mechanisms without the third produces collapse or degraded stability; all three together produced only long-run stability."
+  }
+]
