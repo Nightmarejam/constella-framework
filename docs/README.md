@@ -30,6 +30,7 @@ This folder contains detailed guides, templates, and reference material for the 
 - [Main Project README](../README.md) – Overview, installation, and contribution guide.
 - [Gaia/Sky Pilot](pilots/gaia-sky.md) – Short, concrete example.
 - [Gaia/Sky Data Stub](data/gaia-sky.csv) – Matching dataset.
+- [Intuition-First Learning](pedagogy/intuition-first-learning.md) – Constella pedagogy framing.
 
 ---
 
