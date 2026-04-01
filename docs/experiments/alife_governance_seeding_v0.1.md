@@ -232,3 +232,29 @@ Before running the experiment:
 ## Version History
 
 - v0.1 (2026-04-01): Initial design specification
+
+## Generation Zero Findings (2026-04-01)
+
+**Result:** Pass — infrastructure confirmed working.
+
+| Metric | Value |
+|--------|-------|
+| Agents | 50 |
+| Ticks | 10 |
+| Documents written | 500 |
+| alife_lineage count | 50,450 → 50,950 |
+| Mean fitness | 6.224 |
+| Max fitness | 9.174 |
+| Min fitness | 3.911 |
+| Band 2 candidates | 50 of 50 |
+
+**Finding:** Band 1 resource parameters are too permissive.
+All agents survived all ticks, producing no selection pressure.
+Generation 1 will tighten the environment:
+acquisition range 0.5–1.5, loss range 0.4–1.6
+so that Band 1 actually filters the population.
+
+**Governance corpus status:** V-Dem CSV rows dominate
+faithh_knowledge_base (806,109 docs). UDHR and UN Charter
+prose not confirmed indexed. Convergence check deferred
+to after corpus repair session.
