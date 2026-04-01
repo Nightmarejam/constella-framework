@@ -31,6 +31,7 @@ This folder contains detailed guides, templates, and reference material for the 
 - [Gaia/Sky Pilot](pilots/gaia-sky.md) – Short, concrete example.
 - [Gaia/Sky Data Stub](data/gaia-sky.csv) – Matching dataset.
 - [Intuition-First Learning](pedagogy/intuition-first-learning.md) – Constella pedagogy framing.
+- [Constella Governance v0.1](governance/constella_governance_v0.1.md) – Layered transparency, compensation review, and safeguards.
 
 ---
 
