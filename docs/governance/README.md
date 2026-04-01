@@ -27,6 +27,10 @@ Index of governance, policy, and framing documents for the Constella Framework.
 
 - [ALIFE evidence mapping](alife_evidence_mapping.md)
 
+## Experiments
+
+- [ALife Governance Seeding — v0.1](../experiments/alife_governance_seeding_v0.1.md) — design spec: symmetric vs asymmetric information populations, constitution extraction, Celestial Equilibrium fitness.
+
 ---
 
 [← Back to docs index](../README.md)

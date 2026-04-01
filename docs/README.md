@@ -17,6 +17,9 @@ This folder contains detailed guides, templates, and reference material for the 
 - **/celestial-equilibrium/**  
   Documents the symbolic, ethical, and resonant principles forming the foundation of the Celestial Equilibrium doctrine.
 
+- **/experiments/**  
+  Design specifications for empirical and simulation work tied to governance and ALife (e.g. governance seeding).
+
 ---
 
 ## 🧭 How to Use
@@ -34,7 +37,8 @@ This folder contains detailed guides, templates, and reference material for the 
 - [Constella Founding Hypothesis](governance/founding_hypothesis.md) – Core framing: information asymmetry and civic legibility (hypothesis, not a claim).
 - [Governance index](governance/README.md) – All governance documents.
 - [Constella Governance v0.1](governance/constella_governance_v0.1.md) – Layered transparency, compensation review, and safeguards.
+- [ALife Governance Seeding Experiment v0.1](experiments/alife_governance_seeding_v0.1.md) – Symmetric vs asymmetric populations, constitution candidates, ChromaDB lineage.
 
 ---
 
-_Last updated: 2025-08-14_
+_Last updated: 2026-04-01_
