@@ -258,3 +258,40 @@ so that Band 1 actually filters the population.
 faithh_knowledge_base (806,109 docs). UDHR and UN Charter
 prose not confirmed indexed. Convergence check deferred
 to after corpus repair session.
+
+## Parameter Tuning Log (2026-04-01)
+
+Generations 0-3 were parameter tuning runs to establish meaningful
+selection pressure in Band 1. All used Population A (symmetric information).
+
+| Gen | Acquisition | Loss | Start Resources | Survivors | Depletion Events | Stdev |
+|-----|-------------|------|-----------------|-----------|-----------------|-------|
+| 0 | 0.5–2.0 | 0.3–1.5 | 10.0 | 50/50 | 0 | — |
+| 1 | 0.5–1.5 | 0.4–1.6 | 10.0 | 50/50 | 0 | 0.868 |
+| 2 | 0.3–1.2 | 0.5–1.5 | 10.0 | 50/50 | 0 | 0.951 |
+| 3 | 0.3–1.2 | 0.5–1.5 | 3.0  | 35/50 | 45 | 1.021 |
+
+## Confirmed Band 1 Parameters
+
+Generation three parameters are locked for all future experiment runs:
+
+- Acquisition: 0.3–1.2 (mean 0.75)
+- Loss: 0.5–1.5 (mean 1.0)
+- Starting resources: 3.0
+- Expected drift: -0.25 per tick
+- Target survivors: 30-40 of 50 (60-80% pass rate)
+- Fitness range observed: 4.5–9.0, stdev ~1.0
+
+These parameters produce meaningful selection pressure without
+eliminating too much population diversity. The bounce behavior
+(agents recovering from depletion) is retained — it models
+realistic resource dynamics where temporary hardship is survivable.
+
+## Next Steps
+
+- [ ] Run generation four as first "real" experiment generation
+      using confirmed parameters — Population A vs Population B
+      (symmetric vs asymmetric information)
+- [ ] Implement Population B — degraded collective memory access
+      for majority of agents
+- [ ] Begin Band 2 implementation for agents that passed Band 1
