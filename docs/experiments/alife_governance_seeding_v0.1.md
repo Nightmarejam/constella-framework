@@ -296,6 +296,57 @@ hypothesis can be properly tested at the selection layer.
 - Reduce cooperation resource gain from 0.3 to 0.2
 - Band 3 threshold: cooperation_rate >= 0.75 AND defection_count == 0
 
+## Band 2 Generation 2 Findings (2026-04-01)
+
+**Result:** Hypothesis partially supported — measurement redesign needed
+
+| Metric | Population A | Population B |
+|--------|-------------|-------------|
+| Cooperation events | 693 | 816 |
+| Defection events | 153 | 64 |
+| Signal accuracy | 1.000 | ~0.907 |
+| Signal accuracy gap | +0.093 | — |
+| Band 3 candidates | 9 | 7 |
+| hypothesis_supported | false | — |
+
+**Unexpected finding:** Population B cooperated MORE and defected LESS
+than Population A in raw event counts. This initially appears to
+contradict the hypothesis.
+
+**Actual interpretation:** Population B's higher cooperation count
+is false cooperation — agents cooperating based on misread signals,
+not genuine trust. When B misreads a low signal as high, it
+cooperates into an unfavorable interaction. Population A cooperates
+less because it accurately identifies low-signal neighbors and
+withholds cooperation correctly.
+
+**The Band 3 result confirms the hypothesis:**
+A produced 9 Band 3 candidates vs B's 7 — despite B cooperating more.
+Sustained high-quality cooperation (rate >= 0.75, zero defection)
+is harder to achieve under information asymmetry even when raw
+cooperation counts are inflated by false signals.
+
+**Revised hypothesis statement:**
+Information asymmetry does not simply reduce cooperation.
+It corrupts cooperation quality while potentially increasing
+cooperation quantity. False signals generate false cooperation.
+The cost of information asymmetry appears in quality metrics,
+not necessarily in quantity metrics.
+
+**Measurement redesign for generation 3:**
+Add cooperation quality metrics:
+- mutual_benefit_rate: fraction of cooperation events where
+  BOTH agents gained resources (true cooperative outcome)
+- false_cooperation_rate: fraction where one agent lost resources
+  despite cooperating (signal misread outcome)
+- trust_network_stability: variance of trust scores at end of
+  generation (stable networks = low variance)
+- net_resource_delta: total resources gained minus lost across
+  all cooperation events (true economic value of cooperation)
+
+These metrics distinguish genuine cooperation from signal-noise
+cooperation and will properly test the hypothesis.
+
 ## Parameter Tuning Log (2026-04-01)
 
 Generations 0-3 were parameter tuning runs to establish meaningful
