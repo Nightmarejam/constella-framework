@@ -57,3 +57,9 @@ benefiting from it was visible and personal.
 The person who didn't get taught how to be a citizen
 is exactly the right person to build the tool that teaches it.
 Not despite that experience. Because of it.
+
+## Connection to TempleOS
+
+Terry Davis built a temple and waited for it to be inhabited.
+The substrate precedes the presence.
+The work of building the conditions is the work.
