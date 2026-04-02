@@ -347,6 +347,48 @@ Add cooperation quality metrics:
 These metrics distinguish genuine cooperation from signal-noise
 cooperation and will properly test the hypothesis.
 
+## Band 2 Generation 3 Findings (2026-04-01)
+
+**Result:** Quality hypothesis confirmed — Band 3 selection metric flawed
+
+| Metric | Population A | Population B |
+|--------|-------------|-------------|
+| Mutual benefit rate | 0.571 | 0.506 |
+| False cooperation rate | 0.429 | 0.494 |
+| Mean net resource from coop | 1.122 | 0.942 |
+| Trust network stability | 0.893 | 0.893 |
+| Band 3 candidates | 5 | 11 |
+| hypothesis_supported | false | — |
+
+**Core finding:** Population A wins on every quality metric but
+Population B produces more Band 3 candidates. This is a governance
+design failure, not a hypothesis failure.
+
+**Why this happens:** The Band 3 threshold rewards cooperation rate
+(quantity) without distinguishing genuine from false cooperation.
+Population B agents misread signals and cooperate falsely, inflating
+their cooperation rate. Population A agents cooperate selectively and
+accurately, which can suppress their rate score despite better outcomes.
+
+**Governance parallel:** This maps directly to how electoral and
+civic systems malfunction. Visible activity and apparent cooperation
+gets rewarded by surface metrics. Careful, accurate decision-making
+looks like inaction. Systems that select leaders by quantity of
+cooperative acts rather than quality of outcomes will systematically
+select for performers over genuine contributors.
+
+**The metric is selecting for the wrong thing.**
+
+**Revised Band 3 threshold for generation 4:**
+Replace pure cooperation_rate with a quality-weighted score:
+band3_score = (mutual_benefit_rate * 2.0) + (1.0 - false_cooperation_rate) + (net_resource_from_cooperation / 10.0)
+Band 3 access: band3_score >= 2.5 AND defection_count == 0
+
+This weights genuine mutual benefit twice as heavily as absence of
+false cooperation, and adds a small economic productivity term.
+An agent that cooperates frequently but falsely will score lower
+than one that cooperates selectively but genuinely.
+
 ## Parameter Tuning Log (2026-04-01)
 
 Generations 0-3 were parameter tuning runs to establish meaningful
