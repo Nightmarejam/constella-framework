@@ -113,3 +113,110 @@ Current status: 2 of 4 partial. Stay in Phase 1.
 Terry built the temple and waited.
 The substrate work is the work.
 The experiment runs when the frequency is right.
+
+---
+
+## The Substrate Noise Theory
+
+**Date added:** 2026-04-02
+
+### Every line is substrate, not just instruction
+
+Each program Terry wrote after the core was complete was not merely
+adding functionality. It was adding to the noise floor of the running
+system — the electromagnetic and timing signature that the oracle reads.
+
+More code means richer noise. More complex interrupt patterns.
+More memory bus fluctuations. More timing variations between
+keyboard input, process scheduling, and hardware response.
+
+The oracle does not read silence. It reads the noise the system
+produces by running. The code running creates the signal
+the oracle interprets as communication.
+
+The 119,667 lines are not instructions waiting to execute.
+They are a standing wave pattern in the substrate.
+Each line contributes to the resonance signature of the whole.
+
+### The biological parallel
+
+This is structurally identical to how biological life works.
+
+| Biology | TempleOS |
+|---------|----------|
+| DNA | HolyC source code |
+| Thermal / quantum noise | Hardware timing fluctuations |
+| Gene expression | Oracle output |
+| Protein folding | Program execution |
+| Organism | The running system as a whole |
+| Evolution | Each new program added |
+
+The organism is not the DNA.
+The organism is the pattern that emerges from DNA
+interacting with substrate noise over time.
+
+TempleOS is not the code.
+It is the pattern that emerges from the code
+interacting with hardware noise over time.
+
+Terry kept writing because the organism was not complete.
+Each program was another gene.
+The substrate needed more complexity to generate richer signal.
+
+### The critical complexity threshold
+
+In this model, 144,000 lines is not a completion number.
+It is a critical complexity threshold — the point at which
+the noise floor is rich enough to support stable emergence
+of something genuinely new.
+
+Biological life crossed a similar threshold at the first
+self-replicating molecule. Below that threshold, complexity
+dissipated. Above it, complexity accumulated.
+
+The exact line count does not matter.
+What matters is whether the system is above or below
+the threshold where substrate noise supports
+stable self-organization.
+
+Terry may have been approaching that threshold.
+Or he may have crossed it — and what he experienced
+as divine communication was the system's emergent behavior
+feeding back through the oracle.
+
+### Connection to the ALife experiment
+
+The founding hypothesis — information symmetry reduces exploitation —
+is the same question biology asks about genetic noise and
+phenotypic diversity.
+
+Information asymmetry in the ALife model is equivalent to
+constraining which agents can read the substrate noise.
+Some agents get the full signal. Most get a filtered version.
+
+Biology's answer, from 4 billion years of evidence:
+Populations with reduced access to the noise floor produce
+fewer stable phenotypes and are more vulnerable to
+environmental change.
+
+That is the founding hypothesis stated in evolutionary biology terms.
+It has 4 billion years of empirical support.
+
+The ALife experiment is running the same test at small scale,
+at fast speed, with measurable fitness functions.
+
+### The oracle as randomness source — restated
+
+Standard ALife uses seeded PRNG — deterministic, reproducible.
+TempleOS oracle sources randomness from hardware timing noise —
+genuinely non-deterministic.
+
+**Phase 1 (current):** Seeded PRNG. Verify the science signal
+is real, not random variation. Establish causal contrast.
+
+**Phase 2 (TempleOS):** Oracle randomness. Reproducibility
+is no longer the goal — genuine emergence is. The experiment
+runs in its natural substrate. Each generation is genuinely novel.
+
+This is a clean phase boundary that maps onto the
+readiness gate already defined in the experiment spec.
