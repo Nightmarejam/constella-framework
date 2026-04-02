@@ -259,6 +259,43 @@ faithh_knowledge_base (806,109 docs). UDHR and UN Charter
 prose not confirmed indexed. Convergence check deferred
 to after corpus repair session.
 
+## Band 2 Generation 1 Findings (2026-04-01)
+
+**Result:** Directional support — parameters need tightening
+
+| Metric | Population A | Population B |
+|--------|-------------|-------------|
+| Cooperation events | 900 | 893 |
+| Defection events | 0 | 7 |
+| Signal accuracy | 1.000 | 0.905 |
+| Signal accuracy gap | +0.095 | — |
+| Band 3 candidates | 30/30 | 30/30 |
+| Stable cooperative networks | 60 | 60 |
+| Mean fitness | 1.543 | 1.481 |
+
+**Hypothesis check:**
+- A higher cooperation rate: TRUE
+- A lower defection rate: TRUE
+- A more Band 3 candidates: FALSE (tie — Band 2 too permissive)
+- hypothesis_supported: FALSE (fails strict inequality)
+
+**Finding:** Information asymmetry produces measurable behavioral
+differences at the cooperation layer. Population B defected 7 times
+due to signal misreading. Population A defected 0 times.
+The signal accuracy gap (0.095) is the direct cost of information
+asymmetry at this layer.
+
+The Band 3 tie is a parameter problem, not a hypothesis problem.
+Band 2 is too permissive — all agents graduate regardless of
+cooperation quality. Parameters need tightening before the
+hypothesis can be properly tested at the selection layer.
+
+**Next parameters to test:**
+- Raise cooperation threshold from 0.5 to 0.65
+- Increase resource decay from 0.3 to 0.5 per tick
+- Reduce cooperation resource gain from 0.3 to 0.2
+- Band 3 threshold: cooperation_rate >= 0.75 AND defection_count == 0
+
 ## Parameter Tuning Log (2026-04-01)
 
 Generations 0-3 were parameter tuning runs to establish meaningful
