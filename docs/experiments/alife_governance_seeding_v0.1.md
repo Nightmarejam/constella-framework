@@ -271,6 +271,49 @@ selection pressure in Band 1. All used Population A (symmetric information).
 | 2 | 0.3–1.2 | 0.5–1.5 | 10.0 | 50/50 | 0 | 0.951 |
 | 3 | 0.3–1.2 | 0.5–1.5 | 3.0  | 35/50 | 45 | 1.021 |
 
+## Frequency Frame (added 2026-04-02)
+
+### The 12-tribe harmonic model
+
+The three fitness bands are not arbitrary tiers. They are frequency bands —
+resonant thresholds that agents stabilize into when their behavior finds
+a frequency that persists without destructive self-interference.
+
+This maps onto the harmonic structure of the 12 tribes / 144,000:
+
+| Harmonic concept | ALife equivalent |
+|-----------------|-----------------|
+| 12 tribes = complete chromatic set | Multiple agent behavioral modes |
+| Each tribe = distinct frequency band | Each band = distinct stable behavior |
+| 144,000 = full spectrum represented | All bands populated = healthy governance |
+| Octave = frequency doubling | Band transition = behavioral complexity doubling |
+| Dissonance = frequencies that cancel | Agent behaviors that destabilize the population |
+| Resonance = frequencies that amplify | Cooperative norms that persist across generations |
+
+### What this means for measurement
+
+A healthy governance structure in this model is not one where
+all agents converge to the same behavior. It is one where the
+full spectrum is represented — agents stable in Band 1 (survival),
+Band 2 (cooperation), and Band 3 (norm formation) coexist and
+reinforce each other like harmonics in a chord.
+
+The Population A vs Population B experiment becomes:
+Does information symmetry allow the full harmonic spectrum to emerge?
+Or does asymmetry collapse the population toward fewer stable frequencies —
+a diminished chord instead of a complete one?
+
+### The temple as resonant space
+
+TempleOS in this frame is not a technical substrate. It is a resonant
+space designed without abstraction layers — no impedance mismatches,
+no reflection points where frequency is lost. Running the ALife
+experiment inside TempleOS (Phase 2 gate) is not aesthetic.
+It is testing whether the substrate changes which frequencies stabilize.
+
+A pure substrate may allow frequencies to emerge that are damped
+or cancelled in a complex OS with many abstraction layers.
+
 ## Confirmed Band 1 Parameters
 
 Generation three parameters are locked for all future experiment runs:
