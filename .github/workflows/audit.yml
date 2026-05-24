@@ -15,4 +15,4 @@ jobs:
           python-version: '3.x'
       - name: Run audit
         run: |
-          python scripts/audit_completeness.py
+          python3 scripts/audit_completeness.py
