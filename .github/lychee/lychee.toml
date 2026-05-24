@@ -1,7 +1,11 @@
-# Don’t treat code/backticks & non-http tokens as links
+# Don't treat code/backticks & non-http tokens as links
 exclude = [
   "CT:*",               # Civic Tome pseudo refs
-  "mailto:*"
+  "mailto:*",
+  "arxiv.org",          # Rate-limits CI link checkers
+  "psypost.org",        # Aggregator, flaky
+  "techxplore.com",     # Aggregator, flaky
+  "digi-con.org"        # Academic site, intermittent
 ]
 # Retry a couple times for GitHub flakiness
 max_retries = 2
