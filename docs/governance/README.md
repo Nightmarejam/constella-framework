@@ -15,13 +15,13 @@ Index of governance, policy, and framing documents for the Constella Framework.
 
 ## Accords & tokens
 
-- [Penumbra Accord](penumbra_accord.md) (see also [Penumbra_Accord.md](Penumbra_Accord.md))
+- [Penumbra Accord](penumbra_accord.md)
 - [Tokens: Astris / Auctor](tokens_astris_auctor.md)
 - [UCF](ucf.md)
 
 ## Civic narrative
 
-- [Civic Tome](civic_tome.md) (see also [Civic_Tome.md](Civic_Tome.md))
+- [Civic Tome](civic_tome.md)
 
 ## Evidence & pilots
 

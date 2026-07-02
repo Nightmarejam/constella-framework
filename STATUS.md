@@ -31,8 +31,8 @@ See docs/vision/what_we_are_building.md
 - KAS mining at 915 MH/s
 
 ## Known duplicates to clean up later
-- civic_tome.md vs Civic_Tome.md
-- penumbra_accord.md vs Penumbra_Accord.md
+- ~~civic_tome.md vs Civic_Tome.md~~ resolved 2026-07-02 — capitalized WIP stubs removed, lowercase full docs kept
+- ~~penumbra_accord.md vs Penumbra_Accord.md~~ resolved 2026-07-02 — same
 - docs/constella/ overlaps with docs/frameworks/
 
 ## Next actions
