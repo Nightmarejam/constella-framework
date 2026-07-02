@@ -16,11 +16,13 @@ Make the logic core coherent and referenceable:
    proof_of_useful_work_session_notes.md, extracted from the 2026-05-22 thread)
 3. Advance rfcs/001-proof-of-life-consensus.md from DRAFT (telemetry inputs exist:
    gpu_telemetry CSV + SensorBridge health API — see SensorBridge repo pivot doc)
-4. Extract the "Constella framework accuracy review" thread (2025-12-10, 409 msgs —
-   densest in the whole conversation corpus, never mined) and reconcile against
-   current docs
+4. ~~Extract the accuracy-review thread and reconcile~~ — DONE 2026-07-02:
+   docs/reference/concept_lineage.md. Continuity verdict: good; one missing artifact.
 5. Doc-tree clarity: docs/frameworks/ = versioned snapshots (1.6 etc.),
    docs/constella/ = living docs. Not duplicates — label each README accordingly.
+6. **Write the Constella-Harmony Bridge document** — the governance mapping planned
+   Dec 2025 and never written (skeleton table in concept_lineage.md). This is what
+   makes harmony/ part of Constella instead of a lodger in its repo.
 
 ## Active tracks
 ### Governance specs (docs/governance/)
