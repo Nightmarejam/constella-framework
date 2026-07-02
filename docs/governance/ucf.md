@@ -8,6 +8,28 @@ The Universal Civic Floor ensures baseline dignity and access for all participan
 
 ---
 
+## Denomination: the joule anchor
+
+The UCF is denominated in **joules**, not fiat. (Rewritten 2026-07-02 from the
+2026-05-22 proof-of-useful-work session — see
+[proof_of_useful_work_session_notes](../research/proof_of_useful_work_session_notes.md).)
+
+- **What a UCF unit represents:** energy *already expended* in verified useful work —
+  a receipt for work done, not a claim on reserves. This is the anti-Petro rule: no
+  "value in the ground," only value already spent and verified. (Confirmability
+  discipline applied to money: the receipt makes the unit portable.)
+- **Why energy:** the floor is physical — food, shelter, heat, transit, care are all,
+  at bottom, energy deliveries. Denominating in joules keeps the floor honest across
+  fiat inflation and across pilots in different economies.
+- **Fiat is a display conversion**, not the anchor: `H_fiat = H_joules × local
+  energy price`. The pilot default below is a conversion snapshot, re-priced
+  periodically, never the definition.
+- **Paper-token layer:** participation must survive zero technology (a stated design
+  requirement — EMP-resilient, device-free access). Paper tokens carry the same
+  joule denomination; verification happens at redemption, not issuance.
+
+---
+
 ## Allocation Formula
 
 ```
@@ -16,8 +38,10 @@ UCF = min(BasePop × H, 0.25 × Surplus_total)
 
 Where:
 - `BasePop` = base population count
-- `H` = per-capita floor (pilot default: **$200/month** equivalent in goods/services)
-- `Surplus_total` = total available surplus from all sources
+- `H` = per-capita floor, **denominated in joules/month**
+  (pilot display default: ~**$200/month** equivalent in goods/services at current
+  local energy prices — a conversion, not the anchor)
+- `Surplus_total` = total available surplus from all sources, joule-denominated
 
 ---
 
@@ -27,6 +51,9 @@ Where:
 2. **Open Palm (OPP) pledges** - Voluntary contributions
 3. **Genesis interest** - Returns from founding reserves
 4. **Partner grants** - External institutional funding
+5. **Proof-of-useful-work receipts** - Verified energy expenditure (compute, care work,
+   infrastructure) entering as joule-denominated credits — see
+   [rfcs/001](../../rfcs/001-proof-of-life-consensus.md) for the liveness/verification side
 
 ---
 

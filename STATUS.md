@@ -12,17 +12,20 @@ See docs/vision/what_we_are_building.md
 ## Core pass (the active milestone)
 Make the logic core coherent and referenceable:
 1. ~~Commit the confirmability schema~~ — DONE, docs/reference/confirmability.md
-2. Rewrite ucf.md with joule anchor (concept notes: docs/research/
-   proof_of_useful_work_session_notes.md, extracted from the 2026-05-22 thread)
+2. ~~Rewrite ucf.md with joule anchor~~ — DONE 2026-07-02 (joule denomination,
+   fiat-as-display-conversion, paper-token layer, PoUW funding source)
 3. Advance rfcs/001-proof-of-life-consensus.md from DRAFT (telemetry inputs exist:
    gpu_telemetry CSV + SensorBridge health API — see SensorBridge repo pivot doc)
 4. ~~Extract the accuracy-review thread and reconcile~~ — DONE 2026-07-02:
    docs/reference/concept_lineage.md. Continuity verdict: good; one missing artifact.
-5. Doc-tree clarity: docs/frameworks/ = versioned snapshots (1.6 etc.),
-   docs/constella/ = living docs. Not duplicates — label each README accordingly.
-6. **Write the Constella-Harmony Bridge document** — the governance mapping planned
-   Dec 2025 and never written (skeleton table in concept_lineage.md). This is what
-   makes harmony/ part of Constella instead of a lodger in its repo.
+5. ~~Doc-tree clarity~~ — DONE 2026-07-02 (both READMEs labeled: frameworks/ =
+   frozen snapshots, constella/ = living docs)
+6. ~~Write the Constella-Harmony Bridge document~~ — DONE 2026-07-02:
+   harmony/docs/constella_harmony_bridge_v1.0.0.md (10-row mapping, design-checklist
+   + FAITHH-reasoning + FGS-pilot uses, falsifiability boundary)
+
+**Core pass: 5 of 6 items complete.** Remaining: item 3 (advance RFC 001) — best done
+when Gen8 returns and the telemetry inputs are live again.
 
 ## Active tracks
 ### Governance specs (docs/governance/)
