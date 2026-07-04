@@ -32,7 +32,7 @@ jobs:
         with:
           node-version: "20"
       - name: Install markdownlint-cli
-        run: npm i -g markdownlint-cli
+        run: npm i -g markdownlint-cli@0.45.0   # pinned so CI ruleset == local
       - name: Run markdownlint
         run: markdownlint "**/*.md" -c .markdownlint.json
 
