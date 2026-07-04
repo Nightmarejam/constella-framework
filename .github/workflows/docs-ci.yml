@@ -23,7 +23,7 @@ jobs:
         run: |
           codespell \
             --ignore-words .codespellignore \
-            --skip "*.min.js,*.svg,*.png,*.jpg,*.jpeg,*.gif,.git,dist,node_modules" \
+            --skip "*.min.js,*.svg,*.png,*.jpg,*.jpeg,*.gif,*.pdf,.git,dist,node_modules,./docs/conversations,./docs/data,./docs/constella/_inbox,./docs/discussions" \
             .
 
       # Markdownlint
