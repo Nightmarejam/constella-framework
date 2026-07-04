@@ -2,94 +2,64 @@
 
 ![Docs CI](https://github.com/Nightmarejam/constella-framework/actions/workflows/docs-ci.yml/badge.svg)
 
-Constella is a civic governance framework oriented around resonance, dignity, and renewal. This README gives you the essentials and points to the full docs.
+A civic governance framework built around one question: **what would a system look like
+if it refused to treat anything as true — or act on it — without a checkable receipt?**
 
-## Quick start
+It is also the **logic basis** for my AI companion ([FAITHH](https://github.com/Nightmarejam/faithh-pet-terminal)):
+the reasoning discipline the companion runs on is the same discipline this framework
+proposes for a polity.
 
-- **Core Framework:** `docs/governance/core_framework.md`
-- **Map of Intent:** `docs/governance/map_of_intent.md`
-- **Tokens (Astris/Auctor):** `docs/governance/tokens_astris_auctor.md`
-- **UCF:** `docs/governance/ucf.md`
-- **Civic Tome (spec):** `docs/governance/civic_tome.md`
-- **Penumbra Accord:** `docs/governance/penumbra_accord.md`
-- **Governance index:** `docs/governance/`
-- **Tome index:** `docs/tome/index.md`
-
-## Development
-
-- **Contributing guide:** `CONTRIBUTING.md`
-- **Templates:** `templates/`
-- **Pilots:** `docs/pilots/`
+> One node in a personal AI ecosystem — see the [ecosystem map](https://github.com/Nightmarejam).
+> A **framework and design**, human-directed and AI-assisted. See [PROVENANCE.md](PROVENANCE.md).
 
 ---
 
-© Constella — v1.6.0
+## The idea (one concept)
+
+Most systems — technical or civic — drift because claims get treated as fact without a
+trail. Constella's core move is **attestation**: every claim carries a tier —
+`confirmed` (with a receipt), `asserted`, or `speculative` — and confidence only rises
+when independent sources corroborate. Governance, money, and identity are all rebuilt on
+that one honesty rule.
+
+## The concepts, one at a time
+
+Read in this order — each builds on the last:
+
+1. **[Founding hypothesis](docs/governance/founding_hypothesis.md)** — the honest
+   starting assumption (labeled *unprovable* on purpose, not hidden).
+2. **[Confirmability / the attestation layer](docs/reference/confirmability.md)** — the
+   epistemic floor: tiers, receipts, precedence. The one idea everything else inherits.
+3. **[Tokens — Astris & Auctor](docs/governance/tokens_astris_auctor.md)** — participation
+   (outward) and accountability (grounding); a system needs both or it starves or drifts.
+4. **[Universal Civic Floor](docs/governance/ucf.md)** — a baseline of dignity, denominated
+   in **joules** (energy already spent), not fiat.
+5. **[Penumbra Accord](docs/governance/penumbra_accord.md)** — how dissent is turned into
+   accountability instead of treated as failure.
+6. **[Proof of Life](rfcs/001-proof-of-life-consensus.md)** + **[PoW basis & attestation](rfcs/002-pow-basis-and-attestation.md)**
+   — identity as *verified human presence*, secured by hardware attestation, not raw compute.
+7. **[Constella–Harmony Bridge](harmony/docs/constella_harmony_bridge_v1.0.0.md)** — why
+   the civic architecture and a body-resonance model turn out to be the same shape.
+
+Two reference docs tie it together: **[concept lineage](docs/reference/concept_lineage.md)**
+(how each idea traces from origin to today) and the confirmability schema above.
+
+## Status & scope (honest)
+
+- This is a **framework and design** — specs, RFCs, and hypotheses. It is **not** a live
+  or deployed governance system, and it has run **zero pilots** so far.
+- The founding hypothesis is an honest assumption, not a proven claim.
+- Work tagged `speculative` (much of the attestation, PET-device, and chain material) is
+  **thinking on paper** — the tiers tell you what's what.
+- Core design pass is 5/6 complete; the remaining item waits on live telemetry. See
+  [STATUS.md](STATUS.md).
+
+## Contributing & structure
+
+- **How to contribute:** [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Living docs** vs. **frozen version snapshots**: `docs/constella/` vs `docs/frameworks/`
+- **Governance index:** `docs/governance/` · **Vision:** `docs/vision/` · **RFCs:** `rfcs/`
 
 ---
 
-# Contributing to Constella
-
-Thanks for improving the framework. This guide keeps PRs smooth and CI green.
-
-## Branches & PRs
-
-- Branch naming: `type/short-topic` (e.g., `docs/tome-index`, `pilot/gaia-p1`).
-- One focused change per PR. Link to related issues/entries.
-- Use the PR template and fill **Intent**, **Measures**, **Review Cadence**.
-
-## Local checks (match CI)
-
-Run all docs checks locally before pushing:
-
-```bash
-# spell check
-codespell --ignore-words .codespellignore .
-
-# markdown lint
-markdownlint "**/*.md" -c .markdownlint.json
-
-# link check (requires lychee: `brew install lychee` or use Docker)
-lychee --config .github/lychee/lychee.toml .
-# or via Docker
-# docker run --rm -v "$PWD":/input lycheeverse/lychee --config .github/lychee/lychee.toml .
-```
-
-## Adding to the Civic Tome
-
-1. Pick a template from `docs/tome/templates/`.
-2. Create a dated file in the correct folder, e.g. `docs/tome/threads/YYYY-MM-DD_<slug>.md`.
-3. Update `docs/tome/index.md` (add link under **Latest**).
-4. Submit a PR labeled `docs` + `tome`.
-
-## Style
-
-- Markdown: use sentence case for headings; wrap naturally; lists separated by blank lines.
-- Links: prefer repository‑relative paths (e.g., `docs/governance/ucf.md`).
-- Privacy: redact personal data in Tome entries; keep summaries minimal.
-
-## Release flow
-
-- PRs merged to `main` update the Draft Release (Release Drafter).
-- Tagging a release publishes notes. Version bump: update `README` and cut tag.
-
----
-
-## Status (2026-07-02)
-
-Core pass 5/6 complete: confirmability schema (docs/reference/confirmability.md),
-concept lineage map (docs/reference/concept_lineage.md), UCF joule anchor,
-Constella–Harmony Bridge (harmony/docs/constella_harmony_bridge_v1.0.0.md), doc-tree
-labels. Remaining: RFC 001 advance (gated on live telemetry). See STATUS.md.
-
-## The ecosystem (how this repo fits)
-
-| Repo | Role |
-|---|---|
-| [constella-framework](https://github.com/Nightmarejam/constella-framework) | Civic governance framework — also the **logic basis** for everything here (confirmability tiers, concept lineage, Harmony bridge) |
-| [faithh-pet-terminal](https://github.com/Nightmarejam/faithh-pet-terminal) | FAITHH — personal AI companion: Flask + ChromaDB RAG + vLLM on a Proxmox homelab |
-| [SensorBridge](https://github.com/Nightmarejam/SensorBridge) | Host→VM hardware telemetry (gRPC/WMI); pivoted to node-health monitoring feeding FAITHH |
-| [celestial-equilibrium](https://github.com/Nightmarejam/celestial-equilibrium) | Doctrine text (CC BY 4.0), consumed by constella as a submodule |
-| [runbook-to-rule-them-all](https://github.com/Nightmarejam/runbook-to-rule-them-all) | Ops runbooks for the homelab systems |
-| homelab / research-notes / tomcat-sound | Private: hardware+pipeline knowledge, theory notes, business records |
-
-Work is human-directed and AI-assisted — see [PROVENANCE.md](PROVENANCE.md).
+© Constella — v1.6.0 · consumes the [Celestial Equilibrium](https://github.com/Nightmarejam/celestial-equilibrium) doctrine as a submodule.
