@@ -7,18 +7,21 @@ This file summarizes priority rankings, partner mentions, and next steps derived
 ## 📊 Priority Rankings (Frequency)
 
 **Priority 1 (Top Project)**
+
 - 🥇 Research Matchmaking Engine (RME) → 6 votes
 - 🥈 Project Eden → 2
 - 🥉 Civic Tome → 1
 - (1 entry messy text but aligned with “review cycle for Eden + Harmony”)
 
 **Priority 2**
+
 - Project Eden → 5  
 - RME → 2  
 - Eden (Housing Retrofits variant) → 2  
 - Others scattered (1 each)
 
 **Priority 3**
+
 - 🥇 Harmony Movement → 6 votes
 - RME → 1  
 - Progressive Settlement → 1  

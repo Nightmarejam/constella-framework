@@ -36,17 +36,16 @@ Port configurable via environment variable (currently 5560)
 
 The backend supports three provider classes:
 
-Provider	Status	Notes
-local_webui	✅ Working	text-generation-webui OpenAI-compatible API on port 7001
-ollama	⚠️ Enabled but secondary	Available, not primary for FAITHH
-groq	❌ Disabled	No API key configured
+Provider Status Notes
+local_webui ✅ Working text-generation-webui OpenAI-compatible API on port 7001
+ollama ⚠️ Enabled but secondary Available, not primary for FAITHH
+groq ❌ Disabled No API key configured
 
 Routing metadata is returned on every response.
 
 2.3 Confirmed Endpoints
 Health
 GET /health
-
 
 Returns:
 
@@ -59,14 +58,12 @@ backend OK status
 Chat
 POST /api/chat
 
-
 Payload example:
 
 {
   "message": "Ping",
   "provider_preference": "local"
 }
-
 
 Confirmed behavior:
 
@@ -120,7 +117,7 @@ This is a success condition, not a failure.
 
 5. UI Connectivity Status
 
-FAITHH PET v4 HTML was patched via sed to point to backend on http://localhost:5560
+FAITHH PET v4 HTML was patched via sed to point to backend on <http://localhost:5560>
 
 Connectivity confirmed
 
@@ -137,7 +134,6 @@ FAITHH Flask Backend (5560)
         |-- local_webui → text-generation-webui (7001)
         |-- ollama      → localhost:11434
         |-- groq        → api.groq.com (disabled)
-
 
 The backend:
 
@@ -164,7 +160,6 @@ Mechanism:
 Environment variable:
 
 FAITHH_CONTEXT_FILES="ARCHITECTURE.md;README.md;START_HERE.md"
-
 
 Backend reads files
 

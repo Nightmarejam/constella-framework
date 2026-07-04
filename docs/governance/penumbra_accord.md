@@ -11,6 +11,7 @@ Declare Harm → Mediation → Repair Contract → Reintegration
 ## Purpose
 
 The Penumbra Accord governs edge cases and disputes within the Constella ecosystem. It prioritizes:
+
 - **Restorative over punitive** approaches
 - **Repair** of harm rather than punishment
 - **Reintegration** of participants back into the community
@@ -25,12 +26,14 @@ The Penumbra Accord governs edge cases and disputes within the Constella ecosyst
 ## Mediator Role
 
 Mediators are trained in:
+
 - Restorative practice
 - Trauma-aware communication
 
 ## Metrics
 
 The Penumbra system tracks:
+
 - Time in conflict (goal: minimize)
 - Repair completion rate
 - Recurrence rate (goal: minimize repeat conflicts)

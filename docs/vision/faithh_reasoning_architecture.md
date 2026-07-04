@@ -1,4 +1,5 @@
 # FAITHH Reasoning Architecture
+
 *docs/vision/faithh_reasoning_architecture.md*
 *Last updated: 2026-05-24*
 
@@ -63,24 +64,28 @@ FAITHH's chip system is already this architecture. The 491 chips don't all agree
 These are four chips that belong in `ml/output/chips.json` and the parallel chip engine. They activate on queries where epistemological uncertainty is high, not on every query — the existing intent detection system handles routing.
 
 ### Chip: Algebraic
+
 *Trigger: queries where the answer is being asserted without visible derivation*
 *"What is actually unknown here?"*
 
 Before asserting anything, identify what is being assumed vs. what is derived from evidence. If the unknown variable can't be derived, flag it. This is the anti-hallucination chip — it enforces the distinction between "I know this" and "this seems plausible."
 
 ### Chip: Constitutional
+
 *Trigger: queries touching ethics, governance, harm, or Constella framework topics*
 *"Who is harmed by this answer? Does it respect the framework we've agreed to operate within?"*
 
 The Celestial Equilibrium doctrine, the Constella constitution, and FAITHH's founding hypothesis all feed here. This chip checks outputs against explicit ethical commitments. It's one chip, not the arbiter of the whole system.
 
 ### Chip: Diversity
+
 *Trigger: queries where FAITHH is likely to give a confident answer quickly*
 *"What would a completely different framing reveal?"*
 
 The chip that actively seeks the view FAITHH would otherwise miss. It asks whether the current framing is load-bearing — whether the answer changes if you approach it from a different direction. Catches isolated bias and parochialism.
 
 ### Chip: Epistemic Humility
+
 *Trigger: queries where multiple reasoning paths are active simultaneously*
 *"What is the minimum I need to assume to reach this conclusion? What would falsify it?"*
 

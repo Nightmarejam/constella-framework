@@ -1,4 +1,5 @@
 # Confirmability schema — the Attestation layer
+
 Status: v1 — committed 2026-07-02. **ADOPTED as the ecosystem's main layer 2026-07-02:
 "Attestation" is the umbrella name; confirmability is its epistemic half.** This was
 designed in conversation (April–June 2026) and has been operating uncommitted ever
@@ -7,8 +8,10 @@ workflow all already use it. This file makes it canonical. Constella is the basi
 AI logic stack; attestation is its floor.
 
 ## Attestation — the main layer (adopted name)
+
 **Attestation = attaching checkable provenance to something and refusing to treat it as
 true (or act on it) without it.** Three faces, one rule:
+
 - **Epistemic** (this schema): tier + cite + corroborate a *claim*. FAITHH's "show your
   receipts."
 - **Action** (autonomy): tier-gated action — act on `confirmed`, confirm on `asserted`,
@@ -19,6 +22,7 @@ true (or act on it) without it.** Three faces, one rule:
 The tiers below are the shared vocabulary across all three.
 
 ## Tiers
+
 Every stored fact, extracted entry, and system-state claim carries exactly one tier:
 
 - **confirmed** — backed by a receipt: a live-system check, a git commit, a benchmark
@@ -31,6 +35,7 @@ Every stored fact, extracted entry, and system-state claim carries exactly one t
   reasoning-as-fact; lives in research-notes and idea docs.
 
 ## Rules
+
 1. **No promotion without a receipt.** A fact moves to `confirmed` only when checked
    against the system it describes (or a durable artifact like git history). Tagging
    discipline: `[VERIFY]` marks asserted facts queued for promotion.
@@ -45,6 +50,7 @@ Every stored fact, extracted entry, and system-state claim carries exactly one t
    still asserted. The tier records provenance, not vibes.
 
 ## Where it's already applied (receipts for this schema itself)
+
 - homelab: docs/hardware/*.md, docs/repairs/*.md (tiered extraction entries)
 - faithh-pet-terminal: CORRECTIONS.md workflow — [git] items applied, [VERIFY] held
 - research-notes: README stance (everything speculative until sourced)

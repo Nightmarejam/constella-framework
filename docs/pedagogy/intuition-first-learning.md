@@ -8,17 +8,20 @@ The formal framework arrives as confirmation, not instruction.
 ## The Three-Stage Arc
 
 ### Stage 1 - Sense
+
 The learner follows what feels true without vocabulary.  
 Questions emerge from lived experience, not curriculum.  
 No right answer is expected. Noticing is the work.
 
 ### Stage 2 - Pattern
+
 Connections surface across things already sensed.  
 The learner recognizes that multiple observations
 point at the same underlying structure -
 often named differently across different fields.
 
 ### Stage 3 - Name
+
 The formal concept arrives and clicks into place.  
 Because the learner already knows the thing
 experientially, the name becomes a handle,

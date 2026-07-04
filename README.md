@@ -5,6 +5,7 @@
 Constella is a civic governance framework oriented around resonance, dignity, and renewal. This README gives you the essentials and points to the full docs.
 
 ## Quick start
+
 - **Core Framework:** `docs/governance/core_framework.md`
 - **Map of Intent:** `docs/governance/map_of_intent.md`
 - **Tokens (Astris/Auctor):** `docs/governance/tokens_astris_auctor.md`
@@ -15,6 +16,7 @@ Constella is a civic governance framework oriented around resonance, dignity, an
 - **Tome index:** `docs/tome/index.md`
 
 ## Development
+
 - **Contributing guide:** `CONTRIBUTING.md`
 - **Templates:** `templates/`
 - **Pilots:** `docs/pilots/`
@@ -24,16 +26,19 @@ Constella is a civic governance framework oriented around resonance, dignity, an
 © Constella — v1.6.0
 
 ---
+
 # Contributing to Constella
 
 Thanks for improving the framework. This guide keeps PRs smooth and CI green.
 
 ## Branches & PRs
+
 - Branch naming: `type/short-topic` (e.g., `docs/tome-index`, `pilot/gaia-p1`).
 - One focused change per PR. Link to related issues/entries.
 - Use the PR template and fill **Intent**, **Measures**, **Review Cadence**.
 
 ## Local checks (match CI)
+
 Run all docs checks locally before pushing:
 
 ```bash
@@ -50,23 +55,27 @@ lychee --config .github/lychee/lychee.toml .
 ```
 
 ## Adding to the Civic Tome
+
 1. Pick a template from `docs/tome/templates/`.
 2. Create a dated file in the correct folder, e.g. `docs/tome/threads/YYYY-MM-DD_<slug>.md`.
 3. Update `docs/tome/index.md` (add link under **Latest**).
 4. Submit a PR labeled `docs` + `tome`.
 
 ## Style
+
 - Markdown: use sentence case for headings; wrap naturally; lists separated by blank lines.
 - Links: prefer repository‑relative paths (e.g., `docs/governance/ucf.md`).
 - Privacy: redact personal data in Tome entries; keep summaries minimal.
 
 ## Release flow
+
 - PRs merged to `main` update the Draft Release (Release Drafter).
 - Tagging a release publishes notes. Version bump: update `README` and cut tag.
 
 ---
 
 ## Status (2026-07-02)
+
 Core pass 5/6 complete: confirmability schema (docs/reference/confirmability.md),
 concept lineage map (docs/reference/concept_lineage.md), UCF joule anchor,
 Constella–Harmony Bridge (harmony/docs/constella_harmony_bridge_v1.0.0.md), doc-tree

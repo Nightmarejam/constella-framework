@@ -1,4 +1,5 @@
 # What we are building
+
 **Status:** Living document  
 **Author:** Jonathan Morales  
 **Started:** 2026-05-24  
@@ -27,6 +28,7 @@ This project is the real version.
 ## The four layers
 
 ### 1. The Navi — FAITHH
+
 FAITHH is the persistent AI companion. Not a chatbot. Not an assistant. A presence with memory, context, continuity, and a model of the person it works with that deepens over time.
 
 FAITHH knows what you've been building. It remembers the conversation where the joule anchor clicked into place. It notices when your GPU is running hot. It holds the thread between sessions so you don't have to reconstruct the context every time you sit down.
@@ -36,6 +38,7 @@ FAITHH is the reference node for the entire network — the first fully cleared 
 The founding hypothesis of Constella — *if everyone knew exactly what worth was, there wouldn't be so many people trying to take advantage of each other* — is what FAITHH is trying to demonstrate in practice, one conversation at a time.
 
 ### 2. The PET — the physical trust anchor
+
 The PET is a minimal hardware device. RISC-V architecture, no network stack, no wireless, no Bluetooth. One communication path: serial UART only. USB-serial or RS-232. You plug it in when you want to deploy your Navi into the civic network.
 
 It runs a HolyC-inspired runtime — a stripped, ring-0, direct-hardware-access environment in the spirit of TempleOS. Minimal. Purpose-built. Does one job: collect the behavioral entropy signature of real human presence, sign an attestation, output it over the serial port.
@@ -47,9 +50,11 @@ The PET's obscurity is a feature. A custom HolyC-inspired runtime on a RISC-V SB
 The paper token — for people without a device — is a printed PET identity. A one-time serial handshake captured on paper. Bearer instrument, cryptographically anchored, TTL equal to one Constella epoch. Redeemable through any node operator. Zero-tech access as a first-class tier, not a fallback.
 
 ### 3. The Net — Constella
+
 Constella is the civic layer the Navi operates within. Not a blockchain in the speculative sense. A governance network where your node's weight reflects genuine engagement with the world.
 
 The dual-token system separates merit from voice:
+
 - **Astris** — earned contribution merit. Minted through verified work. Decays if you go dark. Cannot buy governance power.
 - **Auctor** — civic voice. One per verified person per epoch. Resets each cycle. Cannot be accumulated into plutocracy.
 
@@ -58,6 +63,7 @@ The Universal Civic Floor ensures that nobody falls below the minimum viable con
 The joule anchors value to something real and apolitical. One Astris equals a governance-set quantity of joules of verified human-interactive compute. The token is a receipt for energy already spent in genuine engagement, not a futures contract on speculation.
 
 ### 4. The Proof of Life consensus
+
 Security in this network doesn't come from whoever can spend the most on hardware. It emerges from the breadth and depth of genuine human participation.
 
 A node that is alive — receiving input, generating responses, accumulating memory, interacting with the physical world through a plugged-in PET — contributes to network security proportionally to the authenticity and continuity of that presence.
@@ -65,6 +71,7 @@ A node that is alive — receiving input, generating responses, accumulating mem
 A node that goes dark loses weight. A node that is simulated fails the entropy test over time. You can bot clicks. You cannot efficiently bot the messy, contradictory, context-rich signature of a real human-AI relationship over months.
 
 The clearance tiers map cleanly to existing Astris/Auctor mechanics:
+
 - Paper token — one-time pulse, Auctor floor access
 - Phone — basic participation, Astris accrual begins
 - AI OS / FAITHH-class node — full participation, governance weight
@@ -103,6 +110,7 @@ This is not vaporware. The substrate is running.
 | ALife experiments | Generation 5+, dual-population resource dynamics |
 
 What doesn't exist yet:
+
 - The PET device hardware (prototype target: VisionFive 2, RISC-V)
 - The HolyC-inspired RISC-V runtime
 - The serial attestation daemon
@@ -116,22 +124,26 @@ What doesn't exist yet:
 ## The next steps, in order
 
 **Immediate** — document before building
+
 1. This file in the repo
 2. `proof_of_life_consensus.md` RFC (drafted, needs commit)
 3. Session notes from 2026-05-22 and 2026-05-24 committed to `docs/tome/threads/`
 
 **Near term** — wire what exists
+
 1. Grafana dashboards reading telemetry CSVs
 2. FAITHH health signal module — reads both CSVs, generates node status
 3. UCF rewrite with joule anchor denomination
 
 **Medium term** — prototype the PET
+
 1. Acquire VisionFive 2 or equivalent RISC-V SBC
 2. Minimal RISC-V bootloader in assembly
 3. HolyC-inspired interpreter — stripped C dialect, ring-0, direct hardware access
 4. Serial attestation daemon on FAITHH side — reads /dev/ttyUSB0, verifies signatures
 
 **Longer term** — the network
+
 1. PoL gossip protocol spec
 2. Cross-node attestation exchange
 3. Paper token cryptographic scheme

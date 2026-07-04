@@ -1,10 +1,12 @@
 # Concept lineage — December 2025 accuracy review → repo today
+
 Extracted 2026-07-02 from "Constella framework accuracy review" (2025-12-10, 409 msgs —
 the densest thread in the conversation corpus). Purpose: verify continuity between the
 ideas as originally laid out and the repo as it stands, and record the lineage so
 sorting happens at the **concept** level (a dozen items), never the message level (15k+).
 
 ## Verdict summary
+
 Continuity is GOOD. Of everything planned in that session, one artifact is missing,
 one connection is undocumented, and nothing contradicts current docs.
 
@@ -21,6 +23,7 @@ one connection is undocumented, and nothing contradicts current docs.
 | RAG failure: 93k conversation chunks drowning 114 canonical doc chunks; category-metadata fix | became faithh commit `db3a2d6` ("penalize chat_export in reranking", May 2026) + the pipeline's never-trust-summaries rule | ✅ lesson institutionalized — receipt-traceable across 5 months |
 
 ## The one broken link, and why it matters
+
 The Constella-Harmony Bridge is the document that makes Harmony *part of* Constella
 rather than a lodger in its repo. Today `harmony/` sits in the repo with no doc
 explaining the mapping — exactly the "connection between old and new" gap this review
@@ -28,12 +31,14 @@ was looking for. The full mapping already exists in the Dec 10 thread (table abo
 the skeleton). Writing it is core pass item 6.
 
 ## Method note (the anti-overwhelm principle)
+
 This file is the pattern for sorting at scale: don't sort information, track concepts.
 Each concept gets one lineage row: origin thread → current home → verdict
 (landed / evolved / missing / contradicted). ~15,000 messages reduce to ~10 rows.
 When a future synthesis batch lands, extend the rows rather than re-reading history.
 
 ## Security note from the source thread
+
 A Groq API key was pasted in plaintext in the Dec 10 conversation. It exists in the
 chat exports (and possibly in Gen8's indexed conversation chunks). **Rotate it** at
 console.groq.com if it hasn't been already.

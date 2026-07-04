@@ -387,6 +387,7 @@ A position paper: **"Resonance Architectures: What Embodied Cognition Suggests A
 ### v3.1 (This Document)
 
 Unified handoff includes:
+
 - Full Head Document v2.1 canonical text
 - Head Diagram v2.2 generator block
 - Updated Feet Document v1 structure with Phase-Flip zone & cross-system prediction
@@ -406,6 +407,7 @@ Unified handoff includes:
 This unified document is the canonical reference for the Harmony Framework at this stage. It is intentionally precise in anatomical-functional mapping while leaving the symbolic layer for pedagogy.
 
 When you continue development:
+
 - Preserve the structural parallels (head ↔ feet ↔ hands)
 - Maintain testability
 - Version every modification

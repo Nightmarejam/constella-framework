@@ -156,6 +156,7 @@ evaluated for extraction using three criteria:
 
 Norms meeting all three criteria are written to
 `faithh_knowledge_base` as governance candidates with metadata:
+
 - Source: alife_experiment
 - Generation: N
 - Population: A or B
@@ -274,6 +275,7 @@ to after corpus repair session.
 | Mean fitness | 1.543 | 1.481 |
 
 **Hypothesis check:**
+
 - A higher cooperation rate: TRUE
 - A lower defection rate: TRUE
 - A more Band 3 candidates: FALSE (tie — Band 2 too permissive)
@@ -291,6 +293,7 @@ cooperation quality. Parameters need tightening before the
 hypothesis can be properly tested at the selection layer.
 
 **Next parameters to test:**
+
 - Raise cooperation threshold from 0.5 to 0.65
 - Increase resource decay from 0.3 to 0.5 per tick
 - Reduce cooperation resource gain from 0.3 to 0.2
@@ -335,6 +338,7 @@ not necessarily in quantity metrics.
 
 **Measurement redesign for generation 3:**
 Add cooperation quality metrics:
+
 - mutual_benefit_rate: fraction of cooperation events where
   BOTH agents gained resources (true cooperative outcome)
 - false_cooperation_rate: fraction where one agent lost resources

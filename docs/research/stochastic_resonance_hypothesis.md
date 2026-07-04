@@ -57,6 +57,7 @@ uncertainty that reflects genuine environmental complexity
 rather than manufactured information asymmetry.
 
 The distinction is between:
+
 - Manufactured asymmetry (some agents deliberately denied information)
 - Calibrated uncertainty (all agents operating in genuine complexity)
 

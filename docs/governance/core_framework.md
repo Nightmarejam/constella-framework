@@ -1,8 +1,10 @@
 # Constella Core Framework — Purpose & Flow (v1.0 draft)
 
 ## I. Purpose
+
 Constella envisions civic life as a **resonant, regenerative system**.  
 It is designed to:
+
 - Provide **continuity** across generations.
 - Foster **resonance** of individual contributions.
 - Guarantee **dignity** through shared support.
@@ -11,6 +13,7 @@ It is designed to:
 ---
 
 ## II. Flow of the Framework
+
 Constella’s life cycle can be read as a **sequence of flows**, each linked like harmonic steps:
 
 1. **Genesis Pool (Origin Flow)**  
@@ -37,6 +40,7 @@ Constella’s life cycle can be read as a **sequence of flows**, each linked lik
 ---
 
 ## III. Pillars of the Framework
+
 Each pillar acts as an **anchor node** in the system:
 
 - **Civic Orchestration** — rotating facilitation, thread governance.  
@@ -49,6 +53,7 @@ Each pillar acts as an **anchor node** in the system:
 ---
 
 ## IV. Harmonic Pairings
+
 Each flow mirrors a natural metaphor:
 
 - Genesis ↔ birth of possibility  
@@ -62,7 +67,9 @@ Each flow mirrors a natural metaphor:
 ---
 
 ## V. Starting Line
+
 Every cycle begins with:
+
 1. **Genesis** → contribution creates Astris.  
 2. **Thread formation** → intent defines direction.  
 3. **Orchestration** → facilitation balances voices.  
@@ -72,7 +79,9 @@ From here, the framework unfolds into its full harmonic cycle.
 ---
 
 ## VI. Civic Vision
+
 Constella is not a static constitution but a **living score**:  
+
 - Each participant is a note.  
 - Each thread is a melody.  
 - Each cycle builds into harmony.  

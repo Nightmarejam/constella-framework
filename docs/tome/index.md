@@ -3,6 +3,7 @@
 Below is a rolling list of the **20 most recent entries** across categories. Add entries in the folders below and update this index in the same PR.
 
 ## Latest
+
 - 2025-08-19 — [Gaia Phase 0 — Resident Windows (Precedent)](./precedents/2025-08-19_gaia_phase-0_resident-windows.md)
 - 2025-08-19 — [Gaia Phase 0 — 90-day Checkpoint](./outcomes/2025-08-19_gaia_phase-0_outcome.md)
 - 2025-08-19 — [Gaia Phase 0 — Vault Record](./vaults/2025-08-19_gaia_phase-0_vault.md)
@@ -12,6 +13,7 @@ Below is a rolling list of the **20 most recent entries** across categories. Add
 ---
 
 ## Categories
+
 - [Intents](./intents/)
 - [Threads](./threads/)
 - [Vaults](./vaults/)

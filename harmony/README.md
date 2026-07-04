@@ -35,6 +35,7 @@ harmony/
 ## Integration with Constella
 
 The Harmony Framework's symbolic layer maps to Constella governance:
+
 - Phase Flip → Penumbra Accord (dissent → constructive accountability)
 - Yang/Yin → Astris/Auctor tokens
 - Micro-buoyancy → Universal Civic Floor

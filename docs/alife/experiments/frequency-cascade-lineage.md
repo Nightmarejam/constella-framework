@@ -63,6 +63,7 @@ only gets selected for when the population is stable enough to support it.
 ### Measurement
 
 Track a "lineage coherence" metric across generations:
+
 - Do agents in generation N "sound like" agents in generation 1?
 - At what generation does recognizable character first emerge?
 - Does the character persist under perturbation?

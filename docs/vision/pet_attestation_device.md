@@ -1,16 +1,19 @@
 # PET — Personal attestation device (design capture)
+
 tier: speculative/design — captured 2026-07-02 from a deep-dive session. Nothing here
 is built or verified; it's the concept + the honest gaps. Feeds [[attestation-concept]]
 and rfcs/001. Records design decisions so they don't evaporate (the concept_lineage
 lesson: chat design that never lands in the repo is design lost).
 
 ## What the PET is
+
 A pocket device that attests identity — the personal-scale version of Proof-of-Life
 (one human, not a coalition node). It houses a NetNavi (personal AI) but the identity
 attestation must NOT depend on the AI running. Battle Network aesthetic; the "PET
 housing" is a real hardware idea, not just flavor.
 
 ## The load-bearing correction (why the design is tiered)
+
 Identity attestation and the NetNavi are **separate** — different hardware, resilience,
 and cost. Bundling them is the mistake to avoid.
 
@@ -24,6 +27,7 @@ AI — that's precisely the scenario (outage, emergency) where it's needed most.
 ISO 18013-5 mobile-DL NFC direct-access (secure element draws power from the reader).
 
 ## Hardware leg — solved technology
+
 - **PUF (Physical Unclonable Function)**: chip-level manufacturing variation → an
   instance fingerprint that can't be cloned by rebuilding from the same blueprint. This
   is SensorBridge's "VMs can't spoof physical hardware" principle, formalized; already
@@ -33,9 +37,11 @@ ISO 18013-5 mobile-DL NFC direct-access (secure element draws power from the rea
   This is what turns "unclonable but noisy" into "usable cryptographic secret."
 
 ## Human leg — the hard, unsolved part
+
 Behavioral imprinting (voice, tone, cadence, movement, conversation) = continuous
 behavioral biometric auth, same fuzzy-extractor math but MUCH worse noise (a cold, a
 bad night, aging blow past the ~10-15% bit-error tolerance).
+
 - **Behavior is a factor, never THE factor.** 2026 voice cloning defeats "sounds like
   Jon." The PUF (something you have) stays the load-bearing cryptographic gate;
   behavior (something you are) raises/lowers scrutiny. If behavior alone ever unlocks
@@ -45,6 +51,7 @@ bad night, aging blow past the ~10-15% bit-error tolerance).
   at identity). Graceful degradation to passphrase/device-factor, never hard lockout.
 
 ## Passive self-imprinting (Jonathan's idea, reframed)
+
 The NetNavi passively models its owner, checks its own predictions on week/month
 cadence, and treats tightening prediction-variance over time as a trust signal.
 Legitimate — but keep it a **soft, accruing confidence score, not a key** (it's the
@@ -55,6 +62,7 @@ illness/grief exactly when you need the device. It can raise scrutiny / request
 re-enrollment; it can never be the sole lock.
 
 ## TempleOS-on-Proxmox phase — what it can and can't do
+
 - CAN'T run the passive-learning experiment: TempleOS has no network, no A/V capture,
   no multitasking, 640×480/16-color by design. That work lives on FAITHH's real stack.
 - CAN be the entropy-primitive sandbox: Terry's oracle read **keypress timing jitter**
@@ -64,6 +72,7 @@ re-enrollment; it can never be the sole lock.
   wiring it near real identity.
 
 ## Networking: active + passive layers
+
 - **NFC** = initial secure pairing only (4cm inductive, point-to-point — short range is
   a security property). Cannot do group reads.
 - **BLE mesh / Wi-Fi Direct** = ongoing group session once devices are mutually attested.
@@ -81,6 +90,7 @@ re-enrollment; it can never be the sole lock.
   it requires real physical presence. Constella coalition meetings become self-attesting.
 
 ## Honest gaps (state before building, not after)
+
 - **Conflicting quorums**: two honest physically-real quorums touching overlapping state
   before either syncs = a CAP-theorem partition. CRDTs guarantee deterministic merge,
   not the outcome a human wants. "What's right when two real quorums disagree" is a
@@ -92,6 +102,7 @@ re-enrollment; it can never be the sole lock.
   can use this.
 
 ## EMP/solar note (corrects the "harden the housing" instinct)
+
 A small unpowered device with no long conductors is inherently EMP-resistant (E1/E2
 couple through long wires; E3 hits grid/transmission lines). What actually dies in a
 solar/EMP event is the grid + network the NetNavi backend needs. So the load-bearing
@@ -99,6 +110,7 @@ hardening is **Tier 0 needing no grid/network to function** — a metal PET hous
 (incidental Faraday cage) is free insurance, not the real decision.
 
 ## Open next steps
+
 - Tier 0 challenge-response protocol end-to-end (enroll / tap / verify)
 - Recovery ceremony for lost Tier 0 (the highest-leverage gap)
 - Fuzzy-vault math for combining voice+motion channels into one derived key

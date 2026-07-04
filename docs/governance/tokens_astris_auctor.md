@@ -5,7 +5,7 @@ Constella uses a dual-token system to separate merit from civic voice.
 ## Separation of Powers
 
 > **Astris (merit) ≠ Auctor (voice)**
-> 
+>
 > Validation is independent from funding and governance.
 
 ---
@@ -27,6 +27,7 @@ A_gain = B × C_q × V_p × R_s
 ```
 
 Where:
+
 - `B` = base bounty for task
 - `C_q` = contribution quality (0.6–1.4 via rubric)
 - `V_p` = verified proof factor (0.8–1.2; repo links, QR/NFC logs)

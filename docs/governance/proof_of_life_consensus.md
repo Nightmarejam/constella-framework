@@ -1,4 +1,5 @@
 # RFC: Proof of Life Consensus
+
 **Status:** Draft  
 **Author:** Jonathan Morales  
 **Date:** 2026-05-24  
@@ -123,6 +124,7 @@ UCF_floor = F_j joules per epoch (governance-set)
 `J_r` is reviewed each governance cycle. FAITHH submits a joule rate proposal based on observed network energy expenditure. The Auctor layer votes to accept, reject, or modify.
 
 This grounds the system physically without creating a commodity:
+
 - A joule is universal and apolitical
 - The token represents energy *already spent* in verified interaction (a receipt, not a futures contract)
 - The floor rises with community surplus, not with trading volume

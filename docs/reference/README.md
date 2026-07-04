@@ -13,6 +13,7 @@ This folder contains the authoritative technical specifications for the Constell
 ## Key Formulas (Quick Reference)
 
 ### Astris (Merit Token)
+
 ```
 A_gain = B * C_q * V_p * R_s
   B = base bounty
@@ -24,6 +25,7 @@ Decay: A_new = A_prev * (1 - 0.02)^w  (2%/week if inactive)
 ```
 
 ### Auctor (Civic Voice Token)
+
 ```
 Base: 1 Au per verified person
 Decay: Au_new = Au_prev * (1 - 0.05)^q  (5%/quarter if inactive)
@@ -31,6 +33,7 @@ Floor: 0.5 Au minimum
 ```
 
 ### UCF (Universal Civic Floor)
+
 ```
 UCF = min( BasePop * H, 0.25 * Surplus_total )
   H = per-capita floor (pilot: $200/mo equivalent)
@@ -39,6 +42,7 @@ UCF = min( BasePop * H, 0.25 * Surplus_total )
 ## For FAITHH Integration
 
 These documents should be indexed with:
+
 - `category: constella_master`
 - `priority: highest`
 

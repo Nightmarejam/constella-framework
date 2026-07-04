@@ -54,24 +54,31 @@ This layering ensures claims remain falsifiable at Layer 1, clinically useful at
 ## 3. Canonical Definitions
 
 ### Phase Flip
+
 A biomechanical transition point where anterior-descending fascial tension exchanges with posterior-ascending stabilization. Involves:
+
 - **Reciprocal inhibition** between antagonist muscle groups
 - **Fascial tension exchange** across anatomical planes
 - **Autonomic shift** in regional tone
 
 ### Resonance
+
 A stable oscillatory relationship among tissues, pressures, and gravitational load that allows efficient distribution of forces without collapse or rigidity.
 
 ### Yang (Intake)
+
 Directional flow associated with sensory reception, forward orientation, and load acceptance. Anatomically correlates with anterior and descending pathways.
 
 ### Yin (Return)
+
 Stabilizing flow associated with grounding, posterior support, and proprioceptive feedback. Anatomically correlates with posterior and ascending pathways.
 
 ### Micro-buoyancy
+
 The cranio-cervical system's continuous micro-movements that create dynamic equilibrium at the atlanto-occipital junction.
 
 ### Vertical Fascial Chain
+
 The continuous myofascial pathway: plantar fascia → Achilles tendon → hamstrings → sacrotuberous ligament → thoracolumbar fascia → nuchal ligament → occiput.
 
 ---
@@ -81,41 +88,49 @@ The continuous myofascial pathway: plantar fascia → Achilles tendon → hamstr
 ### Layer 1: Anatomical Reality
 
 **Cranial Vault**
+
 - 22 bones (8 cranial, 14 facial) joined by sutures permitting micro-movement
 - Falx cerebri and tentorium cerebelli create internal dural partitions
 - Cerebrospinal fluid provides hydraulic cushioning (~150ml total volume)
 
 **Eyes**
+
 - Six extraocular muscles per eye coordinate gaze
 - Direct neural connection to vestibular nuclei via medial longitudinal fasciculus
 - Orbital fascia continuous with periosteum and dural attachments
 
 **Vestibular Apparatus**
+
 - Three semicircular canals (anterior, posterior, lateral) detect angular acceleration
 - Otolith organs (utricle, saccule) detect linear acceleration and head position relative to gravity
 - Vestibular nuclei integrate with cervical proprioceptors and visual input
 
 **Temporomandibular Joint (TMJ)**
+
 - Bicondylar synovial joint with articular disc
 - Masticatory muscles: masseter, temporalis, medial/lateral pterygoids
 - Dense innervation from trigeminal nerve (V3)
 
 **Mandible**
+
 - Largest, strongest facial bone
 - Attachment site for suprahyoid muscles (mylohyoid, geniohyoid, digastric)
 - Movement couples with cervical spine via fascial and muscular connections
 
 **Tongue**
+
 - Eight muscles (4 intrinsic, 4 extrinsic)
 - Hyoglossus, genioglossus, styloglossus, palatoglossus connect to hyoid, mandible, styloid, palate
 - Innervation: hypoglossal (XII) for motor, trigeminal/facial/glossopharyngeal for sensory
 
 **Hyoid Bone**
+
 - Only bone not articulating with another bone
 - Suspended by suprahyoid muscles (above) and infrahyoid muscles (below)
 - Serves as mobile anchor for tongue, pharynx, and larynx
 
 **Atlanto-Occipital Junction (C0-C1)**
+
 - Permits ~25° flexion/extension (nodding)
 - Rectus capitis posterior major/minor and obliquus capitis superior/inferior provide fine control
 - Suboccipital triangle contains vertebral artery and C1 spinal nerve
@@ -166,12 +181,14 @@ Jaw position modulates cervical muscle tone via trigeminocervical reflex. Tongue
 
 **Phase Flip Mechanism**
 At the jaw-hyoid-C1 junction:
+
 1. Anterior tension (suprahyoid, anterior cervical) yields
 2. Posterior tension (suboccipital, posterior cervical) engages
 3. Load transfers from cranial intake to spinal distribution
 
 **Micro-buoyancy**
 The atlanto-occipital junction maintains continuous micro-oscillations that prevent static loading. This "float" depends on:
+
 - Balanced suboccipital muscle tone
 - Adequate CSF pressure
 - Proper hyoid suspension
@@ -208,6 +225,7 @@ The continuous float at C0-C1 represents the Universal Civic Floor — a baselin
 ### Required Elements
 
 **Anatomical Structures (grey #777)**
+
 - Head profile outline
 - Tongue shape with label
 - Hyoid bone (ellipse) with label
@@ -215,28 +233,34 @@ The continuous float at C0-C1 represents the Universal Civic Floor — a baselin
 - Micro-buoyancy zone (dotted ellipse at C0-C1)
 
 **Gravity Entry**
+
 - Arrow at crown (vertex) pointing downward
 - Label: "Crown (vertex) — primary load entry"
 
 **Yang Path (teal #1b7ea8)**
+
 - Eyes (filled circles with labels)
 - Vestibular system (filled circle with label)
 - Flow arrows: Eyes → Vestibular → Cranial vault area
 - Label: "sensory intake (Yang)"
 
 **Yin Path (coral #d1615a)**
+
 - Jaw curve with label
 - Flow arrows: Jaw → Tongue → Hyoid → C0-C1
 - Label: "stabilizing return (Yin)"
 
 **Phase Flip Marker**
+
 - Circle (coral stroke) at jaw-hyoid-C1 junction
 - Label: "Phase Flip — anterior → posterior tension exchange"
 
 **Continuation Indicator**
+
 - Text: "→ continues to spine"
 
 **Layer Labels (left margin only)**
+
 - "Anatomical Reality"
 - "Functional Interpretation"
 - "Symbolic / Metaphorical"
@@ -250,15 +274,18 @@ The continuous float at C0-C1 represents the Universal Civic Floor — a baselin
 **Bone Architecture (26 bones)**
 
 *Hindfoot*
+
 - Calcaneus: largest tarsal, receives Achilles tendon insertion
 - Talus: articulates with tibia/fibula above, calcaneus below, navicular forward
 
 *Midfoot*
+
 - Navicular: keystone of medial arch
 - Cuboid: lateral column support
 - Cuneiforms (3): medial, intermediate, lateral — bridge midfoot to forefoot
 
 *Forefoot*
+
 - Metatarsals (5): long bones forming ball of foot
 - Phalanges (14): toe bones, 2 for hallux, 3 for each lesser toe
 
@@ -277,6 +304,7 @@ The continuous float at C0-C1 represents the Universal Civic Floor — a baselin
 - Spring ligament (plantar calcaneonavicular): supports talar head
 
 **Sensory Density**
+
 - ~7,000+ nerve endings per cm² in plantar surface
 - Mechanoreceptors: Meissner corpuscles, Pacinian corpuscles, Merkel discs, Ruffini endings
 
@@ -361,6 +389,7 @@ The pronation-supination cycle mirrors the Constella governance cycle: periods o
 ### Required Elements
 
 **Anatomical Structures (grey #777)**
+
 - Distal tibia and fibula
 - All tarsal bones labeled: calcaneus, talus, navicular, cuneiforms (grouped), cuboid
 - Metatarsals (grouped) and phalanges labeled
@@ -370,32 +399,39 @@ The pronation-supination cycle mirrors the Constella governance cycle: periods o
 - Tibialis posterior tendon
 
 **Ground Line**
+
 - Horizontal line at bottom
 - Label: "Ground contact interface"
 - Tripod contact points (3 dots): heel, 1st met head, 5th met head area
 
 **Yang Path (teal #1b7ea8)**
+
 - Descending load: tibia → talus → arch → tripod contacts
 - Label: "load reception"
 
 **Yin Path (coral #d1615a)**
+
 - Ascending feedback: plantar surface → plantar fascia → Achilles → upward
 - Label: "sensory return (Yin)"
 
 **Phase Flip Zone**
+
 - Circle (coral stroke) at subtalar-midfoot region
 - Label: "Phase Flip Zone — yield → stiffen transition"
 
 **Windlass Mechanism**
+
 - Dotted line from hallux MTP to plantar fascia
 - Arrow showing toe extension direction
 - Arrow showing arch rise
 - Label: "Windlass mechanism: toe extension → arch rise"
 
 **Continuation Indicator**
+
 - Text: "→ continues to hamstrings → spine → occiput"
 
 **Layer Labels (left margin)**
+
 - Three-layer structure labels
 
 ---
@@ -407,14 +443,17 @@ The pronation-supination cycle mirrors the Constella governance cycle: periods o
 **Bone Architecture (27 bones per hand)**
 
 *Carpals (8)*
+
 - Proximal row: scaphoid, lunate, triquetrum, pisiform
 - Distal row: trapezium, trapezoid, capitate, hamate
 
 *Metacarpals (5)*
+
 - Numbered I-V from thumb to small finger
 - Thumb metacarpal (I) has unique saddle joint at CMC
 
 *Phalanges (14)*
+
 - Thumb: 2 (proximal, distal)
 - Fingers II-V: 3 each (proximal, middle, distal)
 
@@ -426,16 +465,19 @@ The pronation-supination cycle mirrors the Constella governance cycle: periods o
 | Ulnar | Ring, small, triquetrum, hamate | Power grip, stabilization |
 
 **Muscular Organization**
+
 - Thenar eminence: thumb opposition, abduction, flexion
 - Hypothenar eminence: small finger opposition, abduction, flexion
 - Interossei: finger abduction/adduction, MCP flexion
 - Lumbricals: MCP flexion with IP extension
 
 **Sensory Density**
+
 - Fingertip receptor density: ~2,500 mechanoreceptors per cm²
 - Highest two-point discrimination in the body (~2mm at fingertips)
 
 **Fascial Connections**
+
 - Palmar aponeurosis → forearm flexor compartment fascia
 - Forearm fascia → bicipital aponeurosis → pectoral fascia
 - Pectoral fascia → cervical fascia → cranial base
@@ -522,6 +564,7 @@ In Constella terms, the hands represent civic gestures: voting, testimony, mutua
 ### Required Elements
 
 **Anatomical Structures (grey #777)**
+
 - Distal forearm outline with radius and ulna labeled
 - Carpal bones: proximal group, distal group, key bones labeled (scaphoid, lunate, capitate, trapezium)
 - Metacarpals I-V (grouped label)
@@ -533,22 +576,27 @@ In Constella terms, the hands represent civic gestures: voting, testimony, mutua
 - Flexor tendons (representative lines)
 
 **Radial Column Highlight (teal #1b7ea8)**
+
 - Thumb + index ray emphasized
 - Label: "Radial column (precision/intent — Yang)"
 
 **Ulnar Column Highlight (coral #d1615a)**
+
 - Ring + small finger ray emphasized
 - Label: "Ulnar column (stabilization/return — Yin)"
 
 **Phase Flip Zone**
+
 - Circle (coral stroke) around carpal complex
 - Three small directional arrows indicating multiplanar nature
 - Label: "Phase Flip Zone — distal intent → proximal stabilization (multiplanar)"
 
 **Continuation Indicator**
+
 - Text: "→ continues through forearm → bicipital aponeurosis → pectoral/cervical fascia"
 
 **Layer Labels (left margin)**
+
 - Three-layer structure labels
 
 ---
@@ -564,6 +612,7 @@ These predictions link the three modules via the vertical fascial chain and repr
 **Mechanism:** Posterior fascial chain transmits tension changes from cranial base through thoracolumbar region to lower extremity.
 
 **Measurement:**
+
 - Intervention: Manual jaw repositioning or hyoid mobilization
 - Outcome: Subtalar eversion/inversion angle via motion capture
 - Timeline: Immediate (within 2-3 steps)
@@ -575,6 +624,7 @@ These predictions link the three modules via the vertical fascial chain and repr
 **Mechanism:** Fascial continuity from palmar aponeurosis through anterior arm line to cervical fascia creates tension coupling.
 
 **Measurement:**
+
 - Intervention: Sustained pinch grip at 50% max
 - Outcome: Masseter/temporalis EMG amplitude
 - Timeline: 30-60 seconds
@@ -586,6 +636,7 @@ These predictions link the three modules via the vertical fascial chain and repr
 **Mechanism:** Hand tension influences trunk rotation, which affects pelvic mechanics and lower extremity loading patterns.
 
 **Measurement:**
+
 - Intervention: Grip vs. no-grip during walking
 - Outcome: Subtalar kinematics via motion capture
 - Timeline: Immediate
@@ -605,6 +656,7 @@ All predictions should be tested in both directions to confirm true coupling rat
 ### Required Elements
 
 **Core Vertical Anatomy (grey #777)**
+
 - Skull/cranial vault with crown label
 - Cervical spine with C0-C1-C2 highlighted
 - Thoracic/lumbar spine
@@ -615,40 +667,48 @@ All predictions should be tested in both directions to confirm true coupling rat
 - Arms and hands (bilateral)
 
 **Thoracolumbar Junction**
+
 - Circle marker at T12-L1
 - Bidirectional arrows indicating crossover
 - Label: "Global tension exchange node"
 
 **All Three Phase Flip Zones**
+
 - Head (coral circle at jaw-hyoid-C1): "Phase Flip — anterior → posterior (Head)"
 - Hands (coral circles at both wrists): "Phase Flip — distal → proximal (Hands, multiplanar)"
 - Feet (coral circle at subtalar region): "Phase Flip — yield → stiffen (Feet)"
 
 **Yang Flow (teal #1b7ea8)**
+
 - Eyes and vestibular markers
 - Descending path: crown → head phase flip → cervical → thoracic → lumbar → pelvis → legs → feet
 - Lateral branches to arms (radial columns)
 - Label: "Yang intake / directional flow"
 
 **Yin Flow (coral #d1615a)**
+
 - Ascending path: ground → plantar → Achilles → posterior chain → occiput
 - Ulnar column returns from hands
 - Label: "Yin return / stabilizing flow"
 
 **Fascial Chains (dotted lines)**
+
 - Posterior chain: plantar → Achilles → hamstrings → sacrotuberous → thoracolumbar → nuchal → occiput
 - Anterior deep chain: palmar → forearm → bicipital → pectoral → cervical
 - Lateral chain: peroneals → IT band → TFL → ribs → cervical
 
 **Cross-System Predictive Paths (dotted arrows with italic labels)**
+
 - Jaw ↔ Subtalar: "Jaw tension ↔ Subtalar angle (2-3 gait cycles)"
 - Thumb-index ↔ Temporalis: "Precision grip ↔ Jaw muscle activity"
 - Hand ↔ Pelvis ↔ Foot: "Lateral-to-vertical influence chain"
 
 **Ground Line**
+
 - Label: "Ground contact interface"
 
 **Layer Labels (left margin)**
+
 - Three-layer structure labels
 
 ---
@@ -724,9 +784,11 @@ Biological systems feed output-state into intake-state in real-time (continuous 
 ## Artifact Files
 
 ### Documents
+
 - `harmony_framework_complete_v4.0.0.md` — This file (master canonical document)
 
 ### Diagrams (SVG)
+
 - `harmony_head_diagram_v2.2.1.svg`
 - `harmony_feet_diagram_v1.0.0.svg`
 - `harmony_hands_diagram_v1.0.0.svg`

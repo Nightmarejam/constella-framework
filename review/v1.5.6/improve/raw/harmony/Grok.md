@@ -6,6 +6,7 @@ status: raw-drop
 ---
 
 # Raw AI Review Drop — {RME|Harmony}
+
 (paste the model’s response below)
 
 # Constella v1.5.6 — AI Review Summary
@@ -17,6 +18,7 @@ status: raw-drop
 ---
 
 ## 1. Ranking  
+
 1. **Eden** (Score: 92/100)  
    - **Reason**: High feasibility, clear community value, and strong trust-building potential. Well-defined success criteria with minimal bottlenecks (municipal permits manageable). Immediate impact via energy savings and comfort metrics.  
 2. **RME** (Score: 88/100)  
@@ -27,6 +29,7 @@ status: raw-drop
 ---
 
 ## 2. Partner Overlap  
+
 - **Policy Lab**: Suggested for **RME** (primary) and **Eden** (alt 2). Strong fit for RME’s review framework and Eden’s municipal coordination.  
 - **University Partners**:  
   - **University Research Office** (RME, alt 2): Aligns with RME’s evidence-based review process.  
@@ -43,6 +46,7 @@ status: raw-drop
 ---
 
 ## 3. Bottleneck Clustering  
+
 - **Municipal Coordination (Eden)**: Permits and utility data access are primary bottlenecks. **Mitigation**: Early MoU drafting and dedicated liaison (Weeks 1–2).  
 - **Reviewer Recruitment & Capacity (RME)**: Securing 3–5 reviewers with consistent cadence. **Mitigation**: Pre-vetted reviewer pool and clear cadence published in Week 1.  
 - **Venue Access & Liability (Harmony)**: Securing community facilities and insurance waivers. **Mitigation**: Partner with YMCA or university for pre-existing infrastructure (Weeks 1–3).  
@@ -54,17 +58,21 @@ status: raw-drop
 ---
 
 ## 4. Next Steps (30–90 Days)  
+
 **Weeks 1–2**:  
+
 - **Eden**: Secure host site, draft/sign MoU, request utility data.  
 - **RME**: Finalize packet/templates, recruit 3–5 reviewers, publish cadence.  
 - **Harmony**: Finalize routine/safety screening, recruit coaches, confirm venue (YMCA/university).  
 
 **Weeks 3–6**:  
+
 - **Eden**: Complete baseline audit, procure materials, confirm permits.  
 - **RME**: Run Eden review cycle, generate leaderboard/partners, log to Civic Tome.  
 - **Harmony**: Train coaches, recruit cohort (12–24), start sessions, log weekly.  
 
 **Weeks 7–12**:  
+
 - **Eden**: Install PSL-1 measures, log weekly, publish savings/comfort summary.  
 - **RME**: Tune prompts, recruit next reviewer cohort, publish v1.5.6 summary.  
 - **Harmony**: Complete protocol, publish before/after metrics, scope cohort #2.  
@@ -72,6 +80,7 @@ status: raw-drop
 ---
 
 ## 5. Civic Tome Summary (Draft)  
+
 **Constella v1.5.6 Review (2025-08-16)**: Eden leads as a high-impact, feasible pilot delivering immediate energy savings and community trust. RME follows as a critical credibility layer, enabling transparent review and partner alignment. Harmony offers scalable health benefits but requires venue and training coordination. Key bottlenecks—municipal permits (Eden), reviewer capacity (RME), and venue access (Harmony)—are addressable via early partner engagement (policy lab, university, YMCA). All projects align with 12-week cycles, with Eden and RME prioritized for Civic Tome publication.  
 
 **Word Count**: 497

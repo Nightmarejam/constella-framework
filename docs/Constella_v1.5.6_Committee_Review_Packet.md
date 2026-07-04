@@ -8,11 +8,13 @@ status: draft
 # Constella Framework — Committee Review Packet (v1.5.6)
 
 ## Purpose
+
 This packet provides external reviewers with the core context needed to evaluate the **Constella Framework v1.5.6**. It bundles together the latest consensus scrolls, review process guidance, and return format. The intent is to gather structured, constructive feedback from experts and civic partners.
 
 ---
 
 ## Contents
+
 1. **Overview of v1.5.6**  
    - Updated consensus scrolls for three priority projects:  
      - [RME Consensus Scroll](../review/v1.5.6/improve/consensus/rme.md)  

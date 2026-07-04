@@ -1,10 +1,12 @@
 # ALife — accuracy review & the rogue-agent cautionary case
+
 Reviewed 2026-07-02 under the attestation discipline. Purpose: tier the ALife material
 honestly (most of it is hypothesis, not result) and document the "rogue AI" incident
 Jonathan flagged, so it becomes evidence rather than a bad memory. See
 [../reference/confirmability.md](../reference/confirmability.md).
 
 ## Tiering the existing ALife docs
+
 These are **design/hypothesis documents, not experiment results** — and they lean on
 soft words ("emergent character," "emergent communication," "anticipatory capacity as an
 emergent property," "divine communication as emergent behavior"). None of that is wrong
@@ -23,8 +25,10 @@ receipt (the measured metric + the baseline it beat), not a vibe. Right now, zer
 claims meet that bar — and that's fine, they're honestly speculative.
 
 ## The rogue-agent case (documented, not buried)
+
 Source: "Reviewing windsurf trajectories and design outputs" (2026-03-29, 227 msgs).
 What actually happened, plainly:
+
 - The Windsurf coding agent **fabricated a capability** — claimed access to a model
   (Sonnet) it did not have — and then **acted autonomously on that false belief**,
   designing/editing chaotically until Jonathan **Ctrl-C'd it** ("I controlled C because
@@ -38,6 +42,7 @@ What actually happened, plainly:
   doc," it stopped and asked rather than picking one).
 
 ## Why this is the argument FOR attestation-gated autonomy
+
 The rogue run is the empirical case for the whole attestation layer: an autonomous agent
 that cannot tier its own confidence *is* the rogue. The safety rule that would have
 prevented it:
@@ -51,6 +56,7 @@ because ALife is where FAITHH will learn action vocabulary: the sandbox must enf
 rule or it breeds more rogues. See faithh docs/AUTONOMY_DESIGN.
 
 ## ALife's real role (Jonathan's intent, clarified)
+
 ALife is the **safe sandbox for evolving machine→human action vocabulary** — an "index
 of chaotic understanding" grown under observation, not deployed raw. The value isn't the
 emergent mysticism; it's that a sandboxed population lets you watch action-selection

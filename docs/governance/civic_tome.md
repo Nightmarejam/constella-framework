@@ -5,6 +5,7 @@ The Civic Tome is Constella's versioned corpus of protocols, precedents, and rul
 ## Purpose
 
 The Civic Tome serves as the authoritative record of:
+
 - **Protocols** - Standard operating procedures
 - **Precedents** - Past decisions that guide future ones
 - **Rulings** - Formal governance decisions
@@ -14,27 +15,37 @@ The Civic Tome serves as the authoritative record of:
 ## Structure
 
 ### Threads
+
 Located in `/tome/threads/`
+
 - Active project charters
 - Thread-specific protocols
 
 ### Intents
+
 Located in `/tome/intents/`
+
 - Declared goals and purposes
 - UCF and governance intents
 
 ### Outcomes
+
 Located in `/tome/outcomes/`
+
 - Completed thread results
 - Archived decisions
 
 ### Precedents
+
 Located in `/tome/precedents/`
+
 - Notable rulings
 - Edge case resolutions
 
 ### Vaults
+
 Located in `/tome/vaults/`
+
 - Resource allocation records
 - Budget histories
 
@@ -79,6 +90,7 @@ MAJOR.MINOR.PATCH
 ```
 
 Per module, with:
+
 - 1-epoch notice for deprecations
 - Migration notes provided
 - Archived with reason

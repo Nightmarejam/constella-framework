@@ -7,11 +7,13 @@
 The Harmony portion of Constella focuses on aligning personal and communal rhythms through specific practices. It uses a staged journey approach:
 
 ### Stage 1: Friction Awareness (The Body of Tension)
+
 - **Goal:** Identify internal "dissonance" that creates imbalance
 - **Practices:** Breath mapping, Resonance journaling, Gravity flow meditations
 - **Civic connection:** Self-assessment before community contribution
 
 ### Stage 2: Wave Integration (The Body of Flow)  
+
 - **Goal:** Harmonize conflicting internal patterns and align with external systems
 - **Practices:** Mirror resonance, Binaural tuning, Harmonic breath
 - **Civic connection:** Restorative justice (Penumbra Accord) and community healing

@@ -4,8 +4,6 @@
 
 ### *Citations: Master Document v4.0.0*
 
-
-
 ---
 
 # **1. Abstract (≈150 words)**
@@ -51,7 +49,7 @@ These mechanisms maintain coherence across long-range, multi-system interactions
 # **4. Mapping: Harmony → Transformer Architecture**
 
 The table below shows how Harmony elements map onto transformer limitations and opportunities.
-(Reference: **Idea Vault: Resonance-AI Architecture**, Master Document Section 13.) 
+(Reference: **Idea Vault: Resonance-AI Architecture**, Master Document Section 13.)
 
 | Harmony Element          | Biological Function                        | Transformer Parallel                      | Architectural Opportunity                                             |
 | ------------------------ | ------------------------------------------ | ----------------------------------------- | --------------------------------------------------------------------- |
@@ -193,16 +191,18 @@ context weighting — the same information receives different weight
 depending on current mode:
 
 **Exploration mode (Yang-dominant):**
-- Uncertainty signals receive high weight
-- Gaps and missing data surface as primary output
-- Unverified projections flagged rather than used
-- Model biased toward collecting rather than concluding
+
+* Uncertainty signals receive high weight
+* Gaps and missing data surface as primary output
+* Unverified projections flagged rather than used
+* Model biased toward collecting rather than concluding
 
 **Consolidation mode (Yin-dominant):**
-- Verified, corroborated data receives high weight
-- Gaps become risk flags rather than blockers
-- Synthesis and recommendation output permitted
-- Model biased toward coherent structured output
+
+* Verified, corroborated data receives high weight
+* Gaps become risk flags rather than blockers
+* Synthesis and recommendation output permitted
+* Model biased toward coherent structured output
 
 The same unverified revenue projection becomes a *data gap to fill*
 in exploration mode and a *risk flag to disclose* in consolidation mode.
@@ -278,10 +278,11 @@ appropriately. No static tags required in source documents.
 **Prediction 6 — Resonance-Gated Models Produce More Calibrated Outputs**
 
 Models operating with resonance-based information gating should show:
-- Higher rates of honest incompleteness when data is insufficient
-- Lower rates of confident hallucination on underspecified queries
-- Measurably better calibration between stated confidence and accuracy
-- Appropriate output class selection without explicit instruction
+
+* Higher rates of honest incompleteness when data is insufficient
+* Lower rates of confident hallucination on underspecified queries
+* Measurably better calibration between stated confidence and accuracy
+* Appropriate output class selection without explicit instruction
 
 Compared to identical models without the gating protocol.
 
@@ -289,7 +290,7 @@ Compared to identical models without the gating protocol.
 
 # **10. References (Placeholder)**
 
-1. Harmony Framework Complete Document v4.0.0 
+1. Harmony Framework Complete Document v4.0.0
 2. Biomechanics of the cranio-cervical junction
 3. Transformer architecture foundational papers
 4. Research on online coherence and self-evaluation modules

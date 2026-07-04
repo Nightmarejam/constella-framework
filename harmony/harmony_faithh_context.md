@@ -4,6 +4,7 @@
 ---
 
 ## HARMONY FRAMEWORK OVERVIEW (CORE MODULES)
+
 The Harmony Framework models how the human body processes gravitational load using three modules: **Head**, **Feet**, and **Hands**. Each module contains complementary Yang (intake) and Yin (return) flows connected by a **Phase Flip**, a biomechanical transition where anterior-descending tension exchanges with posterior-ascending stabilization.  
 **Head Module:** Sensory intake via eyes → vestibular → cranial vault (Yang). Stabilizing return via jaw → tongue → hyoid → C0–C1 (Yin). Phase Flip: jaw–hyoid–C1 tension exchange.  
 **Feet Module:** Load acceptance via tibia → talus → arch → tripod contacts (Yang). Stabilizing return via plantar fascia → Achilles → posterior chain → occiput (Yin). Phase Flip: subtalar pronation/supination.  
@@ -13,9 +14,11 @@ The modules connect through continuous fascial chains enabling cross-system infl
 ---
 
 ## KEY DEFINITIONS
+
 **Yang (Intake):** Forward, exploratory, load-accepting flow. Anatomical correlates: anterior lines, sensory intake, descending pathways.  
 **Yin (Return):** Stabilizing, grounding, resistance-modulating flow. Anatomical correlates: posterior chain, plantar and palmar mechanoreception, ascending pathways.  
 **Phase Flip:** A structural/mechanical transition point where the system reverses tension polarity.  
+
 - Head: jaw–hyoid–C1 shift from anterior tension → posterior stabilization.  
 - Feet: pronation (yield) → supination (stiffen) at subtalar–midfoot complex.  
 - Hands: multiplanar stability reversal at midcarpal joint.  
@@ -26,9 +29,11 @@ These definitions form the retrieval core for reasoning about Harmony modules, l
 ---
 
 ## HEAD MODULE (JAW–HYOID–C1 SYSTEM)
+
 Yang intake flow: eyes → vestibular apparatus → cranial vault. This establishes directional orientation and sensory weighting. Yin return flow: jaw position → tongue posture → hyoid suspension → C0–C1 micro-adjustment.  
 Phase Flip occurs at the jaw–hyoid–C1 junction where anterior muscular tension yields and posterior cervical stabilizers activate. This redirects load from cranial membranes into cervical structures.  
 Key mechanical points:  
+
 - Jaw tension modulates trigeminocervical reflexes affecting suboccipital tone.  
 - Tongue posture shapes hyoid position, influencing infrahyoid and anterior cervical tension.  
 - Hyoid acts as floating anchor distributing forces across cervical fascia.  
@@ -38,9 +43,11 @@ Perturbations in jaw, tongue, or hyoid produce predictable downstream effects in
 ---
 
 ## FEET MODULE (SUBTALAR–MIDFOOT SYSTEM)
+
 Yang load flow: tibia → talus → navicular/cuneiforms → medial arch → tripod contacts (heel, 1st, 5th met heads).  
 Yin return flow: mechanoreceptor-rich plantar surface → intrinsic foot musculature → plantar fascia → Achilles → posterior chain → occiput.  
 Phase Flip occurs at the pronation-to-supination transition:  
+
 - **Pronation (yield):** subtalar eversion, midfoot unlocking, increased adaptability.  
 - **Supination (stiffen):** subtalar inversion, midfoot lock, rising arch height enabling propulsion.  
 Windlass mechanism: hallux dorsiflexion tensions the plantar fascia, raising the arch.  
@@ -49,6 +56,7 @@ The feet act as both load absorbers and primary stabilizing sensors. Their mecha
 ---
 
 ## HANDS MODULE (CARPAL–RADIAL–ULNAR SYSTEM)
+
 Yang radial column: thumb + index + scaphoid + trapezium → precision, intent, fine motor control.  
 Yin ulnar column: ring + small finger + triquetrum + hamate → stabilization, power grip, proximal support.  
 Phase Flip: multiplanar midcarpal transition where distal finger intent converts to proximal forearm stabilization. Operates across sagittal, frontal, and transverse planes.  
@@ -58,6 +66,7 @@ This gives the hands outsized influence over upper-body tension distribution, in
 ---
 
 ## CROSS-SYSTEM PREDICTIONS (VERBATIM & RETRIEVAL-READY)
+
 1. **Anchor Claim #1:** Jaw–hyoid–C1 interventions produce measurable subtalar–midfoot changes within 2–3 gait cycles.  
 2. Sustained precision grip increases jaw muscle EMG (masseter/temporalis) within 30 seconds.  
 3. Precision grip alters subtalar pronation angle within 1–2 gait cycles.  
@@ -69,7 +78,9 @@ This gives the hands outsized influence over upper-body tension distribution, in
 ---
 
 ## HARMONY → AI ARCHITECTURE MAPPINGS
+
 Harmony’s intake/return/phase-flip model maps to computational systems:  
+
 - **Yang Intake → Attention Mechanism:** selective orientation, forward generative expansion.  
 - **Yin Return → Grounding / Retrieval:** stabilizes generation by real-time correction.  
 - **Phase Flip → Exploration/Consolidation Switch:** toggles between broad sampling and tightly coherent reasoning.  
@@ -79,6 +90,7 @@ Harmony’s intake/return/phase-flip model maps to computational systems:
 - **Hands → Fine-Tuning Mechanisms:** small adjustments with global impact.  
 
 Four AI mechanisms derived from Harmony:  
+
 1. **Output-Coherence Sensor**: monitors generation for contradictions/drift → corresponds to plantar/palmar mechanoreception.  
 2. **Attention Rebalancer**: adjusts attention using coherence signal → corresponds to jaw–hyoid–C1 modulation.  
 3. **Phase-Flip Controller**: exploration ↔ consolidation mode switch → subtalar pronation/supination.  
@@ -87,6 +99,7 @@ Four AI mechanisms derived from Harmony:
 ---
 
 ## HARMONY-AI TESTABLE PREDICTIONS
+
 1. Models with a phase-flip transformer mode exhibit reduced hallucination frequency and improved long-range coherence.  
 2. Output-coherence sensors reduce error accumulation during multi-step reasoning tasks.  
 3. Attention rebalancers show human-like correction curves, stabilizing within 3–5 tokens when misled.  
@@ -96,6 +109,7 @@ Four AI mechanisms derived from Harmony:
 ---
 
 ## QUICK REFERENCE (ONE-LINERS)
+
 - **Yang:** forward-generative intake.  
 - **Yin:** stabilizing-return feedback.  
 - **Phase Flip:** tension polarity reversal enabling stability.  

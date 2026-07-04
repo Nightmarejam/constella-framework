@@ -1,5 +1,7 @@
 # FAITHH Architecture Note
+
 ## Resonance-Based Information Gating
+
 *Created: February 27, 2026*
 *Status: Research concept — not yet implemented*
 *Origin: Conversation exploring premature plan generation prevention*
@@ -32,10 +34,12 @@ state to produce this kind of output?*
 ## How It Works
 
 ### Step 1: Mode Detection
+
 Before generating, the model checks what mode the current context
 is in — exploration (data gathering) or consolidation (synthesis).
 
 ### Step 2: Resonance Evaluation  
+
 The model evaluates the resonance level of information required
 to produce the requested output:
 
@@ -43,6 +47,7 @@ to produce the requested output:
 - **Low resonance** = single source, projected, or untested
 
 ### Step 3: Output Class Decision
+
 | Resonance Level | Permitted Output | Redirect Behavior |
 |-----------------|-----------------|-------------------|
 | High | Full synthesis, recommendations, final documents | N/A |
@@ -51,6 +56,7 @@ to produce the requested output:
 | Insufficient | Mode report only | State what is needed |
 
 ### Step 4: Bias Application
+
 In exploration mode — uncertainty signals get high weight,
 gaps surface as primary output, model collects rather than concludes.
 
@@ -62,7 +68,9 @@ gaps become risk flags, synthesis is permitted.
 ## Implementation Options
 
 ### Option A: Context Injection (Recommended for FAITHH)
+
 Inject a small protocol document at session start specifying:
+
 - Current project mode
 - Resonance thresholds for this project
 - Permitted output classes at current resonance level
@@ -72,12 +80,14 @@ No static tags needed in source documents. Model evaluates
 resonance at inference time from information convergence.
 
 ### Option B: Static Document Tags
+
 Mark claims in source documents as [VERIFIED], [PROJECTED],
 [SPECULATIVE]. Model applies different rules to each class.
 
 Simpler. More brittle. Breaks on nuanced context.
 
 ### Option C: Dynamic Classification (Most Powerful)
+
 Model first classifies each piece of information it encounters,
 then weights it according to resonance criteria, then decides
 output class. More flexible but adds inference overhead.
@@ -125,6 +135,7 @@ Could be added to the planned `/api/capabilities` endpoint
 as a `current_mode` field for v2.
 
 Suggested injection format:
+
 ```
 RESONANCE PROTOCOL ACTIVE
 Current mode: [exploration|consolidation]
