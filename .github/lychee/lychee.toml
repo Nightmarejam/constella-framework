@@ -14,3 +14,11 @@ timeout = 20
 accept = [200, 204, 206, 301, 302, 307, 308]
 # Consider GitHub relative links OK (they exist in repo)
 require_https = false
+# Skip bulk/imported content — chat dumps & inbox aren't authored docs and carry
+# thousands of pseudo-links (same bulk-pollution fix as codespell/markdownlint).
+exclude_path = [
+  "docs/conversations",
+  "docs/constella/_inbox",
+  "docs/data",
+  "docs/discussions"
+]
