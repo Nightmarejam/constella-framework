@@ -1,4 +1,4 @@
-[![Doctrine](https://img.shields.io/badge/Celestial%20Equilibrium-v1.0.0-blueviolet)](docs/doctrine/README.md)
+[![Doctrine](https://img.shields.io/badge/Celestial%20Equilibrium-v1.0.0-blueviolet)](README.md)
 
 # 🌌 The Celestial Equilibrium
 

@@ -2,6 +2,9 @@
 exclude = [
   "CT:*",               # Civic Tome pseudo refs
   "mailto:*",
+  "localhost",          # documented dev backend ports, not real links
+  "127.0.0.1",
+  "/tags/",             # GitHub release-tag refs, not local files
   "arxiv.org",          # Rate-limits CI link checkers
   "psypost.org",        # Aggregator, flaky
   "techxplore.com",     # Aggregator, flaky
@@ -20,5 +23,7 @@ exclude_path = [
   "docs/conversations",
   "docs/constella/_inbox",
   "docs/data",
-  "docs/discussions"
+  "docs/discussions",
+  "review",              # dated review-scroll snapshots (archival cross-refs)
+  "docs/tome"            # Civic Tome structural placeholders (unbuilt subsections)
 ]
