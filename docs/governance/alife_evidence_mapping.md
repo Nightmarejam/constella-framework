@@ -357,6 +357,7 @@ validation can inform design decisions with higher confidence.*
 ---
 
 ## 2026-07 Update — Rust `alife-core` reproduction + the floor term-collision
+
 *Added 2026-07. Evidence: `~/ai-stack/projects/alife` (Rust `alife-core`, bit-exact port of
 exp0) + its `CONSTELLA_TO_EXPERIMENTS.md`. Per the "never delete" rule this supplements, not
 replaces, the March 2026 entries.*
@@ -366,6 +367,7 @@ the fresh *receipts* and the concept→experiment→vocabulary pipeline live in 
 `~/ai-stack/projects/alife/CONSTELLA_TO_EXPERIMENTS.md`. Keep them in sync.
 
 **What the Rust runs added (UCF, v1–v3):**
+
 - v1: an unconditional floor gives *resilience* (5/5 seeds survive vs no-floor extinct 3/5) —
   but via **headcount buffering**, not a diversity reserve.
 - v2/v3: under a *directional* shock the unconditional floor **froze** composition (787/43
@@ -380,6 +382,7 @@ adversary is present. Both confirm the March conclusion: the floor must be **tar
 
 **Term-collision surfaced (open decision — affects `ucf.md`'s core stance).** "Floor" is doing
 two jobs the evidence shows behave *oppositely*:
+
 1. **Dignity/survival floor** (food, shelter, care) — a *values* floor (UDHR; asserted, not
    sim-derivable). Should be **unconditional by right** but **funded/bounded** so it can't drive
    overshoot (a contribution-funded floor is self-limiting — see the Astris joule anchor).

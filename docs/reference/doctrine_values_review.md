@@ -1,4 +1,5 @@
 # Doctrine values review — did the Celestial Equilibrium hold?
+
 Reviewed 2026-07-02. Checks the founding doctrine (celestial-equilibrium, signed
 2025-08-14, SHA-256 anchored) against what actually emerged across a year of sessions.
 Same method as [concept_lineage](concept_lineage.md), applied to *values* instead of
@@ -6,6 +7,7 @@ concepts. Tier: this review is `asserted` (a reading); the doctrine itself is `c
 (hash-anchored).
 
 ## The key rule first
+
 The doctrine is a **hash-signed, timestamped artifact**. It is a receipt: "these were the
 founding values on 2025-08-14, provably unaltered." **Do not edit it** — editing breaks
 the hash and destroys its only real property. Values evolution goes into a *new* versioned
@@ -26,6 +28,7 @@ confirmability discipline applied to your own beliefs: the receipt stays; growth
 | **"Scale outward… contagious"** (§V.5) | Constella's ethos is now **proof BEFORE scale** (zero pilots, prove first) | ⚠️ matured, not broken — the *evangelical* framing ("contagious") gave way to a *cautious* one. Not a contradiction; a discipline the doctrine hadn't learned yet. |
 
 ## The one value that emerged AFTER the doctrine (and isn't in it)
+
 **Attestation / epistemic humility** — "never treat something as true, or act on it,
 without a checkable receipt." The doctrine is a *values* document (resonance, dignity); it
 predates the honesty discipline and doesn't contain it. This isn't drift — it's a new
@@ -34,6 +37,7 @@ floor added under the old values. It also means the doctrine's **Appendix** (the
 claims *as doctrine* — which today's discipline would tier **`speculative`**, not assert.
 
 ## So: review, remove, or evolve?
+
 - **Remove from the signed doctrine:** nothing. It's a receipt; leave it whole.
 - **The tension point, if you show this to people:** the Appendix's metaphysical claims
   are the part most likely to divide an audience and the part furthest from the
@@ -45,6 +49,7 @@ claims *as doctrine* — which today's discipline would tier **`speculative`**, 
   claim a harmony we cannot show.*
 
 ## Verdict
+
 Strong continuity. The doctrine's values didn't drift — most **deepened into concrete
 mechanisms** (UCF, Penumbra, the Harmony bridge). The only real gap is that the doctrine
 came before your honesty layer, so it asserts a few things (the Appendix) that you'd now

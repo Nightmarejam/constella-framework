@@ -6,6 +6,7 @@ its formulas live — so we stop re-deriving concepts that are already written d
 maintenance floor" that `alife_evidence_mapping.md` already specified in March 2026.*
 
 ## Two repos, one system (the bridge)
+
 - **Framework / constitution:** `constella-framework` (this repo) — the specs below.
 - **Evidence / sandbox:** `~/ai-stack/projects/alife` (separate repo) — the ALife simulation
   (Rust port `alife-core`, Python exps 0–9) and `CONSTELLA_TO_EXPERIMENTS.md` (the
@@ -14,6 +15,7 @@ maintenance floor" that `alife_evidence_mapping.md` already specified in March 2
   crosses the gap. It cites `projects/alife` but predates the Rust findings — it needs syncing.
 
 ## The canonical specs
+
 | Doc | Defines | Key mechanism / formula | Status |
 |---|---|---|---|
 | `core_framework.md` | Purpose & flow | resonant/regenerative; "prevent stagnation via feedback & renewal" (anti-stasis principle) | draft v1.0 |
@@ -30,6 +32,7 @@ maintenance floor" that `alife_evidence_mapping.md` already specified in March 2
 | `README.md` | pointer index | links to the above | ok |
 
 ## Open drift / issues (the reasons to keep this index)
+
 - **A — Astris is not joule-anchored.** `tokens_astris_auctor.md` mints on a human-assigned
   base bounty `B` + quality rubric `C_q`, while `ucf.md` already anchors value to *joules of
   verified useful work (a receipt for energy already spent)*. Fix: set `B = joules from the
@@ -50,6 +53,7 @@ maintenance floor" that `alife_evidence_mapping.md` already specified in March 2
   an entrenchment/stasis vector the sandbox has a receipt against. Decay is now uniform.
 
 ## Already-answered (stop re-deriving these)
+
 - **The "middle / calibrated floor"** = `alife_evidence_mapping.md` §"targeted maintenance floor"
   (activates when diversity drifts below threshold). Not an unconditional rescue.
 - **Conflict resolution / "how politics happens"** = `penumbra_accord.md` (the four-step flow).
