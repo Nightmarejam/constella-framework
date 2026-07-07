@@ -20,18 +20,39 @@ Astris represents earned contribution merit within the Constella ecosystem.
 - Partial minting at **G2** with escrow
 - Amounts determined per thread impact table
 
-### Accrual Formula
+### Accrual Formula (joule-anchored)
+
+Astris is a **receipt for energy already spent in verified useful work** — not a bounty
+someone assigns. The base is *metered in joules*; human judgment only modulates it. This is the
+same joule primitive the UCF is denominated in (see [ucf.md](ucf.md)) and the
+"energy-already-spent" framing from the PoUW session
+([notes](../research/proof_of_useful_work_session_notes.md)).
 
 ```
-A_gain = B × C_q × V_p × R_s
+A_gain = (J_v / R_JA) × C_q × V_p × R_s
 ```
 
 Where:
 
-- `B` = base bounty for task
-- `C_q` = contribution quality (0.6–1.4 via rubric)
-- `V_p` = verified proof factor (0.8–1.2; repo links, QR/NFC logs)
-- `R_s` = redundancy score (1.0 if unique; 1.1 if verified backup role)
+- `J_v` = **verified joules of useful work** in the contribution — energy actually expended in
+  human-interactive useful work (compute, care, infrastructure), captured as a
+  proof-of-useful-work receipt. **This replaces the old assigned base bounty `B`: the base is
+  now measured, not negotiated.**
+- `R_JA` = **joule→Astris rate**, governance-set (one Astris = `R_JA` joules of verified useful
+  work). This is the *single* political knob, set in the open via the Civic Tome — never per task.
+- `C_q` = contribution quality (0.6–1.4 via rubric) — a **bounded modulator**: judgment trims the
+  metered base ±40%, it cannot *be* the base.
+- `V_p` = verified proof factor (0.8–1.2; repo links, QR/NFC logs) — attestation that the work
+  occurred and was done by a Proof-of-Life-verified person (see
+  [proof_of_life_consensus.md](proof_of_life_consensus.md)). Confirms **occurrence**, not worth.
+- `R_s` = redundancy score (1.0 if unique; 1.1 if verified backup role).
+
+**Why the anchor is load-bearing (headroom):** the old `B` let whoever set the bounty control
+issuance — political capture with extra steps. With the base metered in joules, the objective
+term dominates and human judgment (`C_q`) can only trim ±40%. `V_p` ("did it happen, by a real
+person") is kept separate from `C_q` ("was it good") so **occurrence and worth never collapse
+into one number** — the founding-hypothesis goal of making worth legible without making it
+dictatable.
 
 ### Decay
 
@@ -41,8 +62,12 @@ A_new = A_prev × (1 - 0.02)^w
 
 - **Rate**: 2% per week if inactive
 - **Activity**: ≥1 verified action/week prevents decay
-- **Plateau protection**: Foundational contributions (>95th percentile impact) capped at max 10% total decay lifetime
-- **Legacy Astris**: Capped, no decay for major public goods
+- **Uniform decay — no permanent exemptions.** Decay applies to all Astris equally regardless
+  of past impact. (The former "plateau protection" and "Legacy Astris: no decay" carve-outs were
+  removed 2026-07: non-decaying merit for top contributors is an entrenchment/stasis vector —
+  the ALife sandbox showed that unconditionally protected incumbents freeze the system and kill
+  adaptation. Recognition of foundational work belongs in the record/Tome, not in an
+  ever-accruing token that confers permanent curation and queue advantage.)
 
 ### Use Cases
 
