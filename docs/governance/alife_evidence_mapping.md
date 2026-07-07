@@ -13,7 +13,7 @@ precedent, not proven policy.*
 ## Purpose
 
 This document maps findings from the ALife experiment series
-(projects/alife/experiments, Exps 0–9) to specific Constella
+(the alife repo (github.com/Nightmarejam/alife), Exps 0–9) to specific Constella
 constitutional mechanisms. It establishes the evidentiary basis
 for each design decision — distinguishing findings that emerged
 from simulation data (earned) from principles imported from
@@ -358,13 +358,13 @@ validation can inform design decisions with higher confidence.*
 
 ## 2026-07 Update — Rust `alife-core` reproduction + the floor term-collision
 
-*Added 2026-07. Evidence: `~/ai-stack/projects/alife` (Rust `alife-core`, bit-exact port of
+*Added 2026-07. Evidence: `~/Projects/alife` (Rust `alife-core`, bit-exact port of
 exp0) + its `CONSTELLA_TO_EXPERIMENTS.md`. Per the "never delete" rule this supplements, not
 replaces, the March 2026 entries.*
 
 **Cross-repo link (the two halves of the whitepaper).** This bridge doc holds the *claims*;
 the fresh *receipts* and the concept→experiment→vocabulary pipeline live in the alife code repo:
-`~/ai-stack/projects/alife/CONSTELLA_TO_EXPERIMENTS.md`. Keep them in sync.
+`~/Projects/alife/CONSTELLA_TO_EXPERIMENTS.md`. Keep them in sync.
 
 **What the Rust runs added (UCF, v1–v3):**
 

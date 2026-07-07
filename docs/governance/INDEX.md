@@ -8,7 +8,7 @@ maintenance floor" that `alife_evidence_mapping.md` already specified in March 2
 ## Two repos, one system (the bridge)
 
 - **Framework / constitution:** `constella-framework` (this repo) — the specs below.
-- **Evidence / sandbox:** `~/ai-stack/projects/alife` (separate repo) — the ALife simulation
+- **Evidence / sandbox:** `~/Projects/alife` (own repo: github.com/Nightmarejam/alife) — the ALife simulation
   (Rust port `alife-core`, Python exps 0–9) and `CONSTELLA_TO_EXPERIMENTS.md` (the
   concept→experiment→vocabulary pipeline + the 2026-07 UCF floor findings v1–v3).
 - **The link doc:** `alife_evidence_mapping.md` (below) is the *only* file that currently
@@ -43,7 +43,7 @@ maintenance floor" that `alife_evidence_mapping.md` already specified in March 2
   git history or remove.
 - **C — evidence mapping synced 2026-07.** `alife_evidence_mapping.md` now carries the Rust
   `alife-core` v1–v3 UCF findings + a cross-repo link to
-  `~/ai-stack/projects/alife/CONSTELLA_TO_EXPERIMENTS.md` (claims here, receipts there). The sync
+  `~/Projects/alife/CONSTELLA_TO_EXPERIMENTS.md` (claims here, receipts there). The sync
   surfaced a **term-collision**: "floor" conflates an unconditional *dignity/survival* floor
   (values-asserted, should be funded/bounded) with a targeted *diversity-maintenance* pulse
   (evidence-derived, Exp 9). **Open decision — split them in `ucf.md`.**
