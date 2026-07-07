@@ -38,11 +38,12 @@ maintenance floor" that `alife_evidence_mapping.md` already specified in March 2
   anchor reasoning likely lives there; don't re-derive it.
 - **B — `map_of_intent.md` is corrupt** (contains a shell fragment, no content). Recover from
   git history or remove.
-- **C — evidence mapping is behind the sandbox.** `alife_evidence_mapping.md` (March 2026)
-  predates the Rust `alife-core` UCF findings (v1: floor→resilience via headcount; v2:
-  diversity-reserve mechanism NOT supported under uniform shock; v3: unconditional floor →
-  stasis, no-floor → brittle → the floor has a *calibration regime*). Those receipts are fresh
-  support for its "targeted maintenance floor" and "founding diversity" mechanisms — sync them in.
+- **C — evidence mapping synced 2026-07.** `alife_evidence_mapping.md` now carries the Rust
+  `alife-core` v1–v3 UCF findings + a cross-repo link to
+  `~/ai-stack/projects/alife/CONSTELLA_TO_EXPERIMENTS.md` (claims here, receipts there). The sync
+  surfaced a **term-collision**: "floor" conflates an unconditional *dignity/survival* floor
+  (values-asserted, should be funded/bounded) with a targeted *diversity-maintenance* pulse
+  (evidence-derived, Exp 9). **Open decision — split them in `ucf.md`.**
 - **D — Proof of Life is duplicated** across `docs/governance/proof_of_life_consensus.md` and
   `rfcs/001-proof-of-life-consensus.md`. Pick the canonical one.
 - **E — Legacy Astris exemption removed** (2026-07, this session): non-decaying elite merit was

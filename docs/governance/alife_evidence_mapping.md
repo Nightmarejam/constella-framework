@@ -356,7 +356,46 @@ validation can inform design decisions with higher confidence.*
 
 ---
 
+## 2026-07 Update — Rust `alife-core` reproduction + the floor term-collision
+*Added 2026-07. Evidence: `~/ai-stack/projects/alife` (Rust `alife-core`, bit-exact port of
+exp0) + its `CONSTELLA_TO_EXPERIMENTS.md`. Per the "never delete" rule this supplements, not
+replaces, the March 2026 entries.*
+
+**Cross-repo link (the two halves of the whitepaper).** This bridge doc holds the *claims*;
+the fresh *receipts* and the concept→experiment→vocabulary pipeline live in the alife code repo:
+`~/ai-stack/projects/alife/CONSTELLA_TO_EXPERIMENTS.md`. Keep them in sync.
+
+**What the Rust runs added (UCF, v1–v3):**
+- v1: an unconditional floor gives *resilience* (5/5 seeds survive vs no-floor extinct 3/5) —
+  but via **headcount buffering**, not a diversity reserve.
+- v2/v3: under a *directional* shock the unconditional floor **froze** composition (787/43
+  across 9 regime flips) — survived but never adapted; no-floor went **extinct** on the first flip.
+
+**Reconciliation with Exp 6.** Exp 6's unconditional floor *collapsed* (tick 7,410) because an
+**adaptive predator** exploited the inflated floored population; the Rust base sim has **no
+adaptive predator**, so the same mechanism produced **stasis** instead. Same cause (unconditional
+support → overshoot / over-protected incumbents), two failure modes by whether an adaptive
+adversary is present. Both confirm the March conclusion: the floor must be **targeted/pulsed**
+(Exp 9), not unconditional.
+
+**Term-collision surfaced (open decision — affects `ucf.md`'s core stance).** "Floor" is doing
+two jobs the evidence shows behave *oppositely*:
+1. **Dignity/survival floor** (food, shelter, care) — a *values* floor (UDHR; asserted, not
+   sim-derivable). Should be **unconditional by right** but **funded/bounded** so it can't drive
+   overshoot (a contribution-funded floor is self-limiting — see the Astris joule anchor).
+2. **Diversity-maintenance floor** — the Exp 9 pulse preserving strategic diversity. An
+   *evidence* floor; must be **targeted/gated** (activate when diversity < threshold, deactivate
+   on recovery).
+`ucf.md` currently frames one unconditional floor "regardless of contribution"; the evidence
+frames a targeted pulse. These are **two mechanisms under one name.** Recommend splitting them in
+`ucf.md`. **Jonathan's call — not applied yet.**
+
+**Next sandbox step (v4):** add an adaptive adversary + a threshold-activated (Exp 9-style) floor
+to the Rust sim, to test the *targeted* floor directly rather than only the two extremes.
+
+---
+
 *Document owner: Jonathan Morales*
-*Last updated: March 2026*
+*Last updated: 2026-07 (was March 2026)*
 *Next update: After Exp 10 or first pilot data*
 *Never delete entries — mark as superseded if revised*
