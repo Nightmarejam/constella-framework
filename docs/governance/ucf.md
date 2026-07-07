@@ -2,9 +2,32 @@
 
 The Universal Civic Floor ensures baseline dignity and access for all participants.
 
-## Core Principle
+## Two floors under one name (do not conflate)
 
-> Every verified participant receives baseline access to essentials, regardless of contribution level.
+The ALife evidence (Exp 6 vs Exp 9; see
+[alife_evidence_mapping.md](alife_evidence_mapping.md)) forced a distinction. "Floor" was doing
+two jobs that behave *oppositely* under stress, and running them as one caused every
+unconditional-floor failure (Exp 6 collapsed at tick 7,410; the Rust sandbox froze at 787/43).
+They are now separated:
+
+1. **Dignity Floor** (this document, below) — the *survival* floor: food, shelter, care.
+   **Unconditional by right** (a values commitment per the UDHR — not derivable from simulation),
+   but **funded and bounded** so it cannot drive overshoot. Existence is the only eligibility.
+2. **Diversity-Maintenance Pulse** (§ below) — a *systemic* mechanism preserving strategic
+   participation diversity during fragile phases. **Targeted and threshold-activated** (Exp 9):
+   it activates when diversity drops below a floor and deactivates on recovery. A pulse, not a
+   subsidy. It is *not* a survival mechanism and carries no dignity claim.
+
+The dignity floor is unconditional because it is a *right*; the diversity pulse is targeted
+because the *evidence* says an untargeted version destroys the system. Both are true — they are
+different mechanisms that were previously collapsed into one number.
+
+## Core Principle (Dignity Floor)
+
+> Every verified participant receives baseline access to essentials, regardless of contribution
+> level. Eligibility is existence, not merit. The floor is **inviolable** but **bounded** — it is
+> funded from surplus (see Allocation) and can never be inflated past the system's carrying
+> capacity, which is exactly what collapsed the unconditional floor in Exp 6.
 
 ---
 
@@ -122,7 +145,37 @@ Additional benefits through Astris:
 
 ---
 
+## Diversity-Maintenance Pulse (targeted — distinct from the Dignity Floor)
+
+*Evidence: Exp 9 (survived 50K ticks; floor activated ~60 times, 17–130 ticks each — "minimal
+intervention, maximum effect"). Contrast Exp 6 (unconditional floor collapsed, tick 7,410) and
+Rust `alife-core` v3 (unconditional floor froze composition at 787/43, never adapting). See
+[alife_evidence_mapping.md](alife_evidence_mapping.md).*
+
+Separate from guaranteeing survival, the system must preserve a minimum of **strategic
+participation diversity** during founding and consolidation — the periods when monoculture is
+most likely and most fatal. This is a **pulse**, not a subsidy:
+
+- **Trigger:** participation-strategy diversity drops below a minimum threshold (Exp 9 used ~15%).
+  Calibrated to the target environment's actual participation frequency, not set theoretically.
+- **Action:** targeted support to under-represented participation modes until diversity recovers.
+- **Deactivate:** when diversity returns above threshold. It should be *absent* most of the time
+  (in Exp 9 the supported cohort peaked ~80% during the fragile founding window, then faded to
+  near-zero by tick 30,000 — the system stopped needing it).
+- **Not a dignity claim:** eligibility is *strategic under-representation*, not existence. No
+  one's survival depends on it — the Dignity Floor already guarantees that.
+
+**Why it must be targeted (not universal):** an untargeted version inflates the system past
+carrying capacity (Exp 6 → collapse) or freezes it against adaptation (Rust v3 → stasis).
+Targeting is what made Exp 9 the only run to reach genuine long-run stability.
+
+**Founding precondition:** the pulse cannot be introduced *after* the first major stress event —
+by then specialization has locked in (Exp 8b: late diversity died without establishing). Multiple
+participation modes must exist from day one; the pulse *maintains* founding diversity, it cannot
+*create* it late.
+
 ## Related Documents
 
 - [Token Mechanics](tokens_astris_auctor.md) - Astris/Auctor system
 - [Civic Tome](civic_tome.md) - UCF precedents and rulings
+- [ALife Evidence Mapping](alife_evidence_mapping.md) - the Exp 6/9 basis for the two-floor split
