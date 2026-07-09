@@ -1,7 +1,8 @@
 # ALife Evidence Mapping — Constella Constitutional Basis
 
-*Version: 1.0 — drafted March 2026*
-*Status: Living document. Updated after each experiment series.*
+*Version: 1.2 — drafted March 2026; Rust civic-floor update (see §2026-07); reconciliation pass 2026-07-08*
+*Status: Living document. Updated after each experiment series. The 2026-07-08 pass corrected a refuted
+figure (the Exp 3 "89.2%") and added the anticipation / seasons / predictability findings with tiers.*
 *Evidence type: Computational simulation (ALife series, Exps 0–9)*
 *Epistemic status: Simulation-derived. Findings are consistent with
 real-world governance literature where noted. Not empirically validated
@@ -158,6 +159,12 @@ structurally healthy behavior, not a failure mode.
 **ALife evidence:** Exp 3 (Anticipation Gap)
 
 **What the experiment showed:**
+
+> ⚠️ **[CORRECTED 2026-07 — the `89.2%` figure below is REFUTED.]** The bit-exact Rust
+> re-run (exp3 V1–V3) could not reproduce it: the "89.2%" was an unbacked claim. Anticipation
+> is real but **conditional** — it emerges reproducibly only under *global/predictable* pressure
+> (5/5 seeds under global waves) and **fails** under local/patchy waves (2/5). See the reconciled
+> entry in the 2026-07 §"Anticipation" below. The March text is retained per the never-delete rule.
 
 Exp 3 seeded agents with 8-byte genomes containing a
 threshold opcode and a pattern memory buffer — no explicit
@@ -395,6 +402,83 @@ frames a targeted pulse. These are **two mechanisms under one name.** Recommend 
 
 **Next sandbox step (v4):** add an adaptive adversary + a threshold-activated (Exp 9-style) floor
 to the Rust sim, to test the *targeted* floor directly rather than only the two extremes.
+
+---
+
+## 2026-07-08 Reconciliation pass — anticipation corrected + seasons/predictability added
+
+*Added 2026-07-08. Evidence: `~/Projects/alife` — `CONSTELLA_TO_EXPERIMENTS.md`,
+`SEASONS_EXPERIMENT_SPEC.md`, `SYNTHESIS.md`. Supplements, does not replace. **Churn is kept at THIS
+evidence-bridge layer by design** — a word is not bound into a governance mechanic (`ucf.md`,
+`civic_tome.md`, …) until it is confirmed AND boundary-stable. That is what makes ongoing refinement
+safe: corrections edit an entry here instead of cascading through the constitution.*
+
+### Anticipation (Civic Tome) — the `89.2%` refuted; a bounded confirmation kept
+
+The bit-exact Rust exp3 re-run tested the March "89.2%" claim directly:
+
+- **V1 (local waves):** `PROC_PREDICT` evolved but negative anticipation-gaps fired only 2/5 seeds —
+  not emergence at the strict bar. The "89.2%" never held.
+- **V2 (global waves — predicted in advance from V1's mechanism):** anticipation **CONFIRMS** — 5/5
+  seeds fire negative gaps, unseeded. Caveats: episodic/boom-bust, extinction risk under stealth.
+- **V3:** mapped the open reaction repertoire (shield/flee/idle/toxin) under global waves.
+
+**Corrected constitutional principle:** emergent collective anticipation is real but **conditional on
+the pressure being GLOBAL/PREDICTABLE enough to carry a rhythm to learn.** Memory + threshold + time is
+necessary, not sufficient; patchy/local pressure starves it. The Civic Tome's "history is the
+anticipation mechanism" stands *only* where a community's threats are regular enough to pattern.
+
+### Seasons — three findings on cyclical (predictable) pressure
+
+Evidence: `SEASONS_EXPERIMENT_SPEC.md` (Rust, multi-seed).
+
+- **`metabolic-thrift` (confirmed refinement).** Under chronic cyclical drain, selection favors the
+  *cheapest* regulation; the intuitive "active downregulation / torpor" op is **purged** because its
+  per-tick cost outweighs its saving. Cheap inaction beats costly adaptation.
+- **Buffering (confirmed pattern).** A population absorbs a predictable cycle *internally* (energy +
+  birth-timing), holding headcount roughly flat rather than tracking the cycle in numbers. The system is
+  bistable (buffer-flat vs collapse) — no stable large-amplitude population cycle.
+- **★ Floor BOUNDARY on UCF (refines the confirmed civic-floor).** Under *cyclical* drain — as opposed
+  to the *directional/shifting* shocks where the floor is a clean win — moderate floors give **no**
+  survival benefit (within noise, 16 seeds × 2 season shapes) and in sharp winters *lower* mean
+  population via food **overshoot**. **The floor's benefit is context-dependent:** it protects against
+  adversity that *removes variation* (directional shock → preserve the diversity reserve) but is
+  marginal-to-harmful against adversity that *starves a crowd* (cyclical drain → feeds overshoot). This
+  bounds `ucf.md`'s scope: the floor is not universally protective.
+
+### Convergence, and the predictability law (asserted synthesis)
+
+Evidence: `SYNTHESIS.md`.
+
+- **Convergence-under-cycles (confirmed).** *Predictable* cyclical pressure — intensity cycles AND
+  direction-flipping cycles — drives the population to **converge** on one robust strategy, not diversify.
+- **The predictability law (ASSERTED — a pattern across confirmed results, not itself confirmed):**
+  *predictability of environmental change governs the optimal strategy and the value of every
+  intervention.* Predictable → converge (a diversity floor is overhead). Unpredictable, niche-opening
+  shift → diversify (the floor is load-bearing insurance). **Spine SUPPORTED:** under directional flips
+  (periodic *and* random) a floor took survival to 14/14 in every floored arm — reaffirming civic-floor
+  for shifting pressure.
+- **`metronome-vs-reprieve` (CANDIDATE — not yet confirmed).** The law's tidy *monotonic* form was
+  **refuted** for survival: a *predictable relentless* stressor can be **deadlier** than a *random* one
+  of equal mean intensity (no-floor survival: periodic 4/14 vs random 10/14 at harsh penalty; reversed
+  at mild). Regularity of adversity, not just its amount, sets lethality. Confirmation experiment queued.
+
+### Word-status ledger (this bridge = the revisable layer)
+
+| word / finding | tier | receipt |
+|---|---|---|
+| civic-floor → resilience (directional/shifting pressure) | **confirmed** | `ucf.md`; §above (14/14) |
+| civic-floor is context-dependent (cyclical drain → overshoot) | **confirmed boundary** | SEASONS Step 3 |
+| anticipation (conditional on global/predictable pressure) | **confirmed (bounded)** | exp3 V2 — supersedes 89.2% |
+| metabolic-thrift (cheap regulation wins; torpor purged) | **confirmed refinement** | SEASONS Step 1 |
+| buffering; convergence-under-cycles | **confirmed** | SEASONS Steps 2 & 4 |
+| predictability law (predictable→converge / unpredictable→diversify) | **asserted** (spine supported) | SYNTHESIS.md |
+| metronome-vs-reprieve (predictable-relentless deadlier than random) | **candidate** | SYNTHESIS.md; queued |
+| "89.2% anticipatory shielding" | **REFUTED** | see §Civic Tome correction above |
+
+**Toward the confirmed-vocabulary goal:** only *confirmed*-tier words should inform mechanic design;
+*asserted* and *candidate* entries stay in this bridge until their receipts harden. This layer is where
+the count of confirmed words is tracked as the sandbox earns them.
 
 ---
 
