@@ -458,10 +458,55 @@ Evidence: `SYNTHESIS.md`.
   shift → diversify (the floor is load-bearing insurance). **Spine SUPPORTED:** under directional flips
   (periodic *and* random) a floor took survival to 14/14 in every floored arm — reaffirming civic-floor
   for shifting pressure.
-- **`metronome-vs-reprieve` (CANDIDATE — not yet confirmed).** The law's tidy *monotonic* form was
-  **refuted** for survival: a *predictable relentless* stressor can be **deadlier** than a *random* one
-  of equal mean intensity (no-floor survival: periodic 4/14 vs random 10/14 at harsh penalty; reversed
-  at mild). Regularity of adversity, not just its amount, sets lethality. Confirmation experiment queued.
+- **`metronome-vs-reprieve` → REFUTED as general; the effect is STRUCTURE-DEPENDENT (B1, 2026-07-09).**
+  The confirmation experiment (a single *global* pulsed stressor, 14 seeds) reversed it: timing-variance
+  **monotonically hurts** survival (periodic 11 > inter 6 > random 5). A global stressor kills everyone
+  synchronously — no surviving *reservoir* for a reprieve to rescue. The directional-flip crux showed the
+  opposite only because *half* the population is stressed at a time. → **new asserted principle: the value
+  of unpredictability is STRUCTURE-DEPENDENT** (variance helps only with a differentially-exposed
+  reservoir); clean sub-finding *regularity buffers uniform stress*.
+
+### 2026-07-09 — B2 / B3 / B4 confirmations (adaptive adversary + entrainment)
+
+*Three confirmed words earned as bit-exact Rust receipts — reproducing the March Python findings (Exp 9,
+Exp 8b) and extending anticipation. Written in the word schema: word / claim / tier / holds-when /
+fails-when / receipt. `~/Projects/alife/CONSTELLA_TO_EXPERIMENTS.md` holds the full logs.*
+
+**`targeted-floor` → stable-adaptive regime (CONFIRMED, 10-seed) — reproduces Exp 9.** → `ucf.md`.
+
+- *claim:* a floor preserving only MINORITY strategies keeps an adaptive adversary from ever specializing
+  (its `adapt` stays low) → the system stays both ALIVE and ADAPTIVE.
+- *holds when:* adaptive/co-evolving adversary + founding diversity — targeted arm adapt LOW (≤0.13 in
+  6/10), survives 8/10.
+- *fails when:* a non-adaptive stressor (nothing to keep from specializing); not bulletproof (2/10 extinct).
+- *paired negatives, reconfirmed in Rust:* `unconditional-floor → stasis` (adapt maxes 1.50 in **10/10** —
+  survives, but pure life-support) and `no-floor → gamble` (extinct 3/10). The UCF tension quantified:
+  **survival** uncond > targeted > none; **adaptiveness** targeted ≫ none > uncond — only the targeted
+  floor is alive *and* adaptive. This is the direct Rust confirmation the March UCF section (Exp 9) rested on.
+
+**`founding-diversity` (load-bearing) (CONFIRMED, 10-seed) — reproduces Exp 8b.** → core_framework.md
+"Diversity Before Crisis."
+
+- *claim:* strategic diversity must exist **at founding**; a floor can *preserve* a reserve but cannot
+  reliably *create* one after the adversary has begun specializing.
+- *holds when:* diverse-founded + targeted floor survives 8/10 (adapt low); mono-founded + same floor only
+  5/10, adapt mostly high (predator specialized despite the floor).
+- *fails when (boundary):* the floor *occasionally* bootstraps late diversity from mutation → load-bearing,
+  not strictly required. Pairs with `targeted-floor` (floor = maintenance, founding diversity = substrate).
+
+**`entrainment` (CONFIRMED, 8-seed).** → Civic Tome (anticipation family: reflexive → rhythmic).
+
+- *claim:* under a predictable periodic resource rhythm, a population's internal clock **locks to the
+  environment period and tracks it**; phase alignment is nurture-dominant (environmental calibration) with
+  nature (heritable phase) adding on top.
+- *holds when:* the rhythm is a *meaningful* fitness factor (short-enough period). P=40 & 60 → 100%
+  period-lock (15/16), internal period follows P. Nature/nurture gradient (harvest/agent/pulse):
+  **neither 0.64 < nature 0.84 < nurture 0.97 < both 1.02** — always both, at a nurture-dominant ratio.
+- *fails when (boundary):* long period / gentle economy (P≥80 → the pulse is optional → nothing selects
+  for locking → entrainment collapses). *Entrainment needs the rhythm to matter.*
+- *governance note:* grounds "nature vs nurture is always both, in different ratios"; extends
+  `anticipation` from **reflexive** (react to a sensed threat) to **rhythmic** (run on an internal clock
+  the environment calibrates).
 
 ### Word-status ledger (this bridge = the revisable layer)
 
@@ -472,8 +517,14 @@ Evidence: `SYNTHESIS.md`.
 | anticipation (conditional on global/predictable pressure) | **confirmed (bounded)** | exp3 V2 — supersedes 89.2% |
 | metabolic-thrift (cheap regulation wins; torpor purged) | **confirmed refinement** | SEASONS Step 1 |
 | buffering; convergence-under-cycles | **confirmed** | SEASONS Steps 2 & 4 |
+| targeted-floor → stable-adaptive regime | **confirmed** | B2 (Exp 9 in Rust); `ucf.md` |
+| unconditional-floor → stasis; no-floor → gamble | **confirmed negatives** | B2 |
+| founding-diversity (load-bearing; must precede the crisis) | **confirmed** | B4 (Exp 8b in Rust) |
+| entrainment (internal clock locks to & tracks the environment rhythm) | **confirmed** | B3 |
 | predictability law (predictable→converge / unpredictable→diversify) | **asserted** (spine supported) | SYNTHESIS.md |
-| metronome-vs-reprieve (predictable-relentless deadlier than random) | **candidate** | SYNTHESIS.md; queued |
+| unpredictability's value is structure-dependent | **asserted** | B1 + flip crux |
+| regularity-buffers-uniform-stress | **candidate** | B1 (14-seed monotonic) |
+| metronome-vs-reprieve (predictable-relentless deadlier than random) | **refuted (general); bounded to differential stress** | B1 |
 | "89.2% anticipatory shielding" | **REFUTED** | see §Civic Tome correction above |
 
 **Toward the confirmed-vocabulary goal:** only *confirmed*-tier words should inform mechanic design;
@@ -483,6 +534,6 @@ the count of confirmed words is tracked as the sandbox earns them.
 ---
 
 *Document owner: Jonathan Morales*
-*Last updated: 2026-07 (was March 2026)*
+*Last updated: 2026-07-09 (B2/B3/B4 word-sync; was March 2026)*
 *Next update: After Exp 10 or first pilot data*
 *Never delete entries — mark as superseded if revised*
