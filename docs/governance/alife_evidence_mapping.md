@@ -500,7 +500,15 @@ fails-when / receipt. `~/Projects/alife/CONSTELLA_TO_EXPERIMENTS.md` holds the f
 - *fails when (boundary):* the floor *occasionally* bootstraps late diversity from mutation → load-bearing,
   not strictly required. Pairs with `targeted-floor` (floor = maintenance, founding diversity = substrate).
 
-**`entrainment` (CONFIRMED, 8-seed).** → Civic Tome (anticipation family: reflexive → rhythmic).
+**`entrainment` (CONFIRMED, 8-seed).** → ~~Civic Tome~~ **needs a home** (see 2026-07-09 audit note below).
+
+> **RE-HOME (2026-07-09 audit).** An audit survey found `entrainment` does **not** belong in the Civic Tome
+> (a *records* system of protocols/precedents/rulings — not a cadence). Entrainment is **rhythmic
+> phase-locking to a periodic cycle**, which points at a **missing Constella mechanism: governance cadence
+> / rhythm** — regular, scheduled cycles (reviews, renewals, elections) that a community phase-locks to,
+> cheaply and anticipatorily, once they are *predictable*. Do not sync entrainment into a mechanic doc
+> until that home exists. (`anticipation` *does* stay near the Civic Tome as a soft-match: precedents guide
+> future decisions ≈ pattern-memory.)
 
 - *claim:* under a predictable periodic resource rhythm, a population's internal clock **locks to the
   environment period and tracks it**; phase alignment is nurture-dominant (environmental calibration) with
@@ -545,6 +553,27 @@ fails-when / receipt. `~/Projects/alife/CONSTELLA_TO_EXPERIMENTS.md` holds the f
   first activation of the dormant `toxin` op. (The Exp 7 "dissolution" idea is a *crisis-response* finding,
   not restorative justice — do not file it here.)
 
+### 2026-07-09 — C3 confirmation (cultural transmission) + C4 in progress
+
+**`transmission-trades-diversity` (CONFIRMED, 10-seed) — resolves Exp 8's mixed 2/4.** → `civic_tome.md`
+(Precedents).
+
+- *claim:* horizontal copying of the currently-successful strategy (cultural transmission / precedent-
+  following) is a **bounded, double-edged** mechanism: a *narrow* dose coordinates the community and lifts
+  survival, but it **monotonically erodes standing diversity** and past a threshold causes brittle collapse.
+- *holds when:* adaptive adversary. Survival is a **hump with a cliff** (TRANSMIT 0→0.005 lifts 8/10→10/10
+  via coordinated "dodging"; 0.01→0.02→0.05 falls 8→6→**0/10**); diversity collapses monotonically
+  (7.1→2.0→0). Even the beneficial band is a near-monoculture *in motion*.
+- *explains:* Exp 8's **2/4** = rate-dependent, not a flaky experiment.
+- *governance note:* **precedent-following must be bounded** — it coordinates fast but homogenizes → erodes
+  the diversity reserve → brittleness. Balance precedent with preserved dissent/diversity. (A cleaner
+  Civic-Tome receipt than the `anticipation` soft-match.)
+
+**C4 — `interface → diversity` (IN PROGRESS, honest negative so far).** Tests the predictability law's
+untested diversity-half. First design (penalty-defined spatial zones) does **not** maintain diversity — one
+strategy floods both zones (competitive exclusion / **Gause's principle**), even at near-lethal penalty.
+Redesign pending: true **resource partitioning** (separate per-zone carrying capacity). No word yet.
+
 ### Word-status ledger (this bridge = the revisable layer)
 
 | word / finding | tier | receipt |
@@ -557,7 +586,8 @@ fails-when / receipt. `~/Projects/alife/CONSTELLA_TO_EXPERIMENTS.md` holds the f
 | targeted-floor → stable-adaptive regime | **confirmed** | B2 (Exp 9 in Rust); `ucf.md` |
 | unconditional-floor → stasis; no-floor → gamble | **confirmed negatives** | B2 |
 | founding-diversity (load-bearing; must precede the crisis) | **confirmed** | B4 (Exp 8b in Rust) |
-| entrainment (internal clock locks to & tracks the environment rhythm) | **confirmed** | B3 |
+| entrainment (internal clock locks to & tracks the environment rhythm) | **confirmed** (re-home: needs a *governance cadence* mechanism, not Civic Tome) | B3 |
+| transmission-trades-diversity (precedent-following is bounded & double-edged) | **confirmed** | C3 (resolves Exp 8's 2/4); `civic_tome.md` |
 | adaptation-speed-limit (collapse is the adversary/agent speed ratio) | **confirmed** | C1 (Exp 5 in Rust); `tokens_astris_auctor.md` |
 | reintegration-over-exclusion (restorative beats punitive; harm must be addressed) | **confirmed** | C2 (agent-vs-agent); `penumbra_accord.md` |
 | predictability law (predictable→converge / unpredictable→diversify) | **asserted** (spine supported) | SYNTHESIS.md |
@@ -573,6 +603,6 @@ the count of confirmed words is tracked as the sandbox earns them.
 ---
 
 *Document owner: Jonathan Morales*
-*Last updated: 2026-07-09 (C1/C2 word-sync + Penumbra restorative-justice receipt; was March 2026)*
+*Last updated: 2026-07-09 (C3 word-sync + entrainment re-home; was March 2026)*
 *Next update: After Exp 10 or first pilot data*
 *Never delete entries — mark as superseded if revised*
