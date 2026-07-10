@@ -150,6 +150,12 @@ are transitional scaffolding. They peak during system
 fragility and fade when stability is established. This is
 structurally healthy behavior, not a failure mode.
 
+> **2026-07-09 — direct receipt for the *core* restorative-justice claim.** A Rust agent-vs-agent
+> experiment (`pen` mode) confirmed *restorative over punitive*: harm ignored → collapse; restorative
+> (repair + reintegrate) beats punitive (exclude) on survival, population and diversity, decisively. See
+> `reintegration-over-exclusion` in the 2026-07-09 §C1/C2 below. This is the first *direct* test of the
+> Accord's central claim (prior Penumbra evidence was about diversity-maintenance, not restorative justice).
+
 ---
 
 ### 3. Civic Tome
@@ -508,6 +514,37 @@ fails-when / receipt. `~/Projects/alife/CONSTELLA_TO_EXPERIMENTS.md` holds the f
   `anticipation` from **reflexive** (react to a sensed threat) to **rhythmic** (run on an internal clock
   the environment calibrates).
 
+### 2026-07-09 — C1 / C2 confirmations (Astris speed-limit + Penumbra restorative justice)
+
+**`adaptation-speed-limit` (CONFIRMED, 12-seed ratio grid) — reproduces Exp 5.** → `tokens_astris_auctor.md`.
+
+- *claim:* under an adaptive adversary, collapse is set by the **ratio** of the adversary's specialization
+  speed to the agents' adaptation speed — not by absolute resources. A *speed* limit, not a resource limit.
+- *holds when:* survival falls as adversary rate `RISE` climbs AND rises as agent mutation rate `MUT`
+  climbs; the ~50%-survival threshold `RISE` **scales with `MUT`** (0.5→≈0.01, 1.0→≈0.02, 2.0→≈0.05).
+- *fails when (boundary):* extreme adversary speed defeats even fast agents; very high `MUT` destabilizes
+  (loses good genomes) — the ratio law holds in a mid-range.
+- *governance note:* **Astris decay / governance-complexity must scale at most as fast as participant
+  adaptation** — else collapse regardless of resource level.
+
+**`reintegration-over-exclusion` (CONFIRMED, 10-seed) — first agent-vs-agent test.** → `penumbra_accord.md`.
+
+- *claim:* harm must be addressed (ignoring it collapses the community), and a **restorative** response
+  (repair the victim + rehabilitate & keep the harm-doer) preserves the community diversity that a
+  **punitive** response (exclusion) erodes.
+- *holds when:* harm is fatal-if-ignored + recurs. At HARM=40/DETECT=0.1: **none 1/10** (collapse) <
+  **punitive 7/10, pop 350, diversity 12.4** < **restorative 10/10, pop 836, diversity 32.7.** Restorative
+  wins on survival, population, AND diversity; the punitive/restorative gap **widens with recurrence**
+  (exclusion's cost is cumulative).
+- *fails when (boundary):* if harm is *survivable*, laissez-faire scores fine and intervention costs some
+  diversity — the claim needs harm that actually threatens the community.
+- *provenance note:* this experiment exists because an **AUDIT survey** caught that an earlier candidate
+  mapping (Exp 7 "strategic-dissolution") did **not** match `Penumbra_Accord.md` (restorative justice).
+  Realigning onto the doc's real mechanism gave `Penumbra_Accord.md`'s central claim (restorative over
+  punitive; reintegration returns participants to full standing) its first sandbox receipt. It also is the
+  first activation of the dormant `toxin` op. (The Exp 7 "dissolution" idea is a *crisis-response* finding,
+  not restorative justice — do not file it here.)
+
 ### Word-status ledger (this bridge = the revisable layer)
 
 | word / finding | tier | receipt |
@@ -521,6 +558,8 @@ fails-when / receipt. `~/Projects/alife/CONSTELLA_TO_EXPERIMENTS.md` holds the f
 | unconditional-floor → stasis; no-floor → gamble | **confirmed negatives** | B2 |
 | founding-diversity (load-bearing; must precede the crisis) | **confirmed** | B4 (Exp 8b in Rust) |
 | entrainment (internal clock locks to & tracks the environment rhythm) | **confirmed** | B3 |
+| adaptation-speed-limit (collapse is the adversary/agent speed ratio) | **confirmed** | C1 (Exp 5 in Rust); `tokens_astris_auctor.md` |
+| reintegration-over-exclusion (restorative beats punitive; harm must be addressed) | **confirmed** | C2 (agent-vs-agent); `penumbra_accord.md` |
 | predictability law (predictable→converge / unpredictable→diversify) | **asserted** (spine supported) | SYNTHESIS.md |
 | unpredictability's value is structure-dependent | **asserted** | B1 + flip crux |
 | regularity-buffers-uniform-stress | **candidate** | B1 (14-seed monotonic) |
@@ -534,6 +573,6 @@ the count of confirmed words is tracked as the sandbox earns them.
 ---
 
 *Document owner: Jonathan Morales*
-*Last updated: 2026-07-09 (B2/B3/B4 word-sync; was March 2026)*
+*Last updated: 2026-07-09 (C1/C2 word-sync + Penumbra restorative-justice receipt; was March 2026)*
 *Next update: After Exp 10 or first pilot data*
 *Never delete entries — mark as superseded if revised*
