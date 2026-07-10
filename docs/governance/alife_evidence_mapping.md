@@ -44,6 +44,14 @@ Any two without the third produces a lesser outcome. All three
 together produced the only experiment that reached genuine long-run
 stability (Exp 9, survived 50K ticks, predator adapt=0.00 final).
 
+> **Scope caveat (2026-07-10).** This three-mechanism result was established under an **adaptive/
+> co-evolving adversary** (directional, variation-*removing* pressure) — the regime where the
+> diversity floor is decisively load-bearing (confirmed in Rust: `targeted-floor`, 10-seed). The 2026-07
+> seasons work found the floor's benefit is **context-dependent**: under purely **cyclical drain** (which
+> removes no variation to preserve) a diversity floor is marginal-to-harmful (overshoot). So the
+> three-mechanism system is scoped to adversity that *removes variation*; it is not a universal law for
+> every stressor. See the seasons boundary + the predictability law below.
+
 ---
 
 ## Mechanism Mapping
