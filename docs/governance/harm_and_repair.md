@@ -34,7 +34,7 @@ gets defined at all).
 how they *act on themselves* are the same right. Minimal headroom only for chaotic misunderstanding — never
 a moral veto.
 
-**3. Other-regarding harm** (a cost imposed on another). Response = the **[Penumbra Accord](Penumbra_Accord.md)**
+**3. Other-regarding harm** (a cost imposed on another). Response = the **[Penumbra Accord](penumbra_accord.md)**
 (restorative, not punitive), with one **refinement**: *reintegration restores the **self** and full
 standing — it need not return the person to the same context.* Redirect to a **healing niche** (e.g. quiet
 holistic / teaching centers, self-first), which must be a **real niche with a path** — never a prison with
