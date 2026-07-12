@@ -22,7 +22,7 @@ maintenance floor" that `alife_evidence_mapping.md` already specified in March 2
 | `core_framework.md` | Purpose & flow | resonant/regenerative; "prevent stagnation via feedback & renewal" (anti-stasis principle) | draft v1.0 |
 | `founding_hypothesis.md` | The premise | "if everyone knew what worth was, fewer would take advantage" (honest unprovable start) | stable |
 | `ucf.md` | Universal Civic Floor | joule-anchored; `UCF = min(BasePop×H, 0.25×Surplus)`; joule anchor DONE 2026-07-02 | **current** |
-| `tokens_astris_auctor.md` | Dual token (merit/voice) | Astris `A_gain=B×C_q×V_p×R_s`, 2%/wk decay; Auctor 1/person/epoch, resets | **drift — see A** |
+| `tokens_astris_auctor.md` | Dual token (merit/voice) | Astris **joule-anchored** `A_gain=(J_v/R_JA)×C_q×V_p×R_s`, 2%/wk uniform decay; Auctor 1/person/epoch, resets | **current** |
 | `proof_of_life_consensus.md` | Personhood/consensus | verified human presence replaces raw compute; backs Auctor uniqueness | draft 2026-05-24 |
 | `penumbra_accord.md` | Restorative justice | Declare Harm → Mediation → Repair Contract → Reintegration | present |
 | `civic_tome.md` | Authoritative record | versioned protocols / precedents / rulings (amendment vehicle); **entry format** added (the observation shape) 2026-07-11 | **current** |
@@ -39,12 +39,11 @@ maintenance floor" that `alife_evidence_mapping.md` already specified in March 2
 
 ## Open drift / issues (the reasons to keep this index)
 
-- **A — Astris is not joule-anchored.** `tokens_astris_auctor.md` mints on a human-assigned
-  base bounty `B` + quality rubric `C_q`, while `ucf.md` already anchors value to *joules of
-  verified useful work (a receipt for energy already spent)*. Fix: set `B = joules from the
-  proof-of-useful-work receipt` (same primitive the UCF uses); let `C_q`/`V_p`/`R_s` only
-  modulate. **Read `../research/proof_of_useful_work_session_notes.md` before rewriting** — the
-  anchor reasoning likely lives there; don't re-derive it.
+- **A — Astris joule-anchor DONE ✅ (verified 2026-07-11).** `tokens_astris_auctor.md` now mints on
+  `A_gain = (J_v / R_JA) × C_q × V_p × R_s`, where `J_v` = *verified joules of useful work* — the **same
+  joule primitive the UCF is denominated in.** The old human-assigned base bounty `B` is gone; judgment
+  (`C_q`) can only trim ±40%, and `V_p` ("did it happen") is kept separate from `C_q` ("was it good").
+  Resolved (the anchor reasoning lives in `../research/proof_of_useful_work_session_notes.md`).
 - **B — `map_of_intent.md` is a stub** (the corrupt shell fragment was replaced with a placeholder;
   no recoverable history). Still needs authoring — low priority.
 - **C — evidence mapping fully synced (through the C-batch, 2026-07-11).**
