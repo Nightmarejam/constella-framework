@@ -63,6 +63,33 @@ All entries in the Tome are labeled:
 
 ---
 
+## Entry Format
+
+Every substantive entry — a ruling, an edge-case resolution, an observed outcome — is recorded in the
+shared **observation shape** (see `observability_layer.md`), so real cases accumulate
+*confirmably and with nuance* instead of being flattened into a tally or a verdict:
+
+| field | holds |
+|---|---|
+| **condition** | what happened, in words — the case/situation, not a judgment |
+| **measures** | quantities where they apply (counts, amounts, durations) — serving the condition, not replacing it |
+| **context** | the circumstances, the "why" |
+| **scope** | individual (consented) / community / population (aggregate-only) — the privacy dial |
+| **provenance** | who recorded it, when, from what source — the receipt |
+| **resolution** | how it was *delegated or resolved* (the process taken and its outcome) |
+| **claim label** | `stable` / `contested` / `speculative` (from Claim Labels above) — its confidence tier |
+
+There is deliberately **no separate "fault/verdict" field** beyond the recorded resolution — *observe,
+don't judge* is baked into the structure (see [Harm & Repair](harm_and_repair.md)).
+
+**How boundaries mature from entries.** The value-boundaries in the newer mechanisms — the privacy dial,
+the harm gradient, the floors — are held as *drafts pending evidence*, not settled by decree. They **earn**
+their final form as these entries accumulate: enough real precedents and resolutions is what backs a
+boundary, the same way multi-seed reproduction earns a sandbox word. **The Tome is where civic reality
+gets its receipts** — the container the boundaries develop *out of*, rather than being asserted into.
+
+---
+
 ## Amendment Process
 
 ```
