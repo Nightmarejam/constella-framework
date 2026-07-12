@@ -11,8 +11,9 @@ maintenance floor" that `alife_evidence_mapping.md` already specified in March 2
 - **Evidence / sandbox:** `~/Projects/alife` (own repo: github.com/Nightmarejam/alife) — the ALife simulation
   (Rust port `alife-core`, Python exps 0–9) and `CONSTELLA_TO_EXPERIMENTS.md` (the
   concept→experiment→vocabulary pipeline + the 2026-07 UCF floor findings v1–v3).
-- **The link doc:** `alife_evidence_mapping.md` (below) is the *only* file that currently
-  crosses the gap. It cites `projects/alife` but predates the Rust findings — it needs syncing.
+- **The link doc:** `alife_evidence_mapping.md` (below) crosses the gap — now **fully synced** through the
+  C-batch (~16 words, zero drift). The whole pipeline (sandbox → constitution → record → dataset → model →
+  self-amendment) is mapped in `adaptive_loop.md` — the capstone.
 
 ## The canonical specs
 
@@ -24,7 +25,12 @@ maintenance floor" that `alife_evidence_mapping.md` already specified in March 2
 | `tokens_astris_auctor.md` | Dual token (merit/voice) | Astris `A_gain=B×C_q×V_p×R_s`, 2%/wk decay; Auctor 1/person/epoch, resets | **drift — see A** |
 | `proof_of_life_consensus.md` | Personhood/consensus | verified human presence replaces raw compute; backs Auctor uniqueness | draft 2026-05-24 |
 | `penumbra_accord.md` | Restorative justice | Declare Harm → Mediation → Repair Contract → Reintegration | present |
-| `civic_tome.md` | Authoritative record | versioned protocols / precedents / rulings (amendment vehicle) | present |
+| `civic_tome.md` | Authoritative record | versioned protocols / precedents / rulings (amendment vehicle); **entry format** added (the observation shape) 2026-07-11 | **current** |
+| `temporal_floor.md` | Right to fallow time | a floor on *time* (sibling to UCF's floor on resources); anti-time-extraction; the civic Yin-return | draft 2026-07-10 |
+| `governance_cadence.md` | The polity's clock | loose, published, multi-zone rhythm; few hard beats + many optional offered beats; phase-lock (`entrainment`) | draft 2026-07-10 |
+| `harm_and_repair.md` | Non-judicial harm frame | the harm gradient (observe → dignity → restore → deliberate); **refuses the moral high ground** | draft 2026-07-11 |
+| `observability_layer.md` | How Constella *sees* | count → condition; the observation atom; the privacy dial (aggregate / opt-in / off by default) | draft 2026-07-11 |
+| `adaptive_loop.md` | Full pipeline + self-amendment | sandbox → constitution → record → dataset → two-tier model → **self-amend** → back; *model proposes, humans decide* | draft 2026-07-11 |
 | `constella_governance_v0.1.md` | Governance overview | separates fiat comp / Astris issuance / governance | draft v0.1 |
 | `compliance_overlay_us.md` | US legal mapping | UCF↔poverty lines, Astris↔tax, Auctor↔voting (HARD-walled from elections), Penumbra↔RJ | draft v0.1 |
 | `alife_evidence_mapping.md` | Sandbox → constitution | three-mechanism system: founding diversity + **targeted maintenance floor (threshold-activated)** + tolerance of minimum-compliance | **living — needs sync C** |
@@ -39,14 +45,14 @@ maintenance floor" that `alife_evidence_mapping.md` already specified in March 2
   proof-of-useful-work receipt` (same primitive the UCF uses); let `C_q`/`V_p`/`R_s` only
   modulate. **Read `../research/proof_of_useful_work_session_notes.md` before rewriting** — the
   anchor reasoning likely lives there; don't re-derive it.
-- **B — `map_of_intent.md` is corrupt** (contains a shell fragment, no content). Recover from
-  git history or remove.
-- **C — evidence mapping synced 2026-07.** `alife_evidence_mapping.md` now carries the Rust
-  `alife-core` v1–v3 UCF findings + a cross-repo link to
-  `~/Projects/alife/CONSTELLA_TO_EXPERIMENTS.md` (claims here, receipts there). The sync
-  surfaced a **term-collision**: "floor" conflates an unconditional *dignity/survival* floor
-  (values-asserted, should be funded/bounded) with a targeted *diversity-maintenance* pulse
-  (evidence-derived, Exp 9). **Open decision — split them in `ucf.md`.**
+- **B — `map_of_intent.md` is a stub** (the corrupt shell fragment was replaced with a placeholder;
+  no recoverable history). Still needs authoring — low priority.
+- **C — evidence mapping fully synced (through the C-batch, 2026-07-11).**
+  `alife_evidence_mapping.md` now carries **~16 confirmed words** with tiers + a word-status ledger, kept
+  at **zero drift** from `~/Projects/alife/CONSTELLA_TO_EXPERIMENTS.md` via PRs #62–65 (claims here,
+  receipts there). ✅ The **term-collision is RESOLVED** — `ucf.md` now has its "Two floors under one name"
+  section (unconditional *dignity* floor vs targeted *diversity-maintenance* pulse). The three-mechanism
+  finding also gained a scope caveat (context-dependent under cyclical drain).
 - **D — Proof of Life is duplicated** across `docs/governance/proof_of_life_consensus.md` and
   `rfcs/001-proof-of-life-consensus.md`. Pick the canonical one.
 - **E — Legacy Astris exemption removed** (2026-07, this session): non-decaying elite merit was
