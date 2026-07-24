@@ -98,7 +98,7 @@ This is not vaporware. The substrate is running.
 | Component | Status |
 |-----------|--------|
 | FAITHH node | Running on Proxmox VM 100, vLLM + cc-proxy stack |
-| Sensor bridge | Live at 192.158.1.25:9998, host hwmon JSON API |
+| Sensor bridge | Live at pve.taileb8c60.ts.net:9998, host hwmon JSON API |
 | GPU telemetry | Logging every 5 min to gpu_telemetry.csv |
 | Host telemetry | Logging every 5 min to host_telemetry.csv, both GPUs visible via SMBus |
 | KAS mining | Running on 3090 at 915 MH/s / 220W, accumulating toward payout |
