@@ -96,6 +96,7 @@ The Constella Framework presents an ambitious vision for a "resonance-aligned ci
 ### Governance Improvements
 
 1. **Validator Selection Protocol**
+
    ```
    - Random selection from qualified pool
    - Time-limited terms (6-12 months)
@@ -172,24 +173,28 @@ The Constella Framework presents an ambitious vision for a "resonance-aligned ci
 ### 20-Person Neighborhood Pilot (3-Month Duration)
 
 **Setup**:
+
 - One focused thread (e.g., community garden)
 - Simplified token system (paper or simple app)
 - Weekly governance meetings
 - Monthly reporting
 
 **Success Metrics**:
+
 - Participation rate >70%
 - Task completion rate >80%
 - Conflict resolution without external intervention
 - Participant satisfaction >7/10
 
 **Failure Modes**:
+
 - Token hoarding by 2-3 individuals
 - Validator capture
 - Free-rider problem
 - Interpersonal conflicts derailing governance
 
 **Data Collection**:
+
 - Time tracking for contributions
 - Token flow analysis
 - Decision-making efficiency
