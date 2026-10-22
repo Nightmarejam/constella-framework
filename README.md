@@ -5,7 +5,7 @@
 A civic governance framework built around one question: **what would a system look like
 if it refused to treat anything as true — or act on it — without a checkable receipt?**
 
-It is also the **logic basis** for my AI companion ([FAITHH](https://github.com/Nightmarejam/faithh-pet-terminal)):
+It is also the **logic basis** for my AI companion (FAITHH, in a private repo):
 the reasoning discipline the companion runs on is the same discipline this framework
 proposes for a polity.
 
