@@ -1,0 +1,9 @@
+# --- Line endings (added 2026-11-11, repo review item 8) ---
+# Store text as LF in the repo, check out native. Scripts that run on Linux are always LF
+# (CRLF breaks shebangs and heredocs); Windows batch files are always CRLF.
+* text=auto
+*.sh   text eol=lf
+*.bash text eol=lf
+*.py   text eol=lf
+*.cmd  text eol=crlf
+*.bat  text eol=crlf
