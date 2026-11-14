@@ -23,6 +23,9 @@ def main() -> int:
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     fp = mod.fingerprint()
+    if "--write" in sys.argv:          # regenerate the table (one trailing newline, markdownlint-clean)
+        GENERATED.write_text(mod.describe().rstrip() + "\n", encoding="utf-8", newline="\n")
+        print(f"wrote {GENERATED.relative_to(ROOT)}")
     problems = []
     vend = json.loads((HERE / "VENDORED.json").read_text(encoding="utf-8"))
     pin = json.loads((HERE / "PIN.json").read_text(encoding="utf-8"))

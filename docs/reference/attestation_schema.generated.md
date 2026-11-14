@@ -16,4 +16,3 @@
 | refuted | conclusion | fact, observation | 3-4 | a receipt of the negative result; never offered as support | UNKNOWN |
 
 Epistemic types: fact, observation, rule, belief, metaphor (evidenced: fact, observation; perspective: belief, metaphor; default when typed by hand: belief). Verdicts: CONCLUSION, STATEMENT, NEEDS-EVIDENCE, REJECT. Bases, strongest first: CONCLUSION, CONFIRMED, ASSERTED, STATEMENT, SPECULATIVE, BULK, UNKNOWN.
-

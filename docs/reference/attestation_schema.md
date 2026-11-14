@@ -51,7 +51,7 @@ to do and what Jonathan approves are **nurture** and live in the loop's stores, 
 From a homelab checkout:
 
 ```bash
-python scripts/vendor_attestation_schema.py <constella>/tools/attestation_schema
-python -m attestation_schema describe > <constella>/docs/reference/attestation_schema.generated.md
-python tools/attestation_schema/check_vendored.py     # in constella: what CI runs
+python scripts/vendor_attestation_schema.py <constella>/tools/attestation_schema   # from homelab
+python tools/attestation_schema/check_vendored.py --write                           # in constella: regenerate the table
+python tools/attestation_schema/check_vendored.py                                   # what CI runs
 ```
