@@ -1,0 +1,8 @@
+{
+  "source": "Nightmarejam/homelab attestation_schema/",
+  "source_commit": "2235423",
+  "version": "1.0",
+  "fingerprint": "4310525ccb009bb8d82f769ecec049a8043c7236af8f31cdbf50fe2be42a9e9f",
+  "synced": "2026-11-14T19:49Z",
+  "refresh": "python scripts/vendor_attestation_schema.py <this dir>  (from a homelab checkout)"
+}

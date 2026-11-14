@@ -1,6 +1,9 @@
 # Confirmability schema — the Attestation layer
 
-Status: v1.1 — committed 2026-07-02; `refuted` tier added 2026-07-31. **ADOPTED as the ecosystem's main layer 2026-07-02:
+Status: v1.1 — committed 2026-07-02; `refuted` tier added 2026-07-31. **v1.2 note, 2026-11-14:** the four tiers are now
+one axis of the shared [attestation schema](attestation_schema.md) (vendored from homelab, fingerprint-checked in CI),
+beside the learning loop's epistemic types and resistance 0–4; the mapping between the ladders is written there.
+**ADOPTED as the ecosystem's main layer 2026-07-02:
 "Attestation" is the umbrella name; confirmability is its epistemic half.** This was
 designed in conversation (April–June 2026) and has been operating uncommitted ever
 since: the conversation pipeline, homelab extraction docs, and FAITHH doc-correction
