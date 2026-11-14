@@ -26,6 +26,10 @@ jobs:
             --skip "*.min.js,*.svg,*.png,*.jpg,*.jpeg,*.gif,*.pdf,.git,dist,node_modules,./docs/conversations,./docs/data,./docs/constella/_inbox,./docs/discussions" \
             .
 
+      # Shared attestation schema: the vendored copy must match its pin and the generated reference table
+      - name: Attestation schema (vendored copy + generated table)
+        run: python tools/attestation_schema/check_vendored.py
+
       # Markdownlint
       - name: Set up Node
         uses: actions/setup-node@v6
